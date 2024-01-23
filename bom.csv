@@ -1,0 +1,19 @@
+Qty;Reference;Manufacturer;Type;Description;;Price (unit) (€)
+1;EC12E_SW;ALPS;Button;ALPS rotary Encoder EC12E series with switch;With output A/B;1,53
+2;DAC8564;TI;DAC;16-bit, quad-channel, ultra-low glitch, Vout DAC with 2.5-V, 2-ppm/C internal reference;;17
+10;PJ301WQP;;Connector;Audio jack, 0.75$, 10.5mm depth, 3 pins;Can be found cheap on AliExpress;0,75
+0;MJ-3536N;CUI Devices;Connector;Normal audio jack, needs additionnal PCB and connector;;0,79
+0;2041262-1;TE Connectivity;Connector;Mini PCI-Express connector;;0,93
+1;Raspberry Pi 4;Raspberry;SoC;;;42
+0;Raspberry Pi 0;Raspberry;SoC;;;14
+0;ESP32-C3-WROOM-02-N4;;SoC;;;1,73
+0;RJHSE5M80;Amphenol;Connector;RJ45 jack;;1,37
+10;6N137SMT;Motorola;Misc;MOTOROLA OPTO COUPLER;;0,95
+4;D6R40F2LFS;C&K;Button;C&K D6R push button;;1,13
+4;74HC595D;NXP;Misc;8-bit SHIFT REGISTER, output latch;For screen;0,39
+0;KINGBRIGHT-PDC54-11;Kingbright;Screen;Kingbright PDC54-11GWA , also compatible with LITE-On LTP-3784G or Avago HDSP-A27C;25.2 mm x 21.2 mm x 7.8 mm ;4,73
+1;COM-21216;SparkFun;Screen;14-SEGMENT ALPHANUMERIC DISPLAY, blue;12,80mm x 40,18mm x 7,00mm;2,29
+1;PCB, 58x107mm, 2 layers;JLCPCB;PCB;Real board, at JLCPCB, by 5;;7
+1;PCB, 80x107, 2 layers (same as 1);JLCPCB;PCB;For front panel, by 5;;7,24
+1;Resistors, capas, etc;;Misc;;;5
+BOM unitaire totale;;;;;;122,14

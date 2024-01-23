@@ -76,6 +76,6 @@ In a future, dream project, the Raspberry Pi is dropped and replaced by a custom
 
 In this project, we would either drop the embedded Chataigne and only output the OSC, or ideally have an embedded, web-interface version of Chataigne.
 
-I would consider implementing (TinyOSC)[https://github.com/mhroth/tinyosc], a lightweight OSC implementation, preferably on Zephyr RTOS.
+I would consider implementing [TinyOSC](https://github.com/mhroth/tinyosc), a lightweight OSC implementation, preferably on Zephyr RTOS.
 
 Maybe some Chataigne config file can be exported and used by the embedded firmware, to suppress the need for a computer running Chataigne somewhere in the installation?
