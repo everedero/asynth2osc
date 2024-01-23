@@ -12,6 +12,8 @@ This project is also designed to leverage the possibilities of open-source softw
 
 It is similar to [Befaco VCMC](https://www.befaco.org/vcmc-2/), but with TCP-IP for OSC instead of serial for MIDI - so we need to upgrade the microcontroller.
 
+Some inspiration for hardware can be found at open hardware synths company Mutable Instruments. In its [repository](https://github.com/pichenettes/eurorack) we can find the exact reference design, typically for the [Yarns V3](https://pichenettes.github.io/mutable-instruments-documentation/modules/yarns/) MIDI digital interface.
+
 ## Glossary
 
 ### OpenSoundControl (OSC)
@@ -73,3 +75,7 @@ Some work has to be done to fit the connectors and Raspberry Pi nicely.
 In a future, dream project, the Raspberry Pi is dropped and replaced by a custom board with WiFi/TCP-IP SoC and all the analog stuff.
 
 In this project, we would either drop the embedded Chataigne and only output the OSC, or ideally have an embedded, web-interface version of Chataigne.
+
+I would consider implementing (TinyOSC)[https://github.com/mhroth/tinyosc], a lightweight OSC implementation, preferably on Zephyr RTOS.
+
+Maybe some Chataigne config file can be exported and used by the embedded firmware, to suppress the need for a computer running Chataigne somewhere in the installation?
