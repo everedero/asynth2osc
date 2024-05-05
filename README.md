@@ -54,12 +54,16 @@ The BOM is:
 * 4 mini-arcade buttons with retro-lighting
 
 ## Second architecture
-This aims to integrate LEDs, buttons, and DACs in a Raspberry Pi hat format.
+This aims to integrate LEDs, buttons, and DACs on a board.
+The Raspberry Pi is dropped and replaced by a custom board with WiFi/TCP-IP SoC and all the analog stuff.
 It is possible to use a PCB board as front panel too.
+
+For the software part, the board would only output the OSC, or ideally have an embedded, web-interface version of Chataigne.
+I would consider implementing [TinyOSC](https://github.com/mhroth/tinyosc), a lightweight OSC implementation, preferably on Zephyr RTOS.
 
 ### Requirements
 #### DAC
-* 8 channels
+* 8 channels input
 * Minimum 16 bits, preferably 24
 * Sample rate: ideally 50Hz, it can be quite slow (LFO are around 2 Hz)
 * MCP3008 ?
@@ -69,13 +73,5 @@ Eurorack standard includes a +12/-12V power supply, but the currents are quite l
 
 #### Mechanical
 It has to fit in Eurorack format. The smaller, the better,but no hard requirement for width.
-Some work has to be done to fit the connectors and Raspberry Pi nicely.
+Some work has to be done to fit the connectors, leds, buttons and mechanical parts nicely.
 
-## Third architecture
-In a future, dream project, the Raspberry Pi is dropped and replaced by a custom board with WiFi/TCP-IP SoC and all the analog stuff.
-
-In this project, we would either drop the embedded Chataigne and only output the OSC, or ideally have an embedded, web-interface version of Chataigne.
-
-I would consider implementing [TinyOSC](https://github.com/mhroth/tinyosc), a lightweight OSC implementation, preferably on Zephyr RTOS.
-
-Maybe some Chataigne config file can be exported and used by the embedded firmware, to suppress the need for a computer running Chataigne somewhere in the installation?
