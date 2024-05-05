@@ -75,3 +75,29 @@ Eurorack standard includes a +12/-12V power supply, but the currents are quite l
 It has to fit in Eurorack format. The smaller, the better,but no hard requirement for width.
 Some work has to be done to fit the connectors, leds, buttons and mechanical parts nicely.
 
+#### Diagram
+<!--
+graph TD
+  A[ ESP32 ] ==>| RMII | B[ Ethernet PHY ]
+  A <==> | SPI | C[ NOR Flash ]
+  A <==> | I2C | D[ GPIO expander ]
+  D ==> | GPIO | E> LEDs ]
+  F> Buttons ] ==> | GPIO | D
+  G[ ADC ] ==> | SPI | A
+  H[ Analog magic ] ==> | Analog | G
+  I> 3.5 jacks ] ==> H
+  B ==> J> RJ45 ]
+  A ==> | DAC | M[ Analog out ]
+  M ==> N> 3.5 jack ]
+  M ==> O> PWM LED ]
+  K> Power jack ] -.- | 12V | L[ DCDC ]
+  L -.- | 3V3 | A
+  A <==> | UART, JTAG | P[ FTDI ]
+  P ==> Q> Debug USB ]
+  Q -.- | 5V | L
+  A === | U.FL | R[ Antenna ]
+  A ==> | SPI | S> Display ]
+-->
+
+![Kroki generated
+Mermaid](https://kroki.io/mermaid/svg/eNpVkNFugjAYhe99ivMA02Qy72YToKA40AroshAvOkfQzYERzLbEh9_fFjHeFHrO95_2tDjJ4w4p7wF2Bi8R1hAbjMfsgjgKAlzgkNzs8lOZNxDTN2wUimdCyEyEQtwM80UM_yDr3b0fDF1aeYaJCBbIf4-y_MhPmuEwiHYu8BhCj9fa8hmcc9NUZW3ucqPUPScZbO52jrmCTcaUjFIeqgLfsthvO6IVKYSggMEajPApt1_X9CnJjv6bMcSzp1HbwUxzW1WIuuzq3NAcAZEG5rc8PWbUBYN4jVQjLb7Qtvqh4gZDf9CnzMfhmtYwA3dVH-LC1rHWVtupe8mVHacPmKX2hDYig5_yQM8IfeCSgefv5wKrxNHyso0a6TPaPmMVNPBD-sSqUJOXpbxra14zobR9fTzIP1WV7N4_oG6LJw==)
