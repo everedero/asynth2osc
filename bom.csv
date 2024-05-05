@@ -25,5 +25,6 @@ Qty;Reference;Manufacturer;Type;Description;;Price (unit) (€);Equipped;SoC bus
 1;IP101GRI;IC+;IC;Ethernet PHY;;0,8;PCBA;RMII
 1;"""1461530050""";Molex;Antenna;U.FL adhesive 2.4GHz antenna;Verify connector and freq;2,17;By hand;
 10;YLED0402Y ;Yongyotai;LED;Yellow, 0402;Min ordering qty: 50;0,01;PCBA;(GPIOx10)
+1;LM1117S-3.3;HTC;LDO;75dB@(120Hz) 1A Fixed 3.3V Positive electrode 12V SOT-223-3 Linear Voltage Regulators (LDO) ;12V OK, 800mA;0,2;PCBA;
 1;XTEAWT-02-0000-00000LED1;Wolfspeed;LED;White;;1,58;PCBA;PWM
-BOM unitaire totale;;;;;;82,78;;
+BOM unitaire totale;;;;;;84,56;;
