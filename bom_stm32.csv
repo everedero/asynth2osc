@@ -1,0 +1,18 @@
+Qty;Reference;Manufacturer;Type;Description;;Price (unit) (€);Equipped
+1;EC12E_SW;ALPS;Button;ALPS rotary Encoder EC12E series with switch;With output A/B;1,53;By hand
+1;PCB, 58x107mm, 2 layers;JLCPCB;PCB;Real board, at JLCPCB, by 5;;7;N.A.
+1;PCB, 80x107, 2 layers (same as 1);JLCPCB;PCB;For front panel, by 5;;7,24;N.A.
+1;Resistors, capas, etc;;Misc;;;5;PCBA
+1;CY8CMBR3110-SX2IT;Infineon;CI;10 input capsense sensor;;2,71;PCBA
+1;RJHSE5M80;Amphenol;Connector;RJ45 jack;;1,37;PCBA?
+1;6N137SMT;Motorola;Misc;MOTOROLA OPTO COUPLER;;0,95;PCBA
+4;D6R40F2LFS;C&K;Button;C&K D6R push button;;1,13;By hand
+10;YLED0402Y ;Yongyotai;LED;Yellow, 0402;Min ordering qty: 50;0,01;PCBA
+1;LM1117S-3.3;HTC;LDO;75dB@(120Hz) 1A Fixed 3.3V Positive electrode 12V SOT-223-3 Linear Voltage Regulators (LDO) ;12V OK, 800mA;0,2;PCBA
+2;W25Q32JVSSIQ;Windbond;IC;SPI Flash;;0,27;PCBA
+10;PJ301WQP;;Connector;Audio jack, 0.75$, 10.5mm depth, 3 pins;Can be found cheap on AliExpress;0,75;By hand
+0;MJ-3536N;CUI Devices;Connector;Normal audio jack, needs additionnal PCB and connector;;0,79;By hand
+1;H1102NLT;Pulse Electronics;;Ethernet transfo;;4,31;PCBA
+1;LAN8742A-CZ-TR;Microchip;IC;RMII PHY;;1,92;PCBA
+0;KMS-1102NL;Usakro;;Ethernet transfo;;;PCBA
+1;STM32H723ZGT6;ST;IC;1MB 564KB FLASH 112 1.71V~3.6V 550MHz LQFP-144(20x20) Microcontroller Units;;10;PCBA
