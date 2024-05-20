@@ -101,3 +101,28 @@ graph TD
 
 ![Kroki generated
 Mermaid](https://kroki.io/mermaid/svg/eNpVkNFugjAYhe99ivMA02Qy72YToKA40AroshAvOkfQzYERzLbEh9_fFjHeFHrO95_2tDjJ4w4p7wF2Bi8R1hAbjMfsgjgKAlzgkNzs8lOZNxDTN2wUimdCyEyEQtwM80UM_yDr3b0fDF1aeYaJCBbIf4-y_MhPmuEwiHYu8BhCj9fa8hmcc9NUZW3ucqPUPScZbO52jrmCTcaUjFIeqgLfsthvO6IVKYSggMEajPApt1_X9CnJjv6bMcSzp1HbwUxzW1WIuuzq3NAcAZEG5rc8PWbUBYN4jVQjLb7Qtvqh4gZDf9CnzMfhmtYwA3dVH-LC1rHWVtupe8mVHacPmKX2hDYig5_yQM8IfeCSgefv5wKrxNHyso0a6TPaPmMVNPBD-sSqUJOXpbxra14zobR9fTzIP1WV7N4_oG6LJw==)
+
+
+#### STM32 option
+* Only performance range (STM32F7 and STM32H7) have RMII
+* STM32H7 has 16-bits ADC, it's perfect
+
+<!--
+graph TD
+  A[ STM32 ] ==>| RMII | B[ Ethernet PHY ]
+  A <==> | SPI | C[ NOR Flash ]
+  A <==> | GPIO | D> LEDs ]
+  E> Buttons ] ==> | GPIO | A
+  H[ Analog magic ] ==> | Analog | A
+  I> 3.5 jacks ] ==> H
+  B ==> J> RJ45 ]
+  A ==> | DAC | F[ Analog out ]
+  F ==> N> 3.5 jack ]
+  F ==> O> PWM LED ]
+  K> Power jack ] -.- | 12V | L[ DCDC ]
+  L -.- | 3V3 | A
+  A <==> | UART, JTAG | P> SWD ]
+  Q -.- | 5V | L
+  A ==> | SPI | S> Display ]
+-->
+![Kroki generated Mermaid](https://kroki.io/mermaid/svg/eNpVkFFvgjAUhd_3K84PmCYTeZtNCgWBgTBgGkN8aAwBNwYGMMsSf_xKqehe2t5zvnt6c4uWn0uk7AmgGZI00BY4YLUiV8SB6-IKI4PVl3lb5z0iZ4_DgOJVIMJMogExM2zCGHbFu_K_v47cUFyMwLdYJz2LwLj0fVN340d3igrXyUBrXjUFvnlxOk6IEkfIJdDmOj758esW4gjZkC-PIPaWuppj7GbUFKc9ZTeXXvq29Df3uAc1JIh2wTC3FN9E2fzkrcIwm89E5MtiK04_AzOZKTlfOdpWU9NOy_igcfoML6VrUUQEyW6Mflctusx6GHvcbkLATt254r-C_gOkAW0w)
