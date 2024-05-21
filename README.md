@@ -37,6 +37,20 @@ Open-source software able to emulate analog synthetizers.
 Standardized mechanical format for synthetizer, in a modular 3U rack.
 It uses 3.5mm jack for cabling, +/- 12V power supply.
 
+## Benchmark
+### Befaco VCMC specs
+* Teensy 32 controller
+    * NXP MK20DX256VLH7
+    * 2x 16-bit ADC
+    * 1x 12-bit DAC
+
+### Yarns V3 specs
+* ST STM32F103CBT6 controller
+    * 2x 12-bit ADC (16 channels)
+    * 2x DAC
+* External DAC DAC8564
+    * 1x 16-bit DAC (4 channels)
+
 ## First architecture
 The first prototype includes:
 * 8 analog inputs
@@ -48,10 +62,21 @@ The first prototype includes:
 
 The BOM is:
 * Raspberry Pi 3
-* Pi-Plates DAQCR1
+* Pi-Plates DAQCR1 (?)
 * Adafruit I2C rotary encoder module, with click and LED #4991
 * Adafruit quad-alphanumeric segmented display with I2C #1912
 * 4 mini-arcade buttons with retro-lighting
+
+### Pi-Plates DAQC2
+
+* Specs [here](https://pi-plates.com/daqc2r1/)
+
+### Pi-Plates DAQCplate
+
+* SoC: Microchip PIC16F1517-I/PT
+* 16x 10-bit ADC
+* Analog input via TI SN74LV4051A 8:1 analog multiplexer
+* Open Collector outputs via TI DS2003CM high-current Darlington driver and NXP 74HC 8-bit parallel-in/serial out shift register.
 
 ## Second architecture
 This aims to integrate LEDs, buttons, and DACs on a board.
@@ -113,16 +138,17 @@ graph TD
   A <==> | SPI | C[ NOR Flash ]
   A <==> | GPIO | D> LEDs ]
   E> Buttons ] ==> | GPIO | A
-  H[ Analog magic ] ==> | Analog | A
+  H[ Analog in ] ==> | ADC | A
   I> 3.5 jacks ] ==> H
   B ==> J> RJ45 ]
   A ==> | DAC | F[ Analog out ]
   F ==> N> 3.5 jack ]
-  F ==> O> PWM LED ]
+  A ==> | PWM | O> PWM LED ]
   K> Power jack ] -.- | 12V | L[ DCDC ]
   L -.- | 3V3 | A
-  A <==> | UART, JTAG | P> SWD ]
-  Q -.- | 5V | L
+  A <==> | UART, JTAG | P> SWD header ]
+  L -.- | 5V | G
   A ==> | SPI | S> Display ]
+  A <==> | USB | G> Debug USB ]
 -->
-![Kroki generated Mermaid](https://kroki.io/mermaid/svg/eNpVkFFvgjAUhd_3K84PmCYTeZtNCgWBgTBgGkN8aAwBNwYGMMsSf_xKqehe2t5zvnt6c4uWn0uk7AmgGZI00BY4YLUiV8SB6-IKI4PVl3lb5z0iZ4_DgOJVIMJMogExM2zCGHbFu_K_v47cUFyMwLdYJz2LwLj0fVN340d3igrXyUBrXjUFvnlxOk6IEkfIJdDmOj758esW4gjZkC-PIPaWuppj7GbUFKc9ZTeXXvq29Df3uAc1JIh2wTC3FN9E2fzkrcIwm89E5MtiK04_AzOZKTlfOdpWU9NOy_igcfoML6VrUUQEyW6Mflctusx6GHvcbkLATt254r-C_gOkAW0w)
+![Kroki generated Mermaid](https://kroki.io/mermaid/svg/eNpVkMtugzAQRff9ivsBTaSGZtdYMphn80BAElWIBW1RSIsg4qGqUj6-Y0NJ2IzHPveOr-ZUp5cckXgAeIww2mgLJFit2BXBxnVxhR7DbPOsLrMWvvOGRErxQhKCoS8lRoztLoBVpE0-5bbv7ugQDGtTNIqZDHrXtlXZ9B_dVJyoE4OXaVGdcC5HzoUxYJdBmy_xlX58_9sdetZV5zEE3vNySNBbBZdWa5xada3iluLb27iJyz9uqO6Yaii5gq90rX6yepBjNp-R6GlxoLqOIQxKKXXrgWgHbUg9rmPPg-gRXsRt-QlDeBTIs_STht47l3KkfZenX3PIIM7NpUh_p0veh7rUE83eu5O6Jn96b3dM)
