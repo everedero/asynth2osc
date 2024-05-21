@@ -88,10 +88,13 @@ I would consider implementing [TinyOSC](https://github.com/mhroth/tinyosc), a li
 
 ### Requirements
 #### DAC
-* 8 channels input
+* 8 channels input (audio stereo 3.5mm mini-jack)
 * Minimum 16 bits, preferably 24
 * Sample rate: ideally 50Hz, it can be quite slow (LFO are around 2 Hz)
 * MCP3008 ?
+
+#### Other IO
+* MIDI input (also using stereo mini-jack)
 
 #### Power supply
 Eurorack standard includes a +12/-12V power supply, but the currents are quite low, and sensitive to pollution. So we should rather use a 5V additional external power supply.
@@ -106,6 +109,7 @@ graph TD
   A[ ESP32 ] ==>| RMII | B[ Ethernet PHY ]
   A <==> | SPI | C[ NOR Flash ]
   A <==> | I2C | D[ GPIO expander ]
+  T> MIDI in] ==> D
   D ==> | GPIO | E> LEDs ]
   F> Buttons ] ==> | GPIO | D
   G[ ADC ] ==> | SPI | A
@@ -125,7 +129,7 @@ graph TD
 -->
 
 ![Kroki generated
-Mermaid](https://kroki.io/mermaid/svg/eNpVkNFugjAYhe99ivMA02Qy72YToKA40AroshAvOkfQzYERzLbEh9_fFjHeFHrO95_2tDjJ4w4p7wF2Bi8R1hAbjMfsgjgKAlzgkNzs8lOZNxDTN2wUimdCyEyEQtwM80UM_yDr3b0fDF1aeYaJCBbIf4-y_MhPmuEwiHYu8BhCj9fa8hmcc9NUZW3ucqPUPScZbO52jrmCTcaUjFIeqgLfsthvO6IVKYSggMEajPApt1_X9CnJjv6bMcSzp1HbwUxzW1WIuuzq3NAcAZEG5rc8PWbUBYN4jVQjLb7Qtvqh4gZDf9CnzMfhmtYwA3dVH-LC1rHWVtupe8mVHacPmKX2hDYig5_yQM8IfeCSgefv5wKrxNHyso0a6TPaPmMVNPBD-sSqUJOXpbxra14zobR9fTzIP1WV7N4_oG6LJw==)
+Mermaid](https://kroki.io/mermaid/svg/eNpVUFFvgjAYfN-vuB8wTSbzbTYBKloHWgFdFuJD5wi6uWIEsy3xx-9rYbi9FHp33_W7K07quEPKbwA3wziRzgAbjEbsgjgSAhd4BNe7_KTzGnL6jI2R4oEkRCbSSPwM80WM4KCq3X9eDHw6eYaJFAvkX0elX_OT1XA0EstcMGYIx7yyVMoQCS6w13YVmO0CBu9c16Wumv2uk4adZHC53zHNWi4RUyK0OpQFPlSx33aKFiQTEgkGpz_Em9q-_7pPCfbs34whnt0P21zNNHdNrKjzLs-15SPLz692f9AFg3yKTEgLPtK1_KQuGhl6_R5Z3g3WdIYZuG_ikC5sGWfttJG6cldunN5ilroTusgMQUqdmRlpH1xScfnLucAq8Sy8bK2G9o02zsgY9YOQPrHJU-daq39hmzITcttXx4P6xuYHdX2POA==)
 
 
 #### STM32 option
@@ -149,6 +153,8 @@ graph TD
   A <==> | UART, JTAG | P> SWD header ]
   L -.- | 5V | G
   A ==> | SPI | S> Display ]
+  T> 3.5 jack ] ==> U[ MIDI In ]
+  U ==> | GPIO | A
   A <==> | USB | G> Debug USB ]
 -->
-![Kroki generated Mermaid](https://kroki.io/mermaid/svg/eNpVkMtugzAQRff9ivsBTaSGZtdYMphn80BAElWIBW1RSIsg4qGqUj6-Y0NJ2IzHPveOr-ZUp5cckXgAeIww2mgLJFit2BXBxnVxhR7DbPOsLrMWvvOGRErxQhKCoS8lRoztLoBVpE0-5bbv7ugQDGtTNIqZDHrXtlXZ9B_dVJyoE4OXaVGdcC5HzoUxYJdBmy_xlX58_9sdetZV5zEE3vNySNBbBZdWa5xada3iluLb27iJyz9uqO6Yaii5gq90rX6yepBjNp-R6GlxoLqOIQxKKXXrgWgHbUg9rmPPg-gRXsRt-QlDeBTIs_STht47l3KkfZenX3PIIM7NpUh_p0veh7rUE83eu5O6Jn96b3dM)
+![Kroki generated Mermaid](https://kroki.io/mermaid/svg/eNplkNtugkAYhO_7FPMA1aRS7-omi6u4VJRw0DQbL2hLwNaAEUzTxIfvvwsipjd7-mZmJ392So45IvEAcIUw8qwRdphM2AWBJyUusBVmdZ6eirSGv3jDTkvxQhKCoa8lU4XVOsD8kFT5PXd8uaZNMCxnojJsxmCf67osquajm4oTXSjwIjmUGfZFx7mYtlgyWMMxvpKP76t9Qc-2ObkMgfs8bhs0VsG1dd6llufa8Lnhq1vcncvferSumTlQcwNf6Vr-pKdWjsFwQKKn0YbWpYKYUkutW7bE2lht624cMQ-iR7gRd_QnDOFWIE-TTwrtO8c60un1acYcMoh9dTwkv0Yd9csbYazgSSEhCyOI_4_31iS0NaHE9P2cmevuD96Pg7I=)
