@@ -1,0 +1,195 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d73e377a-a016-415f-8824-91cc6e4907b9")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 60.96 74.93)
+		(size 50.8 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22ca5166-338c-4a24-8f8a-545e4a0286bf")
+		(property "Sheetname" "Supply"
+			(at 60.96 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supply.kicad_sch"
+			(at 60.96 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DP" input
+			(at 111.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "426df6c5-5864-499b-ba23-df53c805784d")
+		)
+		(pin "USB_DN" input
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "253b2d1a-aeb5-4a2f-ba18-94e7a80b1aeb")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 135.89)
+		(size 52.07 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f8430bb-1923-4d76-b418-f207310879ec")
+		(property "Sheetname" "Analog_in"
+			(at 95.25 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_in.kicad_sch"
+			(at 95.25 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 69.85)
+		(size 38.1 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d8430fa-40d5-422d-97f7-702a1a4b7211")
+		(property "Sheetname" "Misc"
+			(at 220.98 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 220.98 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 176.53)
+		(size 57.15 67.31)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dee5e89d-6774-4f8d-b6d8-6a859b9e32e8")
+		(property "Sheetname" "Soc"
+			(at 114.3 175.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "soc.kicad_sch"
+			(at 114.3 244.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN1" input
+			(at 114.3 205.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9c13fe0-dfec-4779-b44a-c9897ad2e89d")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
