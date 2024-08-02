@@ -4131,7 +4131,7 @@
 		(lib_id "MCU_ST_STM32H7:STM32H723ZGTx")
 		(at 209.55 138.43 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)

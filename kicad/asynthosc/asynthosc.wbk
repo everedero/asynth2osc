@@ -1,0 +1,62 @@
+{
+  "last_sch_text_sim_command": ".tran 100m 2s",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 100m 2s",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": false,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 140,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(229, 196, 148)",
+          "cursor1": {
+            "position": 0.7424483306836248,
+            "x_format": "3~s",
+            "y_format": "3~A"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "I(R12)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/Analog_in/CVIN1)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(166, 216, 84)",
+          "signal": "V(/Analog_in/CVSCAL1)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(3V3)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(Net-_J2-PadT_)",
+          "trace_type": 257
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}
