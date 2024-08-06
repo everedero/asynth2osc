@@ -5,9 +5,49 @@
 	(uuid "d73e377a-a016-415f-8824-91cc6e4907b9")
 	(paper "A3")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccac4f7-cae2-47f5-b6cc-87ceeee5882c")
+	)
+	(wire
+		(pts
+			(xy 111.76 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5075d1-2fc4-4e36-994d-6134bea203a8")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b466603a-47f8-42c9-b39b-4288ac87cb77")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78bab26-8319-4d55-b511-c03ff8801e6f")
+	)
 	(sheet
-		(at 60.96 74.93)
-		(size 50.8 29.21)
+		(at 90.17 74.93)
+		(size 21.59 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +58,7 @@
 		)
 		(uuid "22ca5166-338c-4a24-8f8a-545e4a0286bf")
 		(property "Sheetname" "Supply"
-			(at 60.96 74.2184 0)
+			(at 90.17 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +67,7 @@
 			)
 		)
 		(property "Sheetfile" "supply.kicad_sch"
-			(at 60.96 104.7246 0)
+			(at 90.17 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,6 +94,26 @@
 				(justify right)
 			)
 			(uuid "253b2d1a-aeb5-4a2f-ba18-94e7a80b1aeb")
+		)
+		(pin "USB_VBUS" input
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef8d18b4-5d4a-40ef-b5a2-8d5df2c92856")
+		)
+		(pin "USB_ID" input
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "772182b5-f6b7-4d04-914d-f473df6e1e3b")
 		)
 		(instances
 			(project "asynthosc"
@@ -190,8 +250,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 176.53)
-		(size 57.15 67.31)
+		(at 127 74.93)
+		(size 49.53 63.5)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -202,7 +262,7 @@
 		)
 		(uuid "dee5e89d-6774-4f8d-b6d8-6a859b9e32e8")
 		(property "Sheetname" "Soc"
-			(at 114.3 175.8184 0)
+			(at 127 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +271,7 @@
 			)
 		)
 		(property "Sheetfile" "soc.kicad_sch"
-			(at 114.3 244.4246 0)
+			(at 127 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -219,15 +279,45 @@
 				(justify left top)
 			)
 		)
-		(pin "AIN1" input
-			(at 114.3 205.74 180)
+		(pin "USB_VBUS" input
+			(at 127 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c9c13fe0-dfec-4779-b44a-c9897ad2e89d")
+			(uuid "07535263-9aaa-4461-8896-3ba0e0bc774d")
+		)
+		(pin "USB_D_N" bidirectional
+			(at 127 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d82f8290-d393-45ea-ae3e-f5ae61300db8")
+		)
+		(pin "USB_D_P" bidirectional
+			(at 127 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38b0066b-07ff-411c-a5e4-e6cedf5fa737")
+		)
+		(pin "USB_ID" input
+			(at 127 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58e81363-a281-488a-9f81-6d5fd31882b1")
 		)
 		(instances
 			(project "asynthosc"
