@@ -1182,7 +1182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00216cf0-2974-4979-8f50-3fef12a96a14")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -1232,7 +1232,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/7d8430fa-40d5-422d-97f7-702a1a4b7211"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1247,7 +1247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "535ddc96-1598-4b04-9334-e080de8c9f55")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 82.55 31.5722 90)
 			(effects
 				(font
@@ -1299,7 +1299,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/7d8430fa-40d5-422d-97f7-702a1a4b7211"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1314,7 +1314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64889ca3-c422-4fa7-8938-afc5ee84cf1f")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 102.87 46.8122 90)
 			(effects
 				(font
@@ -1366,7 +1366,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/7d8430fa-40d5-422d-97f7-702a1a4b7211"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1382,7 +1382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d79c6c-573d-4c20-b613-31ae46646f3e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -1432,7 +1432,7 @@
 		(instances
 			(project ""
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/7d8430fa-40d5-422d-97f7-702a1a4b7211"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1516,7 +1516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94280da5-d6f4-47c3-ad14-1d448aa169f8")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 56.388 54.7116 0)
 			(effects
 				(font
@@ -1570,7 +1570,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/7d8430fa-40d5-422d-97f7-702a1a4b7211"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1586,7 +1586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a12bae19-de8d-47ea-853d-1fe110823e1b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 54.61 68.58 0)
 			(effects
 				(font
@@ -1636,7 +1636,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/7d8430fa-40d5-422d-97f7-702a1a4b7211"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1651,7 +1651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad82d53d-4878-4e96-b734-f0797b6a6d5b")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 121.285 60.96 0)
 			(effects
 				(font
@@ -1739,7 +1739,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/7d8430fa-40d5-422d-97f7-702a1a4b7211"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1754,7 +1754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3f67e0f-ec19-4364-b550-1e9884378869")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 66.04 44.2722 90)
 			(effects
 				(font
@@ -1806,7 +1806,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/7d8430fa-40d5-422d-97f7-702a1a4b7211"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1882,14 +1882,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 83.82 52.07 0)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa7d53c0-ea75-49bb-8fd8-ed49403e8147")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 83.82 41.91 0)
 			(effects
 				(font
@@ -2013,8 +2013,8 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/7d8430fa-40d5-422d-97f7-702a1a4b7211"
-					(reference "U3")
-					(unit 3)
+					(reference "U4")
+					(unit 4)
 				)
 			)
 		)

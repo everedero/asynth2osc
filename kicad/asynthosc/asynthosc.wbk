@@ -35,13 +35,13 @@
           "trace_type": 258
         },
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/Analog_in/CVIN1)",
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/Analog_in/CVin0/CVIN)",
           "trace_type": 257
         },
         {
-          "color": "rgb(166, 216, 84)",
-          "signal": "V(/Analog_in/CVSCAL1)",
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/Analog_in/Int_in/TRG)",
           "trace_type": 257
         },
         {
@@ -52,6 +52,11 @@
         {
           "color": "rgb(166, 86, 40)",
           "signal": "V(Net-_J2-PadT_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "V(Net-_J5-PadT_)",
           "trace_type": 257
         }
       ]

@@ -64,7 +64,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 135.89)
+		(at 38.1 123.19)
 		(size 52.07 33.02)
 		(fields_autoplaced yes)
 		(stroke
@@ -76,7 +76,7 @@
 		)
 		(uuid "5f8430bb-1923-4d76-b418-f207310879ec")
 		(property "Sheetname" "Analog_in"
-			(at 95.25 135.1784 0)
+			(at 38.1 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,13 +85,63 @@
 			)
 		)
 		(property "Sheetfile" "analog_in.kicad_sch"
-			(at 95.25 169.4946 0)
+			(at 38.1 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "CVIN1" input
+			(at 90.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a0ceb2e-f92d-4ced-85b9-8b6c06ff5e08")
+		)
+		(pin "CVIN2" output
+			(at 90.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ee58cb4-ed29-4eda-9932-d8b13d91742a")
+		)
+		(pin "TRG0" output
+			(at 90.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8d0cc3ad-9724-477e-babe-b61eed48345d")
+		)
+		(pin "CVIN3" output
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a86293a6-c35b-4889-a912-3249a2c9eadf")
+		)
+		(pin "CVIN0" output
+			(at 90.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9698e561-191b-488a-955e-805d1e3407b7")
 		)
 		(instances
 			(project "asynthosc"

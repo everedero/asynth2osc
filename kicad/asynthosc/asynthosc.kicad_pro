@@ -422,6 +422,26 @@
     [
       "7d8430fa-40d5-422d-97f7-702a1a4b7211",
       "Misc"
+    ],
+    [
+      "cf6627bb-bd84-4d9e-b011-633f72ceae80",
+      "CVin0"
+    ],
+    [
+      "9e63d1d7-077c-492b-8ed4-0ad38037f05a",
+      "CVin1"
+    ],
+    [
+      "8df50db7-f715-4935-a0f9-d053a12e8abe",
+      "CVin2"
+    ],
+    [
+      "1b493739-e50b-4e48-bad0-48b50a96f04e",
+      "Int_in0"
+    ],
+    [
+      "473ac791-b1b9-4029-b3bf-dcdd7bb809f7",
+      "CVin3"
     ]
   ],
   "text_variables": {}
