@@ -105,6 +105,34 @@ I would consider implementing [TinyOSC](https://github.com/mhroth/tinyosc), a li
 
 #### Other IO
 * MIDI input (also using stereo mini-jack)
+MIDI in uses an UART port, see the [Arduino tutorial](https://www.instructables.com/Send-and-Receive-MIDI-with-Arduino/).
+
+Midi-jack pinout:
+
+<!--
+          | |
+          +-+
+NC 3  o           o  1  NC
+
+Tip 5   o       o  4 Ring
+
+            o
+            2 Sleeve
+
+
+          | |
+          +-+
+NC 3  o           o  1  NC
+
+OUT- 5  o       o  4 OUT+
+
+            o
+            2 GND/Shield
+-->
+![Kroki generated Ditaa](https://kroki.io/ditaa/svg/eNpTUICBGoUaLjhHQVtXm8vPWcFYQSEfIQhiGyoo-DlzcYVkFiiYKiBkgbSJQlBmXjoXkiFgYRS-kUJwTmpqWSoXsjLSbPYPDdEFWY1iM1BQm5DN7n4u-sEZmak5KQAYSyrj)
+
+UART baud rate is 31250.
+
 
 #### Power supply
 Eurorack standard includes a +12/-12V power supply, but the currents are quite low, and sensitive to pollution. So we should rather use a 5V additional external power supply.
@@ -136,6 +164,7 @@ Better scaling:
 * A fancy IC with digital control?
 * Single scaler controlled by DAC output (hard)?
 * 2-steps converter: rescaler (-12/12 to -5/5), scaler (-5/5 to 0/3).
+
 
 #### Diagram
 <!--
