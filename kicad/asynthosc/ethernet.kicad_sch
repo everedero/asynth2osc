@@ -5901,7 +5901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 107.6452 147.32 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 37.338 54.61 90)
 			(effects
 				(font
@@ -6101,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 57.15 84.328 90)
 			(effects
 				(font
@@ -6385,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 57.15 81.788 90)
 			(effects
 				(font
@@ -6454,7 +6454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 100.0252 147.32 0)
 			(effects
 				(font
@@ -6651,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 57.15 76.708 90)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 57.15 79.248 90)
 			(effects
 				(font
@@ -6785,7 +6785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 189.738 91.44 90)
 			(effects
 				(font
@@ -6852,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 54.9148 120.65 0)
 			(effects
 				(font
@@ -6919,7 +6919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 117.348 59.69 90)
 			(effects
 				(font
@@ -6986,7 +6986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 62.5348 120.65 0)
 			(effects
 				(font
@@ -7053,7 +7053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 243.078 83.82 90)
 			(effects
 				(font
@@ -7191,7 +7191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 126.6952 147.32 0)
 			(effects
 				(font
@@ -7260,7 +7260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1206"
+		(property "Footprint" ""
 			(at 200.3552 111.76 0)
 			(effects
 				(font
@@ -7393,7 +7393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 122.428 59.69 90)
 			(effects
 				(font
@@ -7526,7 +7526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 116.84 86.868 90)
 			(effects
 				(font
@@ -7662,7 +7662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 119.888 59.69 90)
 			(effects
 				(font
@@ -7797,7 +7797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 152.0952 147.32 0)
 			(effects
 				(font
@@ -7931,7 +7931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 115.2652 147.32 0)
 			(effects
 				(font
@@ -8338,7 +8338,7 @@
 		(lib_id "Device:Crystal")
 		(at 59.69 111.76 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8437,7 +8437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 124.968 59.69 90)
 			(effects
 				(font
@@ -8569,7 +8569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 255.778 83.82 90)
 			(effects
 				(font
@@ -8636,7 +8636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 193.548 91.44 90)
 			(effects
 				(font
@@ -8867,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 42.418 54.61 90)
 			(effects
 				(font
@@ -9066,7 +9066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 39.878 54.61 90)
 			(effects
 				(font
@@ -9199,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 210.058 91.44 90)
 			(effects
 				(font
@@ -9334,7 +9334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 134.3152 147.32 0)
 			(effects
 				(font
@@ -9535,7 +9535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 158.4452 147.32 0)
 			(effects
 				(font
@@ -9602,7 +9602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 57.15 97.028 90)
 			(effects
 				(font
@@ -9809,7 +9809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 213.868 91.44 90)
 			(effects
 				(font
@@ -9876,7 +9876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 47.498 54.61 90)
 			(effects
 				(font
@@ -9944,7 +9944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 91.44 29.972 90)
 			(effects
 				(font
@@ -10180,7 +10180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" ""
 			(at 201.6252 36.83 0)
 			(effects
 				(font

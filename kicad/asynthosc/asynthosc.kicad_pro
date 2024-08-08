@@ -462,10 +462,6 @@
       "Analog_in"
     ],
     [
-      "7d8430fa-40d5-422d-97f7-702a1a4b7211",
-      "Misc"
-    ],
-    [
       "cf6627bb-bd84-4d9e-b011-633f72ceae80",
       "CVin0"
     ],
@@ -486,8 +482,16 @@
       "Ethernet"
     ],
     [
+      "e5b5a411-a62d-4190-89e5-07a84042033c",
+      "Midi_in"
+    ],
+    [
       "473ac791-b1b9-4029-b3bf-dcdd7bb809f7",
       "CVin3"
+    ],
+    [
+      "b863f609-74bc-4dca-9f89-b76b25b90e2d",
+      "Interface"
     ]
   ],
   "text_variables": {}
