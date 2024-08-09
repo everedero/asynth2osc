@@ -1870,7 +1870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 160.782 68.58 90)
 			(effects
 				(font
@@ -1940,7 +1940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 30.48 147.32 0)
 			(effects
 				(font
@@ -2079,7 +2079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.99 60.452 90)
 			(effects
 				(font
@@ -2146,7 +2146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 190.5 47.752 90)
 			(effects
 				(font
@@ -2216,7 +2216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "asynthosc:Jack_3.5mm_3legs_XKB_PJ-3411_Vertical"
 			(at 228.6 67.31 0)
 			(effects
 				(font
@@ -2388,7 +2388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.82 62.992 90)
 			(effects
 				(font
@@ -2458,7 +2458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 53.34 147.32 0)
 			(effects
 				(font
@@ -2733,7 +2733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 190.5 62.23 0)
 			(effects
 				(font

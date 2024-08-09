@@ -410,7 +410,7 @@
 				)
 			)
 		)
-		(symbol "Diode:1N914"
+		(symbol "Diode:1N4148WT"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -424,7 +424,7 @@
 					)
 				)
 			)
-			(property "Value" "1N914"
+			(property "Value" "1N4148WT"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -432,7 +432,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SOD-523"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -441,7 +441,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -450,7 +450,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
 				(at 0 0 0)
 				(effects
 					(font
@@ -486,7 +486,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?35*"
+			(property "ki_fp_filters" "D*SOD?523*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -495,7 +495,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N914_0_1"
+			(symbol "1N4148WT_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -533,7 +533,7 @@
 					)
 				)
 			)
-			(symbol "1N914_1_1"
+			(symbol "1N4148WT_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1092,10 +1092,10 @@
 		)
 	)
 	(junction
-		(at 220.98 55.88)
+		(at 219.71 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c9f2289-b0c4-4ced-a8de-6f578c25d7b5")
+		(uuid "1d2e5d7d-228a-4423-810d-72f78315f5e9")
 	)
 	(junction
 		(at 240.03 36.83)
@@ -1104,16 +1104,16 @@
 		(uuid "79e7ceac-24fe-4192-9a66-77dd569a949a")
 	)
 	(junction
+		(at 219.71 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96ebcf2d-7211-455a-a1cb-60a23894a008")
+	)
+	(junction
 		(at 255.27 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc0a9445-b031-4002-8e63-4863f984322c")
-	)
-	(junction
-		(at 220.98 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f15f848f-7f69-45b9-b862-2f94d785e6e5")
 	)
 	(wire
 		(pts
@@ -1137,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 55.88) (xy 220.98 55.88)
+			(xy 204.47 55.88) (xy 219.71 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1217,7 +1217,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 48.26) (xy 220.98 48.26)
+			(xy 219.71 55.88) (xy 232.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6d3aa1-0a2d-470a-9e58-dede29b6c77b")
+	)
+	(wire
+		(pts
+			(xy 215.9 48.26) (xy 219.71 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1234,6 +1244,16 @@
 			(type default)
 		)
 		(uuid "ad14a096-d029-447a-85ed-f8524a3924d5")
+	)
+	(wire
+		(pts
+			(xy 219.71 48.26) (xy 232.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce81db9-bd37-4454-a6d7-2cfa2bd6d6b5")
 	)
 	(wire
 		(pts
@@ -1257,16 +1277,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 55.88) (xy 220.98 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddcfcb29-58df-4d3c-80c0-441000049933")
-	)
-	(wire
-		(pts
 			(xy 204.47 48.26) (xy 208.28 48.26)
 		)
 		(stroke
@@ -1274,16 +1284,6 @@
 			(type default)
 		)
 		(uuid "e092133f-ca38-4516-8070-16d8cf32a213")
-	)
-	(wire
-		(pts
-			(xy 220.98 48.26) (xy 232.41 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f554a676-ae51-45e5-b662-1789fb2db3c2")
 	)
 	(wire
 		(pts
@@ -1406,7 +1406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:SMDIP-6_W9.53mm"
 			(at 237.744 50.8 0)
 			(effects
 				(font
@@ -1462,17 +1462,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N914")
-		(at 220.98 52.07 270)
+		(lib_id "Diode:1N4148WT")
+		(at 219.71 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50265568-1cff-4fb0-9945-483b55e6ecc9")
-		(property "Reference" "D6"
-			(at 223.52 50.7999 90)
+		(uuid "60889456-1b78-47aa-9ba0-0e657119168b")
+		(property "Reference" "D12"
+			(at 222.25 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,8 +1480,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N914"
-			(at 223.52 53.3399 90)
+		(property "Value" "1N4148WT"
+			(at 222.25 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,8 +1489,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 216.535 52.07 0)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 215.265 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,8 +1498,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 220.98 52.07 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 219.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,8 +1507,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 220.98 52.07 0)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 219.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1517,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 220.98 52.07 0)
+			(at 219.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1526,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 52.07 0)
+			(at 219.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,10 +1535,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "cfb619d2-f775-4130-865f-9764aa1e8683")
+			(uuid "52d0a99e-82b8-4c1c-ba57-650b37c714ee")
 		)
 		(pin "1"
-			(uuid "62c3ffd6-ae2c-41cd-b6e6-8d08c000c249")
+			(uuid "cec98c31-cf6a-48c4-bbfc-cedd7e806139")
+		)
+		(instances
+			(project ""
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1567,7 +1575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "asynthosc:Jack_3.5mm_4legs_XKB_PJ-3410_Vertical"
+		(property "Footprint" "asynthosc:Jack_3.5mm_3legs_XKB_PJ-3411_Vertical"
 			(at 185.42 50.8 0)
 			(effects
 				(font
@@ -1666,7 +1674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 212.09 50.038 90)
 			(effects
 				(font
@@ -1729,7 +1737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 207.01 48.26 0)
 			(effects
 				(font
@@ -1854,7 +1862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 253.492 44.45 90)
 			(effects
 				(font

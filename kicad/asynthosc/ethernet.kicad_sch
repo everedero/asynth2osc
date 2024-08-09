@@ -5901,7 +5901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 107.6452 147.32 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 37.338 54.61 90)
 			(effects
 				(font
@@ -6101,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 84.328 90)
 			(effects
 				(font
@@ -6385,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 81.788 90)
 			(effects
 				(font
@@ -6454,7 +6454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 147.32 0)
 			(effects
 				(font
@@ -6651,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 76.708 90)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 79.248 90)
 			(effects
 				(font
@@ -6785,7 +6785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.738 91.44 90)
 			(effects
 				(font
@@ -6852,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.9148 120.65 0)
 			(effects
 				(font
@@ -6919,7 +6919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 117.348 59.69 90)
 			(effects
 				(font
@@ -6986,7 +6986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.5348 120.65 0)
 			(effects
 				(font
@@ -7053,7 +7053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 243.078 83.82 90)
 			(effects
 				(font
@@ -7122,7 +7122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 141.9352 147.32 0)
 			(effects
 				(font
@@ -7191,7 +7191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 126.6952 147.32 0)
 			(effects
 				(font
@@ -7260,7 +7260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.3552 111.76 0)
 			(effects
 				(font
@@ -7393,7 +7393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 122.428 59.69 90)
 			(effects
 				(font
@@ -7526,7 +7526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.84 86.868 90)
 			(effects
 				(font
@@ -7595,7 +7595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 57.15 92.71 0)
 			(effects
 				(font
@@ -7662,7 +7662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.888 59.69 90)
 			(effects
 				(font
@@ -7797,7 +7797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 147.32 0)
 			(effects
 				(font
@@ -7931,7 +7931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 147.32 0)
 			(effects
 				(font
@@ -8361,7 +8361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 59.69 111.76 0)
 			(effects
 				(font
@@ -8437,7 +8437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.968 59.69 90)
 			(effects
 				(font
@@ -8569,7 +8569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 255.778 83.82 90)
 			(effects
 				(font
@@ -8636,7 +8636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.548 91.44 90)
 			(effects
 				(font
@@ -8867,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 42.418 54.61 90)
 			(effects
 				(font
@@ -9066,7 +9066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 39.878 54.61 90)
 			(effects
 				(font
@@ -9199,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.058 91.44 90)
 			(effects
 				(font
@@ -9334,7 +9334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.3152 147.32 0)
 			(effects
 				(font
@@ -9535,7 +9535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.4452 147.32 0)
 			(effects
 				(font
@@ -9602,7 +9602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 97.028 90)
 			(effects
 				(font
@@ -9809,7 +9809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 213.868 91.44 90)
 			(effects
 				(font
@@ -9876,7 +9876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 47.498 54.61 90)
 			(effects
 				(font
@@ -10180,7 +10180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.6252 36.83 0)
 			(effects
 				(font

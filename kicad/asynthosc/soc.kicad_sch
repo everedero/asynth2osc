@@ -6541,6 +6541,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 57.15) (xy 251.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abed472-8efe-4ec6-b774-ce2f7179e2d6")
+	)
+	(wire
+		(pts
 			(xy 170.18 168.91) (xy 187.96 168.91)
 		)
 		(stroke
@@ -7951,16 +7961,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 57.15) (xy 251.46 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2558af1-a9a0-4e5f-bbb7-ea0d16428712")
-	)
-	(wire
-		(pts
 			(xy 30.48 27.94) (xy 36.83 27.94)
 		)
 		(stroke
@@ -8427,17 +8427,6 @@
 		)
 		(uuid "80c7056f-fb79-4743-a079-19863b80a770")
 	)
-	(label "DBG_LED"
-		(at 251.46 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8450b2ba-f580-4976-97c3-b2429bbd3c0a")
-	)
 	(label "USART3_DBG_TX"
 		(at 355.6 132.08 0)
 		(fields_autoplaced yes)
@@ -8635,6 +8624,17 @@
 			(justify left bottom)
 		)
 		(uuid "ce315de9-9ebc-47ec-9453-d5cc71d29bda")
+	)
+	(label "DBG_LED"
+		(at 251.46 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce4e4690-6e3f-4c63-ae4c-11e1a2444cd0")
 	)
 	(label "RMII_REF_CLK"
 		(at 218.44 109.22 0)
@@ -9335,7 +9335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 53.0352 59.69 0)
 			(effects
 				(font
@@ -9536,7 +9536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 88.9 77.47 0)
 			(effects
 				(font
@@ -9672,7 +9672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 249.682 45.72 90)
 			(effects
 				(font
@@ -9741,7 +9741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 88.9 69.85 0)
 			(effects
 				(font
@@ -9809,7 +9809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 78.74 76.5048 0)
 			(effects
 				(font
@@ -9943,7 +9943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 331.47 165.1 0)
 			(effects
 				(font
@@ -10085,7 +10085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 237.49 53.34 0)
 			(effects
 				(font
@@ -10152,7 +10152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 341.63 88.138 90)
 			(effects
 				(font
@@ -10288,7 +10288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.2452 27.94 0)
 			(effects
 				(font
@@ -10358,7 +10358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.5952 27.94 0)
 			(effects
 				(font
@@ -10428,7 +10428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.4552 41.91 0)
 			(effects
 				(font
@@ -10495,7 +10495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 342.9 133.858 90)
 			(effects
 				(font
@@ -10631,7 +10631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 56.8452 27.94 0)
 			(effects
 				(font
@@ -10698,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 342.9 164.338 90)
 			(effects
 				(font
@@ -10765,7 +10765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 341.63 95.758 90)
 			(effects
 				(font
@@ -10875,72 +10875,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64ba8207-063a-4e14-84bd-42cbc6b0703f")
-		(property "Reference" "#PWR0118"
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd242a93-7fca-4912-ae32-44332f2ad248")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 110.49 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11030,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 341.63 93.218 90)
 			(effects
 				(font
@@ -11138,6 +11072,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 251.46 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d6ac9fa-ef52-4202-866a-1306a27997ee")
+		(property "Reference" "#PWR0127"
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 251.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba25af77-59e7-4ce1-ad56-1e68780181f4")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 342.9 170.18 90)
 		(unit 1)
@@ -11162,7 +11162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 342.9 171.958 90)
 			(effects
 				(font
@@ -11232,7 +11232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.4852 219.71 0)
 			(effects
 				(font
@@ -11387,7 +11387,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 65.278 60.96 90)
 			(effects
 				(font
@@ -11523,7 +11523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 251.46 53.34 0)
 			(effects
 				(font
@@ -11590,7 +11590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 341.63 83.058 90)
 			(effects
 				(font
@@ -11660,7 +11660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.1952 27.94 0)
 			(effects
 				(font
@@ -12227,7 +12227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 69.5452 27.94 0)
 			(effects
 				(font
@@ -12296,7 +12296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.8652 219.71 0)
 			(effects
 				(font
@@ -12431,7 +12431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 25.4 80.01 0)
 			(effects
 				(font
@@ -12697,7 +12697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 78.74 68.8848 0)
 			(effects
 				(font
@@ -12766,7 +12766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -12834,7 +12834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 331.47 134.62 0)
 			(effects
 				(font
@@ -13039,7 +13039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.8 73.152 90)
 			(effects
 				(font
@@ -13107,7 +13107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 328.93 86.36 0)
 			(effects
 				(font
@@ -13192,7 +13192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 44.1452 27.94 0)
 			(effects
 				(font
@@ -13259,7 +13259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 341.63 90.678 90)
 			(effects
 				(font
@@ -13395,7 +13395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 237.49 60.96 0)
 			(effects
 				(font
@@ -13465,7 +13465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 304.4952 219.71 0)
 			(effects
 				(font
@@ -13535,7 +13535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.4952 27.94 0)
 			(effects
 				(font
@@ -13602,7 +13602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 342.9 141.478 90)
 			(effects
 				(font
@@ -13672,7 +13672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 235.712 45.72 90)
 			(effects
 				(font
@@ -13742,7 +13742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 80.01 73.66 0)
 			(effects
 				(font
@@ -13769,7 +13769,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "NX3225GD-8MHz-EXS00A-CG04874"
+		(property "RefNum" ""
 			(at 80.01 73.66 90)
 			(effects
 				(font
@@ -13887,7 +13887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 37.7952 27.94 0)
 			(effects
 				(font
@@ -13958,7 +13958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 119.38 25.4 0)
 			(effects
 				(font
@@ -14028,7 +14028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 25.0952 27.94 0)
 			(effects
 				(font
@@ -14098,7 +14098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 31.4452 27.94 0)
 			(effects
 				(font
@@ -14474,7 +14474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 75.8952 27.94 0)
 			(effects
 				(font

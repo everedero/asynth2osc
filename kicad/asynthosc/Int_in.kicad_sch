@@ -622,24 +622,22 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+		(symbol "Switch:SW_MEC_5G_LED"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "SW_MEC_5G_LED"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -647,7 +645,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -655,8 +653,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -664,7 +662,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Description" "MEC 5G single pole normally-open illuminated tactile switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -673,7 +671,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "ki_keywords" "switch normally-open pushbutton push-button LED"
 				(at 0 0 0)
 				(effects
 					(font
@@ -682,9 +680,104 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5G_LED_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -2.159) (xy -1.016 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -2.159) (xy 0.254 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.524) (xy -2.286 -2.159) (xy -1.651 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.524) (xy -1.016 -2.159) (xy -0.381 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 1.27 1.27) (xy 1.27 -1.27) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_LED_0_1"
 				(circle
-					(center -2.032 0)
+					(center -2.032 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -696,7 +789,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 0 3.81) (xy 0 5.588)
 					)
 					(stroke
 						(width 0)
@@ -708,7 +801,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 2.54 3.81) (xy -2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -719,7 +812,7 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 2.032 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -730,7 +823,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -748,7 +841,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -763,6 +856,55 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_LED_1_1"
+				(rectangle
+					(start -3.175 5.715)
+					(end 3.175 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -997,16 +1139,16 @@
 		(uuid "5a6a05a9-6f9b-4911-8dcb-8f45bcf3d3c8")
 	)
 	(junction
-		(at 116.84 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "724c03a0-3c8d-4f43-86ed-84965053b278")
-	)
-	(junction
 		(at 93.98 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d04f9206-44f1-4a07-994f-93139c3d14d4")
+	)
+	(junction
+		(at 93.98 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f358d3b8-5cbc-4519-b348-ab70a8f07c38")
 	)
 	(no_connect
 		(at 55.88 68.58)
@@ -1024,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 33.02) (xy 93.98 44.45)
+			(xy 93.98 33.02) (xy 93.98 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1044,6 +1186,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 44.45) (xy 107.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d11e35-09c6-4242-a8db-b1d38f63a97f")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369634b5-5456-4554-ae2b-923a76c9186e")
+	)
+	(wire
+		(pts
 			(xy 85.09 57.15) (xy 85.09 58.42)
 		)
 		(stroke
@@ -1051,6 +1213,26 @@
 			(type default)
 		)
 		(uuid "37165e06-3385-4128-a172-32ced59f7560")
+	)
+	(wire
+		(pts
+			(xy 93.98 36.83) (xy 130.81 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4254180f-9191-439b-b678-dae383097231")
+	)
+	(wire
+		(pts
+			(xy 130.81 36.83) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464c525a-6b55-422b-98c4-711683ee2ec6")
 	)
 	(wire
 		(pts
@@ -1074,13 +1256,43 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 44.45) (xy 116.84 44.45)
+			(xy 93.98 36.83) (xy 93.98 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a629ad9-781f-499b-85ea-8623be6d0700")
+		(uuid "5b94606a-ee8e-4402-a805-a81b969c2d58")
+	)
+	(wire
+		(pts
+			(xy 123.19 58.42) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1e1a86-2fdb-4dbc-866c-94453d3ecc39")
+	)
+	(wire
+		(pts
+			(xy 102.87 60.96) (xy 113.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1e2bdf-f153-405a-b8bb-44e9ccf8eb5f")
+	)
+	(wire
+		(pts
+			(xy 123.19 60.96) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d31accb-4ac6-4d2d-a6c2-85bb4c6be1f9")
 	)
 	(wire
 		(pts
@@ -1134,36 +1346,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 44.45) (xy 116.84 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9e0f5e6-df61-4d0a-9277-1f09a8a00364")
-	)
-	(wire
-		(pts
-			(xy 116.84 58.42) (xy 116.84 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc440a6e-1205-4cd8-a4ad-fcb73f32a981")
-	)
-	(wire
-		(pts
-			(xy 109.22 58.42) (xy 116.84 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4ac26b-6282-441d-8970-4f33cef7936c")
-	)
-	(wire
-		(pts
 			(xy 85.09 58.42) (xy 93.98 58.42)
 		)
 		(stroke
@@ -1184,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 58.42) (xy 99.06 58.42)
+			(xy 93.98 58.42) (xy 113.03 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1281,6 +1463,146 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "174bdfe1-6856-4708-b451-0b299965bf6f")
+		(property "Reference" "#PWR0132"
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e070b7cd-850f-466b-9798-dc23aca2d434")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/1b493739-e50b-4e48-bad0-48b50a96f04e"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G_LED")
+		(at 118.11 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "242ba1a6-a6a4-4128-b288-366fd00711aa")
+		(property "Reference" "SW7"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G_LED"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:TPB01-X0XLXX_SW_MEC_5G"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open illuminated tactile switch"
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "89d2f495-79aa-4b2a-8b65-1e5b53713942")
+		)
+		(pin "2"
+			(uuid "2beaf6af-7666-452c-8640-334e78f09fb4")
+		)
+		(pin "4"
+			(uuid "4cf51a51-40a6-4849-a949-6774f92358c3")
+		)
+		(pin "1"
+			(uuid "55afe374-f4d2-4d1e-9bbf-3bd11e2ea50c")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/1b493739-e50b-4e48-bad0-48b50a96f04e"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
 		(at 50.8 68.58 0)
 		(mirror x)
@@ -1308,7 +1630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "asynthosc:Jack_3.5mm_3legs_XKB_PJ-3411_Vertical"
 			(at 50.8 68.58 0)
 			(effects
 				(font
@@ -1414,7 +1736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.12 64.262 90)
 			(effects
 				(font
@@ -1451,100 +1773,6 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/1b493739-e50b-4e48-bad0-48b50a96f04e"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 104.14 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "673cfa33-81d9-4bba-ba81-6f8f9b147e1a")
-		(property "Reference" "SW3"
-			(at 104.14 51.181 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TRG0"
-			(at 104.14 53.4924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "switches:SW_6425"
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "r=1M"
-			(at 104.14 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a78f99ba-5132-43fe-a526-16a3e503687c")
-		)
-		(pin "2"
-			(uuid "c12f5fea-dfef-4099-a71e-5269981bac69")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/1b493739-e50b-4e48-bad0-48b50a96f04e"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1683,17 +1911,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 66.04 0)
+		(lib_id "Device:R")
+		(at 102.87 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab04190c-33a7-4ccb-b870-86670af5de3e")
-		(property "Reference" "#PWR032"
-			(at 116.84 72.39 0)
+		(uuid "a9315029-fafd-462f-98b4-e0b6bed47657")
+		(property "Reference" "R76"
+			(at 105.41 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270R"
+			(at 105.41 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.092 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,16 +1947,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 116.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 66.04 0)
+		(property "Datasheet" "~"
+			(at 102.87 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,17 +1956,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 116.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 66.04 0)
+		(property "Description" "Resistor"
+			(at 102.87 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,12 +1966,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "571a6059-95b6-4759-a5cb-793bd126790a")
+			(uuid "bdf5a2ff-089c-4745-a932-899af0d72faf")
+		)
+		(pin "2"
+			(uuid "de3b1323-45d3-4148-8870-4bb9de07d098")
 		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/1b493739-e50b-4e48-bad0-48b50a96f04e"
-					(reference "#PWR032")
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b51a504d-9079-4392-be77-3e4a0271f2ed")
+		(property "Reference" "#PWR0130"
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dbf15e7-e29f-4557-8ff8-d38544756d54")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/1b493739-e50b-4e48-bad0-48b50a96f04e"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -1842,7 +2140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" ""
 			(at 87.63 63.5 0)
 			(effects
 				(font
@@ -1941,7 +2239,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.868 53.34 90)
 			(effects
 				(font
