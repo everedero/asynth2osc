@@ -1460,7 +1460,6 @@
 		(pin "2"
 			(uuid "133db9c6-1955-4996-b237-5ade5b729636")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Diode:1N914")
@@ -1541,7 +1540,6 @@
 		(pin "1"
 			(uuid "62c3ffd6-ae2c-41cd-b6e6-8d08c000c249")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
@@ -1569,7 +1567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "asynthosc:Jack_3.5mm_4legs_XKB_PJ-3410_Vertical"
 			(at 185.42 50.8 0)
 			(effects
 				(font
@@ -1641,7 +1639,6 @@
 		(pin "T"
 			(uuid "3305ae2c-e370-4fd4-bed9-7cedfa27384e")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1702,7 +1699,6 @@
 		(pin "2"
 			(uuid "35a58b3b-bc30-46a4-8d32-fdf64717657b")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -1763,7 +1759,6 @@
 		(pin "1"
 			(uuid "9357dabf-7079-4d06-8cad-f5038a940cfc")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:+3V3")
