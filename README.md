@@ -43,7 +43,36 @@ Open-source software able to emulate analog synthetizers.
 
 ### Eurorack
 Standardized mechanical format for synthetizer, in a modular 3U rack.
-It uses 3.5mm jack for cabling, +/- 12V power supply.
+
+* 3U = 128.5 mm height
+* 1HP = 5.08 mm, width is multiple of 1HP
+* Depth should be <2.5mm or <4mm to be shallow
+
+Exemple: Yarns is 12 HP and 3U, so front plate is 128.5x60.96mm. Its bottom PCB is tinier: 59x106,8mm, and has 3 screw holes to fit it to the front plate.
+
+It uses 3.5mm jack for cabling, +/- 12V power supply on a 2x5p header connector, on the right lower corner of the board (facing the bottom).
+Red side = -12V. Print a | on the board to indicate side. Don’t forget the protection circuit.
+
+<!--
+        +---------+
+        |         |
+ +12V   |  o   o  |  +12V
+        |         |
+ GND    |  o   o  |   GND
+        |         |
+ GND    |  o   o  |   GND
+        |         |
+ GND    |  o   o  |   GND
+        |         |              |
+ -12V   |  o   o  |  -12V        |
+        |         |              |
+        +---------+              |
+                                 |
+            ----                 |
+                                 |
+---------------------------------+
+-->
+![Kroki generated Ditaa](https://kroki.io/ditaa/svg/eNpTUIAAbV0Y0OaCCinUKMBZXArahkZhELF8BTAGskBi2FW7-7kooKsGCdJbtQIKAGrWxeINqBhMCRGmYAYaLiU4AaoSkBkElOAwRZcQ0AYApyBP7w==)
 
 ## Benchmark
 ### Befaco VCMC specs
