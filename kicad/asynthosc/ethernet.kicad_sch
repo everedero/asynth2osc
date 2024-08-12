@@ -5,7 +5,7 @@
 	(uuid "08d3f934-49a3-4da4-8fc3-56373459557d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:RJ45_LED"
+		(symbol "Connector:RJ45_LED_Shielded"
 			(pin_names
 				(offset 1.016)
 			)
@@ -21,7 +21,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "RJ45_LED"
+			(property "Value" "RJ45_LED_Shielded"
 				(at 1.27 13.97 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RJ connector, 8P8C (8 positions 8 connected), two LEDs"
+			(property "Description" "RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RJ45_LED_0_1"
+			(symbol "RJ45_LED_Shielded_0_1"
 				(polyline
 					(pts
 						(xy -7.62 -7.62) (xy -6.35 -7.62)
@@ -438,7 +438,7 @@
 					)
 				)
 			)
-			(symbol "RJ45_LED_1_1"
+			(symbol "RJ45_LED_Shielded_1_1"
 				(pin passive line
 					(at 10.16 -7.62 180)
 					(length 2.54)
@@ -648,6 +648,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3888,6 +3906,12 @@
 		(uuid "49e8791f-4100-4b14-9dbc-f11c1352a458")
 	)
 	(junction
+		(at 215.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53ab6e0a-0b55-4a4c-9ca0-4259b824ce98")
+	)
+	(junction
 		(at 123.19 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3898,6 +3922,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6afae7c8-8980-40b1-b45f-795458845ba9")
+	)
+	(junction
+		(at 215.9 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7632174f-a86f-4281-b3d2-1192bf658474")
 	)
 	(junction
 		(at 133.35 151.13)
@@ -3934,18 +3964,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9000250a-3ac5-46d1-a113-e72e67d20204")
-	)
-	(junction
-		(at 215.9 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99908da3-45bc-4514-a535-01e6cedd4204")
-	)
-	(junction
-		(at 215.9 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad73544d-8dcb-4a04-b14c-c4389813a0ce")
 	)
 	(junction
 		(at 118.11 74.93)
@@ -4292,6 +4310,16 @@
 			(type default)
 		)
 		(uuid "2a8fa6d1-a9e6-4610-9cc0-8f2dada91383")
+	)
+	(wire
+		(pts
+			(xy 229.87 52.07) (xy 229.87 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5cdafe-2f89-4b38-bdb5-d0e25f260e7a")
 	)
 	(wire
 		(pts
@@ -4715,6 +4743,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 52.07) (xy 229.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc1c21e-a566-4853-909e-3d9429e9ab4c")
+	)
+	(wire
+		(pts
 			(xy 107.95 74.93) (xy 118.11 74.93)
 		)
 		(stroke
@@ -4722,6 +4760,16 @@
 			(type default)
 		)
 		(uuid "8155892f-59fb-4f15-a069-8b9c57918789")
+	)
+	(wire
+		(pts
+			(xy 226.06 57.15) (xy 226.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ba5a02-3404-4410-acfc-845a11732f68")
 	)
 	(wire
 		(pts
@@ -8237,104 +8285,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:RJ45_LED")
-		(at 226.06 69.85 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70a6ee3f-509a-4514-b5f5-5733538ac888")
-		(property "Reference" "J3"
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RJ45_LED"
-			(at 226.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 70.485 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 70.485 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), two LEDs"
-			(at 226.06 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "95432904-6db5-44ba-839a-585acf03ca38")
-		)
-		(pin "11"
-			(uuid "af114229-73dc-4847-ad75-e108d8bfaad5")
-		)
-		(pin "10"
-			(uuid "e81816ca-73eb-42c4-92d5-148f5dab1a55")
-		)
-		(pin "1"
-			(uuid "2d4088c6-2498-4b4a-98e0-84c943cfa801")
-		)
-		(pin "3"
-			(uuid "92e6caff-1d56-4c8d-9986-3076df3b520b")
-		)
-		(pin "7"
-			(uuid "5207a0ce-2130-4a7d-b0ae-1da5dc451c05")
-		)
-		(pin "4"
-			(uuid "1fdbdad3-f011-4c6e-a7e8-bc40ead3403e")
-		)
-		(pin "5"
-			(uuid "89bda18b-ab70-4234-b257-00f2d7ee4330")
-		)
-		(pin "2"
-			(uuid "608bdc3f-7e90-486c-ac6b-ff4c7d1ad7cd")
-		)
-		(pin "9"
-			(uuid "3976aa75-803c-4faf-aa41-69c455643582")
-		)
-		(pin "8"
-			(uuid "d6182d03-7e33-45cd-84e0-ad62c8a0ba0a")
-		)
-		(pin "6"
-			(uuid "348e10d0-0894-40d2-9b51-d28e062d7442")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/354f1097-74a0-4bc1-8721-d2c0e4c9dab3"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
 		(at 59.69 111.76 0)
 		(unit 1)
@@ -9919,6 +9869,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:RJ45_LED_Shielded")
+		(at 226.06 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dee92dbe-11b9-4541-b641-fd857e6b208e")
+		(property "Reference" "J3"
+			(at 225.552 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45_LED_Shielded"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:RJ45_HCTL_HC-RJ45-053-2"
+			(at 226.06 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded"
+			(at 226.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a180d21b-7b5a-44b2-a2c0-d45657354efc")
+		)
+		(pin "4"
+			(uuid "9b4f4026-a277-4b4a-aa0a-f2a4018b0bfd")
+		)
+		(pin "8"
+			(uuid "278ec8ec-e9db-40de-89c8-12b40b9d594b")
+		)
+		(pin "9"
+			(uuid "4f8bac85-b775-420f-bc48-690fdff1c727")
+		)
+		(pin "6"
+			(uuid "34cdc6c2-b247-468c-bbab-9ecb718b5289")
+		)
+		(pin "SH"
+			(uuid "8f442030-d6e8-4cc3-ac29-10e3655c4af0")
+		)
+		(pin "7"
+			(uuid "238ccd6c-d77e-450e-b0e7-a927938e827b")
+		)
+		(pin "11"
+			(uuid "917b1aa1-e86a-4b28-b78e-32dd7703d8a1")
+		)
+		(pin "10"
+			(uuid "fcd1d734-629a-4a59-9cb3-e56c42332dbd")
+		)
+		(pin "2"
+			(uuid "ad082f7e-1e0b-4f97-a89e-35ba0fcd2d75")
+		)
+		(pin "12"
+			(uuid "6264ae76-fa2b-4b37-a052-f8f87ade68cc")
+		)
+		(pin "5"
+			(uuid "f51d0444-6856-4912-b29a-e195b75936c4")
+		)
+		(pin "1"
+			(uuid "b59ef0e2-d380-4c22-b137-ff8f668429da")
+		)
+		(instances
+			(project ""
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/354f1097-74a0-4bc1-8721-d2c0e4c9dab3"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 91.44 31.75 270)
 		(unit 1)
@@ -9944,7 +9994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 91.44 29.972 90)
 			(effects
 				(font
@@ -10148,6 +10198,73 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/354f1097-74a0-4bc1-8721-d2c0e4c9dab3"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2f20da5-00ff-483f-aedb-d6ad6d4d21a7")
+		(property "Reference" "#PWR0136"
+			(at 229.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97752e18-1359-4ed9-9efd-607a84783f62")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/354f1097-74a0-4bc1-8721-d2c0e4c9dab3"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)

@@ -1146,6 +1146,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 248.92) (xy 55.88 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1b2b17-725a-4eaa-8477-b1761c100d81")
+	)
+	(wire
+		(pts
 			(xy 199.39 64.77) (xy 203.2 64.77)
 		)
 		(stroke
@@ -1421,6 +1431,18 @@
 			(justify left)
 		)
 		(uuid "a8450257-cdc2-4b2e-8f9f-398513dc39d5")
+	)
+	(hierarchical_label "TRG1"
+		(shape output)
+		(at 55.88 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5ff47a5-6e21-4ce6-a59d-1fc1bd513b63")
 	)
 	(hierarchical_label "CVIN0"
 		(shape output)
@@ -2843,6 +2865,54 @@
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec"
 					(reference "U4")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 245.11)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00719137-6b38-42a6-b28f-e4711c0869df")
+		(property "Sheetname" "Int_in1"
+			(at 33.02 244.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Int_in.kicad_sch"
+			(at 33.02 253.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TRG" output
+			(at 45.72 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4ecae38-70e9-4d5e-9289-988ad21e60be")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec"
+					(page "5")
 				)
 			)
 		)

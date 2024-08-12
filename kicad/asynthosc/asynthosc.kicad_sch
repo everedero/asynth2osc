@@ -59,6 +59,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 130.81) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0336a372-45ab-4ca5-a340-146823337ba4")
+	)
+	(wire
+		(pts
 			(xy 105.41 109.22) (xy 114.3 109.22)
 		)
 		(stroke
@@ -156,6 +166,16 @@
 			(type default)
 		)
 		(uuid "5dd0af19-f2ac-4fe8-a177-be252573fb6c")
+	)
+	(wire
+		(pts
+			(xy 107.95 123.19) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627daf3d-bc88-4407-9971-c8d5d21836cc")
 	)
 	(wire
 		(pts
@@ -296,6 +316,16 @@
 			(type default)
 		)
 		(uuid "d6f28a0e-ce57-4337-b61d-7eddefd55385")
+	)
+	(wire
+		(pts
+			(xy 127 130.81) (xy 107.95 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93ce8f5-093c-41f5-8fbe-611c0417e0e3")
 	)
 	(wire
 		(pts
@@ -505,6 +535,16 @@
 			)
 			(uuid "377e74a0-1c5b-4039-9487-1659088802d5")
 		)
+		(pin "TRG1" output
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f35c56a-5ae2-4d99-9fa1-87b3ae09f9b7")
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -515,7 +555,7 @@
 	)
 	(sheet
 		(at 196.85 87.63)
-		(size 25.4 27.94)
+		(size 25.4 41.91)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -535,7 +575,7 @@
 			)
 		)
 		(property "Sheetfile" "interface.kicad_sch"
-			(at 196.85 116.1546 0)
+			(at 196.85 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,6 +632,66 @@
 				(justify left)
 			)
 			(uuid "840f9285-a4a2-4c2c-a5c8-577b236ac056")
+		)
+		(pin "ROT_B" output
+			(at 196.85 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9724929d-a16e-4e6f-9d58-4faf71456375")
+		)
+		(pin "ROT_A" output
+			(at 196.85 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c7968db7-4105-4d0f-ad9c-44222f0c8bed")
+		)
+		(pin "BTN_1" output
+			(at 196.85 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f16a010d-97c9-4f02-a8ca-0a6e5dd11926")
+		)
+		(pin "LED_BTN_1" input
+			(at 196.85 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5f653e6-e661-450c-8966-a312a40203e4")
+		)
+		(pin "BTN_2" output
+			(at 196.85 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ead4934-d9d1-42c4-ad9b-dd8e54e24c4d")
+		)
+		(pin "LED_BTN_2" input
+			(at 196.85 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9743157-60df-4b84-a748-6192b00d442f")
 		)
 		(instances
 			(project "asynthosc"
