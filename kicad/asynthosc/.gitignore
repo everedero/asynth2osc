@@ -3,3 +3,6 @@ asynthosc-backups
 \#*\#
 *auto_saved_files
 fp-info-cache
+*.bak
+default.kicad_wks
+autosave*
