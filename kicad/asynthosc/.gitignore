@@ -6,3 +6,4 @@ fp-info-cache
 *.bak
 default.kicad_wks
 autosave*
+_autosave*
