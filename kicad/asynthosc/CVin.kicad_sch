@@ -1098,22 +1098,23 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DIP_x01"
+		(symbol "asynthosc_lib:SW_DIP_x04_SEP"
 			(pin_names
-				(offset 0) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 3.81 0)
+				(at -2.54 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
+			(property "Value" "SW_DIP_x04"
+				(at 0.254 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1129,7 +1130,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1138,7 +1139,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1147,7 +1148,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dip switch"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "4x DIP Switch, Single Pole Single Throw (SPST) switch, separated small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1156,7 +1165,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
+			(property "ki_fp_filters" "SW?DIP?x4*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1165,7 +1174,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_DIP_x01_0_0"
+			(symbol "SW_DIP_x04_SEP_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1201,7 +1210,7 @@
 					)
 				)
 			)
-			(symbol "SW_DIP_x01_0_1"
+			(symbol "SW_DIP_x04_SEP_0_1"
 				(rectangle
 					(start -3.81 2.54)
 					(end 3.81 -2.54)
@@ -1214,11 +1223,11 @@
 					)
 				)
 			)
-			(symbol "SW_DIP_x01_1_1"
+			(symbol "SW_DIP_x04_SEP_1_1"
 				(pin passive line
-					(at -7.62 0 0)
+					(at -8.89 0 0)
 					(length 5.08)
-					(name "~"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1234,9 +1243,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 8.89 0 180)
 					(length 5.08)
-					(name "~"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1244,6 +1253,120 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DIP_x04_SEP_2_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DIP_x04_SEP_3_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DIP_x04_SEP_4_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1790,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 38.1) (xy 54.61 38.1)
+			(xy 44.45 38.1) (xy 53.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1840,6 +1963,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 38.1) (xy 77.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37fb163-00c2-49c2-9a76-44907482c83f")
+	)
+	(wire
+		(pts
 			(xy 146.05 54.61) (xy 137.16 54.61)
 		)
 		(stroke
@@ -1847,16 +1980,6 @@
 			(type default)
 		)
 		(uuid "f3bc296e-dcae-418f-8616-2573d36b57a4")
-	)
-	(wire
-		(pts
-			(xy 69.85 38.1) (xy 77.47 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f91c43d4-22ab-4e9c-afbf-1b3f4ee7662d")
 	)
 	(hierarchical_label "CVIN"
 		(shape output)
@@ -2319,6 +2442,122 @@
 		)
 	)
 	(symbol
+		(lib_id "asynthosc_lib:SW_DIP_x04_SEP")
+		(at 62.23 38.1 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29cbd7ec-e4d0-4a6c-aff2-bfcc24a4fac4")
+		(property "Reference" "SW11"
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x04"
+			(at 62.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SM"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "  SMXS-04K-TP"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "447ac37e-8cfc-4021-a0e5-2f6f1ab1f783")
+		)
+		(pin "1"
+			(uuid "3ec19467-4edb-4462-bbbc-07efaed112c0")
+		)
+		(pin "4"
+			(uuid "e30c23cc-4c5d-45dd-b477-e776252e5413")
+		)
+		(pin "3"
+			(uuid "1196fa77-13d3-4070-84b5-0e9c43ea5c14")
+		)
+		(pin "6"
+			(uuid "b2bd4b81-5345-47a0-ae05-b240b7e05119")
+		)
+		(pin "7"
+			(uuid "3be725a0-ef77-4065-adf9-82988c08fb5d")
+		)
+		(pin "8"
+			(uuid "4ee537e7-21c7-49e6-a11e-58fd205a3683")
+		)
+		(pin "5"
+			(uuid "07380a9e-a7a0-44af-ab07-3afdcdbacd98")
+		)
+		(instances
+			(project ""
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/473ac791-b1b9-4029-b3bf-dcdd7bb809f7"
+					(reference "SW11")
+					(unit 4)
+				)
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/8df50db7-f715-4935-a0f9-d053a12e8abe"
+					(reference "SW11")
+					(unit 3)
+				)
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/9e63d1d7-077c-492b-8ed4-0ad38037f05a"
+					(reference "SW11")
+					(unit 2)
+				)
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/cf6627bb-bd84-4d9e-b011-633f72ceae80"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 137.16 38.1 0)
 		(unit 1)
@@ -2762,131 +3001,6 @@
 				)
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/cf6627bb-bd84-4d9e-b011-633f72ceae80"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 62.23 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "485fe1dc-40c8-4f36-9595-da59da2309d1")
-		(property "Reference" "SW7"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 62.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 62.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 62.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 62.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "r=1M"
-			(at 62.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 62.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 62.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6af5eef2-aa4a-44d1-ad18-7515df09a4ed")
-		)
-		(pin "1"
-			(uuid "0d14503a-ef3f-4c93-86b6-3b5e6d026d6c")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/473ac791-b1b9-4029-b3bf-dcdd7bb809f7"
-					(reference "SW7")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/8df50db7-f715-4935-a0f9-d053a12e8abe"
-					(reference "SW5")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/9e63d1d7-077c-492b-8ed4-0ad38037f05a"
-					(reference "SW4")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/cf6627bb-bd84-4d9e-b011-633f72ceae80"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
