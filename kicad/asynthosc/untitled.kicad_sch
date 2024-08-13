@@ -1390,7 +1390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a12db33-e9e2-4d23-97b0-0e144f4346c8")
-		(property "Reference" "U8"
+		(property "Reference" "U12"
 			(at 250.19 44.4814 0)
 			(effects
 				(font
@@ -1478,6 +1478,14 @@
 		(pin "2"
 			(uuid "133db9c6-1955-4996-b237-5ade5b729636")
 		)
+		(instances
+			(project ""
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148WT")
@@ -1489,7 +1497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60889456-1b78-47aa-9ba0-0e657119168b")
-		(property "Reference" "D12"
+		(property "Reference" "D15"
 			(at 222.25 50.7999 90)
 			(effects
 				(font
@@ -1561,7 +1569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Diodes Inc"
+		(property "Manufacturer" "LGE"
 			(at 219.71 52.07 0)
 			(effects
 				(font
@@ -1588,7 +1596,7 @@
 		(instances
 			(project ""
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
-					(reference "D12")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -1719,6 +1727,14 @@
 		(pin "T"
 			(uuid "3305ae2c-e370-4fd4-bed9-7cedfa27384e")
 		)
+		(instances
+			(project ""
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1730,7 +1746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "755c4d84-671e-47a4-8797-72bbd1c26052")
-		(property "Reference" "R64"
+		(property "Reference" "R68"
 			(at 212.09 41.91 90)
 			(effects
 				(font
@@ -1791,11 +1807,28 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_generic_"
+			(at 212.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22631e45-e9b0-48cb-bcdb-4ed4bbf9d951")
 		)
 		(pin "2"
 			(uuid "35a58b3b-bc30-46a4-8d32-fdf64717657b")
+		)
+		(instances
+			(project ""
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
+					(reference "R68")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1808,7 +1841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bb05c60-b222-47af-9c1b-f63c78dcd3ca")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 204.47 43.6879 0)
 			(effects
 				(font
@@ -1872,8 +1905,25 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 201.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9357dabf-7079-4d06-8cad-f5038a940cfc")
+		)
+		(instances
+			(project ""
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1886,7 +1936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a7840b0-6ab8-4f33-bb08-322131cb7ce8")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0116"
 			(at 240.03 39.37 0)
 			(effects
 				(font
@@ -1936,7 +1986,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
-					(reference "#PWR091")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -1952,7 +2002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af25b214-ae2e-45ef-8450-36061b7514f8")
-		(property "Reference" "R63"
+		(property "Reference" "R69"
 			(at 257.81 43.1799 0)
 			(effects
 				(font
@@ -2015,6 +2065,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_generic_"
+			(at 255.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75e1a5ca-933f-4952-838f-ab597e24ff00")
 		)
@@ -2024,7 +2083,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
-					(reference "R63")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -2040,7 +2099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff628fba-ac10-4f33-af74-f29fcaf9385f")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0117"
 			(at 240.03 64.77 0)
 			(effects
 				(font
@@ -2091,7 +2150,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
-					(reference "#PWR090")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
