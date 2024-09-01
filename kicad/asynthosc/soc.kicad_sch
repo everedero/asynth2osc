@@ -5493,16 +5493,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 85.09 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30855535-7bff-4320-acc4-2fff5d5e0059")
-	)
-	(wire
-		(pts
 			(xy 36.83 27.94) (xy 43.18 27.94)
 		)
 		(stroke
@@ -5650,16 +5640,6 @@
 			(type default)
 		)
 		(uuid "4dd3aacc-1f9a-4ce4-a1bc-823b08672d49")
-	)
-	(wire
-		(pts
-			(xy 20.32 80.01) (xy 21.59 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f04253b-ac4e-4db8-9106-03d86382f9b8")
 	)
 	(wire
 		(pts
@@ -6881,16 +6861,6 @@
 		)
 		(uuid "5bde5cbc-17ea-4208-876f-b0580d7a0169")
 	)
-	(text "No power supervisor needed"
-		(exclude_from_sim no)
-		(at 27.94 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7d70a1c7-08ac-4da0-922a-434c67da459c")
-	)
 	(text "144P: STM32H723ZGTx\n100P: STM32H723VGT6"
 		(exclude_from_sim no)
 		(at 89.916 246.888 0)
@@ -7139,17 +7109,6 @@
 			(justify right bottom)
 		)
 		(uuid "56e035fa-2833-4b52-a3c2-712b7d31755b")
-	)
-	(label "PDR_ON"
-		(at 77.47 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57b1a1a5-5dae-4ff9-b40d-d6be122265d1")
 	)
 	(label "RMII_CRS_DV"
 		(at 156.21 69.85 0)
@@ -7612,17 +7571,6 @@
 			(justify left bottom)
 		)
 		(uuid "e83145c2-b908-417b-bf0a-0ec5df541ae6")
-	)
-	(label "PDR_ON"
-		(at 29.21 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea052e62-b044-4c67-be2c-289ef9de02fe")
 	)
 	(label "JTCK_CONN"
 		(at 303.53 87.63 0)
@@ -12012,168 +11960,6 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 20.32 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a33a2123-bde0-49a1-810b-be4dd0e7eef4")
-		(property "Reference" "#PWR028"
-			(at 20.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f27eaa96-6e57-402f-a839-fa474d876c7c")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 25.4 80.01 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a548a1af-8118-4bb3-baf7-b2e2baef8e0f")
-		(property "Reference" "JP3"
-			(at 25.908 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 26.6699 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "asynthosc:SolderJumper_0402_1005Metric_Bridged"
-			(at 25.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 25.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 25.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 25.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RefNum" "_na_"
-			(at 25.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c622ba86-f8ac-4077-a724-7fcd5f2b19e8")
-		)
-		(pin "2"
-			(uuid "fb7287e8-1b36-4df1-a03c-0d0210772a45")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
