@@ -290,6 +290,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 121.92) (xy 196.85 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2674593e-5520-4079-8894-4018ed983a2c")
+	)
+	(wire
+		(pts
 			(xy 182.88 95.25) (xy 196.85 95.25)
 		)
 		(stroke
@@ -2804,6 +2814,16 @@
 			)
 			(uuid "a9743157-60df-4b84-a748-6192b00d442f")
 		)
+		(pin "BTN_ROT" output
+			(at 196.85 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39be49d0-fd62-44f8-9f8a-0e131e9f231b")
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -3121,6 +3141,16 @@
 				(justify left)
 			)
 			(uuid "7b5060db-bcc8-4d63-b08e-96f662fdde35")
+		)
+		(pin "BTN_ROT" input
+			(at 176.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7c77468-305a-48eb-8643-fede560818b4")
 		)
 		(instances
 			(project "asynthosc"

@@ -5246,10 +5246,6 @@
 		(uuid "56201b36-f4f0-4ad6-8cad-50f36fc0a5e3")
 	)
 	(no_connect
-		(at 152.4 72.39)
-		(uuid "64ee1952-9371-4df5-8895-10413fcd45e1")
-	)
-	(no_connect
 		(at 101.6 100.33)
 		(uuid "67937a4d-bd54-4b0e-ad98-716458b01935")
 	)
@@ -5392,6 +5388,16 @@
 			(type default)
 		)
 		(uuid "1516bd48-e7ca-4c9b-bf69-e40a35c3022d")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d5f11a-f3b9-4751-931d-b5c25430da3b")
 	)
 	(wire
 		(pts
@@ -8338,6 +8344,18 @@
 			(justify left)
 		)
 		(uuid "91f61477-f036-442e-8742-d94c5b8a8b04")
+	)
+	(hierarchical_label "BTN_ROT"
+		(shape input)
+		(at 170.18 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "933431e3-29f6-43b0-8921-09110f2c4f3d")
 	)
 	(hierarchical_label "DISP_nCS"
 		(shape output)
