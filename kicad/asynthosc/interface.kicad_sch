@@ -3120,6 +3120,16 @@
 		)
 		(uuid "fec9c3f0-e82d-4c3b-a287-2b6e9d4b22b4")
 	)
+	(text "X242-2864KLBUG01-C24"
+		(exclude_from_sim no)
+		(at 215.9 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07e6a41a-c1ea-4863-a3a8-d50041606d5c")
+	)
 	(text "Display decoupling\n"
 		(exclude_from_sim no)
 		(at 180.086 14.478 0)
@@ -3130,6 +3140,26 @@
 		)
 		(uuid "09069ea1-cc57-4a5c-b80f-40b9c4ea8ff1")
 	)
+	(text "Smaller:"
+		(exclude_from_sim no)
+		(at 208.026 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d380e68-774a-4e58-bfbc-67a0648407f9")
+	)
+	(text "X154-2864KSWBG01-C24  "
+		(exclude_from_sim no)
+		(at 217.17 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "299a27cf-4dc6-4b68-95ed-dd9d6e934756")
+	)
 	(text "Alps EC11E18244AU"
 		(exclude_from_sim no)
 		(at 64.516 104.902 0)
@@ -3139,6 +3169,26 @@
 			)
 		)
 		(uuid "3966a1de-c82e-429d-886d-a3052995e89c")
+	)
+	(text "X242-2864KSYUG01-C24"
+		(exclude_from_sim no)
+		(at 215.9 120.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "412ddd0a-8ebb-4c63-8ff4-2404aee1aa39")
+	)
+	(text "X223-2832ALBCG02-C24 "
+		(exclude_from_sim no)
+		(at 216.662 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77962d3a-ed95-4939-a60b-114f8a1ce7cf")
 	)
 	(text "Min 68 Ohms"
 		(exclude_from_sim no)
@@ -3169,6 +3219,16 @@
 			)
 		)
 		(uuid "8ea283ec-3a01-498c-83da-10f0b27ea440")
+	)
+	(text "Alternatives to:"
+		(exclude_from_sim no)
+		(at 211.074 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9be50f40-61f5-441e-b72a-818d39e93337")
 	)
 	(text "Rotary: https://www.lcsc.com/product-detail/Rotary-Encoders_ALPSALPINE-EC21A1520407_C127463.html\nNeed to 3D print a piece"
 		(exclude_from_sim no)

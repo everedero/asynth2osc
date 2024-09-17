@@ -103,7 +103,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 120.5 44)
 		(pcbplotparams
-			(layerselection 0x0011000_fffffff8)
+			(layerselection 0x0011500_fffffff8)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -135,7 +135,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 3)
 			(mirror no)
-			(drillshape 2)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "../gerbers/")
 		)
@@ -74611,7 +74611,7 @@
 			(xy 86.0825 150) (xy 86 44)
 		)
 		(height -42.084344)
-		(gr_text "106,0000 mm"
+		(gr_text "106.0000 mm"
 			(at 45.106919 97.031859 -89.9554066)
 			(layer "Dwgs.User")
 			(uuid "ba1c8903-94a2-4501-93f8-efa24889da29")
@@ -74644,7 +74644,7 @@
 			(xy 155 150) (xy 86 150)
 		)
 		(height -6.3)
-		(gr_text "69,0000 mm"
+		(gr_text "69.0000 mm"
 			(at 120.5 155.15 0)
 			(layer "Dwgs.User")
 			(uuid "f51fdb3f-530e-406c-94de-8d625c1d51dc")
@@ -74677,7 +74677,7 @@
 			(xy 92.5 36.2) (xy 85 36.2)
 		)
 		(height 6.199999)
-		(gr_text "7,5000 mm"
+		(gr_text "7.5000 mm"
 			(at 88.75 28.850001 0)
 			(layer "Eco1.User")
 			(uuid "23929c4f-1e62-49ef-9bea-ab3dbedfba60")
@@ -74710,7 +74710,7 @@
 			(xy 85 33.2) (xy 156.12 33.2)
 		)
 		(height -9)
-		(gr_text "71,1200 mm"
+		(gr_text "71.1200 mm"
 			(at 120.56 23.05 0)
 			(layer "Eco1.User")
 			(uuid "60f1b179-9fb1-4d41-a4f6-0ba8676e66bb")
@@ -74743,7 +74743,7 @@
 			(xy 92.47 36.2) (xy 92.47 33.2)
 		)
 		(height 4.93)
-		(gr_text "3,0000 mm"
+		(gr_text "3.0000 mm"
 			(at 99.4 34.705 90)
 			(layer "Eco1.User")
 			(uuid "9655c551-284f-448e-bc05-242b2b22c113")
@@ -74776,7 +74776,7 @@
 			(xy 85 33.2) (xy 85 161.6)
 		)
 		(height 30.2)
-		(gr_text "128,4000 mm"
+		(gr_text "128.4000 mm"
 			(at 53.65 97.4 90)
 			(layer "Eco1.User")
 			(uuid "aef4c058-fa6a-44a5-bf8d-54d8226874d6")
