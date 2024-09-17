@@ -41202,7 +41202,7 @@
 	(footprint "asynthosc:MouseBytes_JLC"
 		(layer "F.Cu")
 		(uuid "b0492e28-f796-4d57-b929-9daa66b26e7a")
-		(at 86 45.5 -90)
+		(at 86 55.75 -90)
 		(property "Reference" "MB4"
 			(at 0.6 -1.6 -90)
 			(unlocked yes)
@@ -76725,89 +76725,26 @@
 		(layer "Eco1.User")
 		(uuid "e0b9788b-0fcc-4a0d-89ac-281dd0969659")
 	)
-	(gr_line
-		(start 86 150)
-		(end 155 150)
-		(locked yes)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "08c0692f-3407-4acf-b6b1-d95d94241e67")
-	)
-	(gr_line
-		(start 155 150)
-		(end 155 44)
-		(locked yes)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "48f62396-098c-444a-a517-dab802698aa9")
-	)
-	(gr_line
-		(start 88.5 54)
-		(end 86 54)
+	(gr_rect
+		(start 79 44)
+		(end 162 150)
 		(stroke
 			(width 0.0381)
 			(type default)
 		)
+		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "8608e95c-bcc3-435c-a889-f69d74200281")
-	)
-	(gr_line
-		(start 86 48)
-		(end 88.5 48)
-		(stroke
-			(width 0.0381)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "a422135b-51d7-48c5-a3cc-b2285eb11645")
-	)
-	(gr_arc
-		(start 88.5 48)
-		(mid 91.5 51)
-		(end 88.5 54)
-		(stroke
-			(width 0.0381)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "a6c152f8-a2f0-43de-9fc8-1a30fdeb6d87")
-	)
-	(gr_line
-		(start 86 44)
-		(end 86 48)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "a9b47963-b689-4eea-b759-cd87acd2bb8b")
+		(uuid "ffd149f5-fb82-41f4-962e-ee19ecb91d52")
 	)
 	(gr_line
 		(start 155 44)
 		(end 86 44)
-		(locked yes)
 		(stroke
 			(width 0.254)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
-		(uuid "cc74847e-a144-41b0-b9ef-5a57accf5177")
-	)
-	(gr_line
-		(start 86 54)
-		(end 86 150)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d11ecada-e24b-4e93-96d4-989a4137333c")
+		(layer "F.Fab")
+		(uuid "1869ecca-0820-48db-9597-254ed3b08527")
 	)
 	(gr_line
 		(start 79 150)
@@ -76818,6 +76755,16 @@
 		)
 		(layer "F.Fab")
 		(uuid "2107d1af-00e2-41ba-8c01-c5518409a8f7")
+	)
+	(gr_line
+		(start 86 44)
+		(end 86 48)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "42e9f2e8-d0c1-4e89-a424-c88c731325ad")
 	)
 	(gr_line
 		(start 155 150)
@@ -76850,7 +76797,7 @@
 		(uuid "5f720a2d-9b26-49c1-bdd0-4a808f25ab33")
 	)
 	(gr_line
-		(start 86 44)
+		(start 85 44)
 		(end 79 44)
 		(stroke
 			(width 0.5)
@@ -76858,6 +76805,16 @@
 		)
 		(layer "F.Fab")
 		(uuid "72445930-b496-4eb3-8833-54c538d38f7c")
+	)
+	(gr_line
+		(start 88.5 54)
+		(end 86 54)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8608e95c-bcc3-435c-a889-f69d74200281")
 	)
 	(gr_line
 		(start 162 150)
@@ -76870,8 +76827,59 @@
 		(uuid "8f6d422d-ab36-4de7-bc66-c692f05e9624")
 	)
 	(gr_line
+		(start 86 48)
+		(end 88.5 48)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a422135b-51d7-48c5-a3cc-b2285eb11645")
+	)
+	(gr_arc
+		(start 88.5 48)
+		(mid 91.5 51)
+		(end 88.5 54)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a6c152f8-a2f0-43de-9fc8-1a30fdeb6d87")
+	)
+	(gr_line
+		(start 86 54)
+		(end 86 150)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9b26f71-b027-48cf-a715-85789b758e4e")
+	)
+	(gr_line
+		(start 86 150)
+		(end 155 150)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca913e1a-b809-4fff-9cbf-bbbf27bf2adf")
+	)
+	(gr_line
+		(start 155 150)
+		(end 155 44)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5dbe470-f2a0-4129-8076-42ce64921fc5")
+	)
+	(gr_line
 		(start 156 79)
-		(end 156 54)
+		(end 156 51)
 		(stroke
 			(width 2)
 			(type default)
@@ -76889,6 +76897,37 @@
 		(layer "User.3")
 		(uuid "4746536b-c0d5-48bb-b15d-37babc42d6ff")
 	)
+	(gr_arc
+		(start 88.5 49)
+		(mid 90.5 51)
+		(end 88.5 53)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "490a2422-3804-469d-995d-587091806652")
+	)
+	(gr_line
+		(start 85 49)
+		(end 88.25 49)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "67bc2185-92c2-42db-bb14-449ee1b9e63a")
+	)
+	(gr_line
+		(start 85.25 53)
+		(end 88.25 53)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "7759a8c1-42ba-4413-aa8d-fc926a256dba")
+	)
 	(gr_line
 		(start 156 108.5)
 		(end 156 86.5)
@@ -76898,6 +76937,16 @@
 		)
 		(layer "User.3")
 		(uuid "83be8d7c-19f8-4ade-bb38-3151459ca07b")
+	)
+	(gr_line
+		(start 85.25 54.5)
+		(end 85.25 53)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "98c34f3e-cd90-48d4-86aa-e9a3870f7561")
 	)
 	(gr_line
 		(start 85 143)
@@ -76921,13 +76970,23 @@
 	)
 	(gr_line
 		(start 85 79)
-		(end 85 52)
+		(end 85 62)
 		(stroke
 			(width 2)
 			(type default)
 		)
 		(layer "User.3")
 		(uuid "ce77cf41-f3dd-4c63-8e80-74cf26699ee8")
+	)
+	(gr_line
+		(start 85 49)
+		(end 85 44)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "fcaea88c-6290-4be6-a70c-18fbfb47797d")
 	)
 	(gr_text "CV3"
 		(at 152 118 0)
@@ -80765,7 +80824,7 @@
 			(xy 86.0825 150) (xy 86 44)
 		)
 		(height -42.084344)
-		(gr_text "106,0000 mm"
+		(gr_text "106.0000 mm"
 			(at 45.106919 97.031859 -89.9554066)
 			(layer "Dwgs.User")
 			(uuid "ba1c8903-94a2-4501-93f8-efa24889da29")
@@ -80798,7 +80857,7 @@
 			(xy 155 150) (xy 86 150)
 		)
 		(height -6.3)
-		(gr_text "69,0000 mm"
+		(gr_text "69.0000 mm"
 			(at 120.5 155.15 0)
 			(layer "Dwgs.User")
 			(uuid "f51fdb3f-530e-406c-94de-8d625c1d51dc")
@@ -80831,7 +80890,7 @@
 			(xy 92.5 36.2) (xy 85 36.2)
 		)
 		(height 6.199999)
-		(gr_text "7,5000 mm"
+		(gr_text "7.5000 mm"
 			(at 88.75 28.850001 0)
 			(layer "Eco1.User")
 			(uuid "23929c4f-1e62-49ef-9bea-ab3dbedfba60")
@@ -80864,7 +80923,7 @@
 			(xy 85 33.2) (xy 156.12 33.2)
 		)
 		(height -9)
-		(gr_text "71,1200 mm"
+		(gr_text "71.1200 mm"
 			(at 120.56 23.05 0)
 			(layer "Eco1.User")
 			(uuid "60f1b179-9fb1-4d41-a4f6-0ba8676e66bb")
@@ -80897,7 +80956,7 @@
 			(xy 92.47 36.2) (xy 92.47 33.2)
 		)
 		(height 4.93)
-		(gr_text "3,0000 mm"
+		(gr_text "3.0000 mm"
 			(at 99.4 34.705 90)
 			(layer "Eco1.User")
 			(uuid "9655c551-284f-448e-bc05-242b2b22c113")
@@ -80930,7 +80989,7 @@
 			(xy 85 33.2) (xy 85 161.6)
 		)
 		(height 30.2)
-		(gr_text "128,4000 mm"
+		(gr_text "128.4000 mm"
 			(at 53.65 97.4 90)
 			(layer "Eco1.User")
 			(uuid "aef4c058-fa6a-44a5-bf8d-54d8226874d6")
