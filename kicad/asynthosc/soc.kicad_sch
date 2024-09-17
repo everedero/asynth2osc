@@ -5214,12 +5214,84 @@
 		(uuid "fd82b2c3-111c-4c65-a857-28ea0d4b7a5e")
 	)
 	(no_connect
+		(at 101.6 95.25)
+		(uuid "0692502a-910e-44d8-9d7d-8e4817220a1f")
+	)
+	(no_connect
+		(at 152.4 173.99)
+		(uuid "0d604ad1-b8ba-4108-a24d-b0c44145553f")
+	)
+	(no_connect
+		(at 101.6 143.51)
+		(uuid "151f3f8c-1752-4814-ba85-65318cfb421f")
+	)
+	(no_connect
+		(at 101.6 102.87)
+		(uuid "296b679c-8659-401a-a561-7c315bbcf06d")
+	)
+	(no_connect
+		(at 101.6 153.67)
+		(uuid "40d3256e-f6a8-4df5-a6b2-c16b8af4007e")
+	)
+	(no_connect
+		(at 152.4 110.49)
+		(uuid "429a2ab9-da2d-4f72-85a2-73ff1914cb6a")
+	)
+	(no_connect
 		(at 336.55 137.16)
 		(uuid "50def802-ee70-46fb-9f94-f480ba62325b")
 	)
 	(no_connect
+		(at 101.6 120.65)
+		(uuid "56201b36-f4f0-4ad6-8cad-50f36fc0a5e3")
+	)
+	(no_connect
+		(at 152.4 72.39)
+		(uuid "64ee1952-9371-4df5-8895-10413fcd45e1")
+	)
+	(no_connect
+		(at 101.6 100.33)
+		(uuid "67937a4d-bd54-4b0e-ad98-716458b01935")
+	)
+	(no_connect
 		(at 323.85 134.62)
 		(uuid "72c00e12-a310-4d05-a67d-41f71608f3f4")
+	)
+	(no_connect
+		(at 152.4 113.03)
+		(uuid "777e0926-ba48-42f7-958b-3914a86eed79")
+	)
+	(no_connect
+		(at 152.4 171.45)
+		(uuid "77ea8afd-38f3-46f8-b365-686ddb52815b")
+	)
+	(no_connect
+		(at 101.6 97.79)
+		(uuid "7db808c7-b517-46c0-a430-eff2f3a3d343")
+	)
+	(no_connect
+		(at 101.6 113.03)
+		(uuid "9cbfc35e-4af6-437d-81c4-8e81ea9408a6")
+	)
+	(no_connect
+		(at 101.6 135.89)
+		(uuid "9e8b953f-ac4c-4b04-91a3-8ad4ee8b0851")
+	)
+	(no_connect
+		(at 101.6 107.95)
+		(uuid "ae151cf7-0f24-45bd-b64c-d5a5b56d61f1")
+	)
+	(no_connect
+		(at 152.4 176.53)
+		(uuid "ba14c3d3-9c65-40cd-bf78-6425ac9b9cf9")
+	)
+	(no_connect
+		(at 152.4 107.95)
+		(uuid "f0a6276b-2a86-496a-995a-c3fc98e75e75")
+	)
+	(no_connect
+		(at 101.6 105.41)
+		(uuid "f61132ef-6725-47a4-bcb9-8ac3f02e1df7")
 	)
 	(wire
 		(pts
@@ -5770,16 +5842,6 @@
 			(type default)
 		)
 		(uuid "50e3b89d-d80b-4024-8754-16b2c308d07c")
-	)
-	(wire
-		(pts
-			(xy 92.71 97.79) (xy 101.6 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522b32d6-82c5-43fe-9561-33a8aff19dc0")
 	)
 	(wire
 		(pts
@@ -7033,16 +7095,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 95.25) (xy 101.6 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3335d92-db96-4139-b668-2b14f2861e89")
-	)
-	(wire
-		(pts
 			(xy 321.31 78.74) (xy 321.31 81.28)
 		)
 		(stroke
@@ -7080,16 +7132,6 @@
 			(type default)
 		)
 		(uuid "f7f6c3fa-329a-4849-a2b7-0b88266a3c30")
-	)
-	(wire
-		(pts
-			(xy 92.71 105.41) (xy 101.6 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f96619b6-46d2-4c35-815e-c079b1973f5f")
 	)
 	(wire
 		(pts
@@ -7262,17 +7304,6 @@
 		)
 		(uuid "05dba98e-357a-44b3-b3fc-d8326c02ef38")
 	)
-	(label "USB_SOF"
-		(at 173.99 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a1a1208-d4fc-4782-8947-083d3039e2d1")
-	)
 	(label "JTMS"
 		(at 361.95 86.36 0)
 		(fields_autoplaced yes)
@@ -7306,7 +7337,7 @@
 		)
 		(uuid "11ae633c-5820-4f84-a29c-f55dc9a63bf5")
 	)
-	(label "NRST"
+	(label "nRST"
 		(at 361.95 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7394,7 +7425,7 @@
 		)
 		(uuid "24f1d379-52d8-4f39-a03c-7fca9cde837a")
 	)
-	(label "NRST"
+	(label "nRST"
 		(at 163.83 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7482,7 +7513,7 @@
 		)
 		(uuid "43807d6d-1cde-4f47-8b3b-89cd52ffd340")
 	)
-	(label "NRST"
+	(label "nRST"
 		(at 82.55 52.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8032,7 +8063,7 @@
 		)
 		(uuid "dc0c38da-2921-4da4-8a2f-2931aafecc7e")
 	)
-	(label "NRST"
+	(label "nRST"
 		(at 218.44 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8188,30 +8219,6 @@
 		)
 		(uuid "1ac1da4a-f4ba-47f5-9be7-aa730a7eae5a")
 	)
-	(hierarchical_label "TIM1_CH1"
-		(shape input)
-		(at 92.71 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "208e5148-5b81-438a-8424-e5c1b0b17624")
-	)
-	(hierarchical_label "TIM15_CH2"
-		(shape input)
-		(at 92.71 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b221611-a187-4ae5-a65a-9178092313ed")
-	)
 	(hierarchical_label "USB_ID"
 		(shape input)
 		(at 170.18 77.47 0)
@@ -8271,18 +8278,6 @@
 			(justify left)
 		)
 		(uuid "4558cc38-457e-48f2-889c-d680154f2e49")
-	)
-	(hierarchical_label "ADC1_IN8"
-		(shape input)
-		(at 167.64 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5245fd5d-4420-47db-818c-84f5af09ded5")
 	)
 	(hierarchical_label "TIM1_CH3"
 		(shape input)
@@ -8535,18 +8530,6 @@
 			(justify left)
 		)
 		(uuid "f88c5b25-c312-4cf5-80af-618d34b8824a")
-	)
-	(hierarchical_label "TIM15_CH1"
-		(shape input)
-		(at 92.71 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8e443b4-c22b-4c6e-9ce8-b5f2b1798c8d")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
@@ -10324,6 +10307,72 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 144.78 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43952906-8057-4dbf-8f6e-e2f5e7ecf18f")
+		(property "Reference" "#PWR0156"
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 144.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4e175b7-0f8e-4057-ba99-87108b3e098e")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -15330,6 +15379,103 @@
 			(project ""
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 140.97 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f398a501-2625-4fc1-980f-f7e76d635417")
+		(property "Reference" "JP11"
+			(at 144.526 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 139.7001 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "asynthosc:SolderJumper_0402_1005Metric_Bridged"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d137ea9-ffd0-4bb0-9a55-f90f520fec71")
+		)
+		(pin "2"
+			(uuid "b96397e5-d73a-48ec-bd8a-fae9121bf946")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
+					(reference "JP11")
 					(unit 1)
 				)
 			)

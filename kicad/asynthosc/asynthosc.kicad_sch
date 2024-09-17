@@ -198,18 +198,6 @@
 		(color 0 0 0 0)
 		(uuid "edbadacc-7b6d-429a-9690-77e83b77852a")
 	)
-	(no_connect
-		(at 127 114.3)
-		(uuid "a701f4a9-1edd-4e01-8a06-cdffdf642550")
-	)
-	(no_connect
-		(at 127 111.76)
-		(uuid "cb1f45e2-5b4c-43c1-9441-4b6462b04634")
-	)
-	(no_connect
-		(at 176.53 78.74)
-		(uuid "ff652073-45ad-446d-906a-7026918aadc9")
-	)
 	(wire
 		(pts
 			(xy 107.95 123.19) (xy 107.95 133.35)
@@ -462,6 +450,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d00bcfe-dd56-45a5-95b7-bdf740d36a8c")
+	)
+	(wire
+		(pts
 			(xy 115.57 104.14) (xy 120.65 104.14)
 		)
 		(stroke
@@ -519,6 +517,16 @@
 			(type default)
 		)
 		(uuid "94d64f28-25c1-4e89-a1c0-71350b79bba7")
+	)
+	(wire
+		(pts
+			(xy 176.53 78.74) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974ea312-3501-43bb-abc9-0d3f555944eb")
 	)
 	(wire
 		(pts
@@ -1407,6 +1415,101 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 180.34 78.74 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77365050-604b-47e2-a9a9-42e3bb67c028")
+		(property "Reference" "TP32"
+			(at 182.88 82.0419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 177.8 80.7721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "388287a0-1efe-4284-9daa-7a69948de129")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 114.3 90.17 180)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1495,6 +1598,101 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 114.3 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bc9e9dd-8a1e-4ad6-a0b7-7b7d51918fd3")
+		(property "Reference" "TP31"
+			(at 123.19 117.6019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 118.11 116.3321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d196e46-4146-4d92-b2b1-d76109853ede")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -2694,16 +2892,6 @@
 			)
 			(uuid "4f698ec8-6c8b-4f9e-af26-3ee020aae582")
 		)
-		(pin "ADC1_IN8" input
-			(at 127 111.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8951a5e0-85cb-4f92-852b-483132e047be")
-		)
 		(pin "ADC1_IN0" input
 			(at 127 101.6 180)
 			(effects
@@ -2853,36 +3041,6 @@
 				(justify right)
 			)
 			(uuid "7b313789-5003-4e5c-8027-f06c15d96a13")
-		)
-		(pin "TIM1_CH1" input
-			(at 127 128.27 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "027b5214-fc1b-4de4-a3a8-07b6f86c4c5e")
-		)
-		(pin "TIM15_CH2" input
-			(at 176.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "90cff282-afdf-49b7-b68e-f6252d246c1e")
-		)
-		(pin "TIM15_CH1" input
-			(at 176.53 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f6bf3ec0-9d46-4b9a-a2e8-99d1f9a7e758")
 		)
 		(pin "ROT_A" input
 			(at 176.53 109.22 0)
