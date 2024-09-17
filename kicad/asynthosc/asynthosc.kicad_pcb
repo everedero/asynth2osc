@@ -17,7 +17,7 @@
 		(0 "F.Cu" signal "Front")
 		(1 "In1.Cu" signal)
 		(2 "In2.Cu" signal)
-		(31 "B.Cu" signal "Back")
+		(31 "B.Cu" jumper "Back")
 		(34 "B.Paste" user)
 		(35 "F.Paste" user)
 		(36 "B.SilkS" user "B.Silkscreen")
@@ -35,6 +35,7 @@
 		(49 "F.Fab" user)
 		(50 "User.1" user "F.User.Silkscreen")
 		(51 "User.2" user "B.User.Silkscreen")
+		(52 "User.3" user "Drill")
 	)
 	(setup
 		(stackup
@@ -1668,6 +1669,235 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "0f18947c-85aa-435e-9741-e137ca9e75e0")
+		(at 82.5 51)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "FID3"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "a4903ea5-7376-4b03-bb79-504bae6913ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "dc3d8702-90d8-4131-9b25-5a593963c78f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aef9964c-beea-4ffa-90ac-c85c22fcda13")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7611824c-a4a0-422c-b79a-b7a20ec34ace")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c099a878-0bc9-4a72-8cb7-4333985a2424")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/0cf487d4-0593-424a-9bb3-67e4991408a4")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b7bcc330-4dc1-428f-89c2-d45e47081f0e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "bdc6d0b1-a6d8-4405-8471-a5d369e9d153")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f30301e9-804f-46c7-9557-87f0d9f1dc82")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "fe386101-2332-41c7-a298-5ae89f1e4858")
+		)
+	)
+	(footprint "asynthosc:MouseBytes_JLC"
+		(layer "F.Cu")
+		(uuid "0f1ef6a5-2455-4d72-8f1e-8c9ab05feb6a")
+		(at 155 114.5 90)
+		(property "Reference" "MB3"
+			(at 0.6 -1.6 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7b5f093e-276c-4c11-9881-b15f22b7f9e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MouseBytes"
+			(at -0.3 1.1 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1c6b76ed-1b91-456d-a011-c7d4b6f3c7f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MouseBytes_JLC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "950c343b-3336-42eb-90d1-2fddbaf6b0c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6524cdd-2ef5-476f-829a-0590541607d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mouse Bytes"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "161f3724-0bac-423d-ab79-91460a52830a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MouseBytes*")
+		(path "/e7a64158-2d61-4b49-9c97-2c83d48c2539")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "6f009c00-e5b3-43ce-be15-92d6267b937b")
+		)
+		(pad "" np_thru_hole circle
+			(at 1 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "97cc209c-7c5e-45c0-ac62-a480d7ce617b")
+		)
+		(pad "" np_thru_hole circle
+			(at 2 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "3bc6e42a-8cf5-44b8-acd1-1f757f9b29c7")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "ca2636a2-6a42-4888-8cfc-0677b7c874f3")
+		)
+		(pad "" np_thru_hole circle
+			(at 4 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "33d2982d-c6d5-4bc4-869b-8b0e8f637ccf")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "8822c5b5-afec-4c03-99b6-1b007253e32e")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
@@ -3868,7 +4098,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/354f1097-74a0-4bc1-8721-d2c0e4c9dab3/589e25de-5f17-407a-be64-8e1970fc7437")
 		(sheetname "Ethernet")
 		(sheetfile "ethernet.kicad_sch")
-		(attr smd allow_soldermask_bridges)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_line
 			(start -0.24 0)
@@ -6002,6 +6232,121 @@
 			)
 		)
 	)
+	(footprint "asynthosc:MouseBytes_JLC"
+		(layer "F.Cu")
+		(uuid "1f900604-1a69-4236-bec6-8c3dd19548e3")
+		(at 155 144 -90)
+		(property "Reference" "MB8"
+			(at 0.6 -1.6 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "acab5871-c37d-4609-a8e0-66b562a2425e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MouseBytes"
+			(at -0.3 1.1 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c0ac5349-b501-4c62-9a55-ac10ba10d116")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MouseBytes_JLC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed9ea22a-0e91-43d9-a087-81c083e8c6ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40fa4b8b-2083-4c6e-a08e-cf05f0364747")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mouse Bytes"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fae1de33-4344-42cc-836e-89034e2dd54b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MouseBytes*")
+		(path "/8646e715-684b-4612-9988-89aa68b18e35")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(pad "" np_thru_hole circle
+			(at 0 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "a58ada31-1149-4580-99ff-2e949ed45940")
+		)
+		(pad "" np_thru_hole circle
+			(at 1 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "f5d094a8-ef65-4b80-a65a-e42be738568b")
+		)
+		(pad "" np_thru_hole circle
+			(at 2 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "5f990ff8-1634-4ed0-89ee-c77a5093eb77")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "65248123-f21d-488c-a82f-6dea209e7a4d")
+		)
+		(pad "" np_thru_hole circle
+			(at 4 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "efddd11c-982f-4e93-a1da-d454b598f47f")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "6f6f5e2c-0039-483f-8230-2184f2c6391f")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "213a4856-76bf-4017-a7c4-52ba9b0f6ab7")
@@ -7055,14 +7400,14 @@
 			(at -1.27 6.35 180)
 			(size 3.65 3.65)
 			(drill 3.25)
-			(layers "F&B.Cu" "*.SilkS" "*.Mask")
+			(layers "*.Cu" "*.SilkS" "*.Mask")
 			(uuid "e8cd3f19-64fc-4457-a746-90421f1f64bc")
 		)
 		(pad "" np_thru_hole circle
 			(at 10.16 6.35 180)
 			(size 3.65 3.65)
 			(drill 3.25)
-			(layers "F&B.Cu" "*.SilkS" "*.Mask")
+			(layers "*.Cu" "*.SilkS" "*.Mask")
 			(uuid "75d19b09-a6b9-41b8-8ed2-63a424261da0")
 		)
 		(pad "1" thru_hole rect
@@ -8309,7 +8654,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/50313cdc-c179-4cb4-bf7a-46f093488aae")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr smd allow_soldermask_bridges)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_line
 			(start -0.24 0)
@@ -8785,6 +9130,121 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "asynthosc:MouseBytes_JLC"
+		(layer "F.Cu")
+		(uuid "314aaecb-4365-4951-9bb8-90772214b0a1")
+		(at 155 80 -90)
+		(property "Reference" "MB2"
+			(at 0.6 -1.6 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0cb0adf0-ac42-47ce-8b74-d9d9114ca67b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MouseBytes"
+			(at -0.3 1.1 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f5605fd6-36c7-486e-92eb-6046ff82bf30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MouseBytes_JLC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa798282-2be9-44a6-b88e-44aaf31dd530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5eab8cdd-6059-44e3-967c-123a61b7cd74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mouse Bytes"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eac3ce5-7967-472f-85bc-d00adb768d90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MouseBytes*")
+		(path "/fbbb717a-2995-444c-b44f-6e031a5e3c8e")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(pad "" np_thru_hole circle
+			(at 0 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "508972f6-220d-413c-b2fc-23dc56a9b83a")
+		)
+		(pad "" np_thru_hole circle
+			(at 1 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "32e9b045-9a85-4f41-bbc8-c0dd195ab21c")
+		)
+		(pad "" np_thru_hole circle
+			(at 2 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "ad87b5e7-c877-4123-bbd1-e2add7b45abe")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "420f11dc-e01c-4509-9d39-e85efa6b5b2b")
+		)
+		(pad "" np_thru_hole circle
+			(at 4 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "6a22f3bd-e757-4e16-b3c4-e5597197f3ba")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "636b8e48-890a-4849-bfc9-338b46dd15f4")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -9288,6 +9748,148 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "asynthosc:MountingHole_JLC_3.5mm"
+		(layer "F.Cu")
+		(uuid "33fdaad6-306b-48e2-8870-a95c84f43aa7")
+		(at 81.5 147)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H7"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c24c000d-9744-4743-892d-413fbc70e40f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "a741d7ae-76dc-489a-967a-e34be541a748")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MountingHole_JLC_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4108933-38e8-4273-9a29-7bd76afee96c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b483fccf-ef91-49a1-95f0-c55516ca01b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "367c07d3-ea10-455d-ab45-a559683c37d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/03ef2428-12d0-4f03-8352-5708cfb46573")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "73585513-e264-401c-953f-73b4df3a55fc")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "cddbb17e-8b2f-44a4-a69e-36b51a20c515")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f5ad7907-96de-41f3-ad35-b5893a04dccf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.3 1.3)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "eddbf8e2-19b3-4c3a-8b9b-98b784dfbc10")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layer "F.SilkS")
+			(uuid "2d942269-01ea-42d4-82e3-c01c9d0fa447")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 82.1 145.6) (xy 82.9 146.4) (xy 82.9 147.6) (xy 82.1 148.4) (xy 80.9 148.4) (xy 80.1 147.6)
+					(xy 80.1 146.4) (xy 80.9 145.6)
+				)
 			)
 		)
 	)
@@ -20022,7 +20624,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/bcae8a99-3e2f-400a-b774-026fe8bcf7b3")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 0.94 0)
 			(end 1.89 0)
@@ -20223,6 +20825,148 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "asynthosc:MountingHole_JLC_3.5mm"
+		(layer "F.Cu")
+		(uuid "5c274b12-e498-4226-9977-d707b57dd424")
+		(at 82.5 48)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H5"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "1703c85d-caa4-4989-8621-e37a8a9df09d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "11cc6db0-868d-4dc5-97a0-ab2705899733")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MountingHole_JLC_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a34db6e-7551-4297-a8a9-a6b7585567ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "471d5e8a-2815-4f05-b8dd-414a9508483e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43880b0b-825e-417e-b2a3-bb8e49cc3f27")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/e64fc6c5-71e4-41f3-b396-ac43dafecbb7")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "810e46ca-e4bd-4178-98d8-195cc38432f6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "52a9fbe2-e3d0-41fb-bb67-96f25ec6e4c0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "542f30db-d1c5-4218-9ae3-507596251b19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.3 1.3)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "71b4e007-b1bf-4293-8805-ee6e3a4764a2")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layer "F.SilkS")
+			(uuid "a6d00735-1860-4629-a9eb-28624435cfc5")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 83.1 46.6) (xy 83.9 47.4) (xy 83.9 48.6) (xy 83.1 49.4) (xy 81.9 49.4) (xy 81.1 48.6) (xy 81.1 47.4)
+					(xy 81.9 46.6)
+				)
 			)
 		)
 	)
@@ -21156,7 +21900,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/192ae13c-362f-45d3-9504-b640adacff67")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -25230,6 +25974,121 @@
 			)
 		)
 	)
+	(footprint "asynthosc:MouseBytes_JLC"
+		(layer "F.Cu")
+		(uuid "720b2243-3c96-479c-ac22-3e12b76bdbd5")
+		(at 155 50 90)
+		(property "Reference" "MB1"
+			(at 0.6 -1.6 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f60727bf-7f93-4123-bbe2-e820a2d4ed27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MouseBytes"
+			(at -0.3 1.1 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e2e13db6-8153-48d0-ade5-f05189a845ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MouseBytes_JLC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8255b3a-3e0f-4246-8b50-e8fa679eb598")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d39dadf-8919-47f7-906e-ef3c13559833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mouse Bytes"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9906211b-b9c2-4964-960f-058e68b1a657")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MouseBytes*")
+		(path "/80d7eb84-ddfc-4f73-ba82-21de3618f17c")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "55bc2158-8d5e-452e-a80c-c305261a8a5a")
+		)
+		(pad "" np_thru_hole circle
+			(at 1 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "66e2b721-7d9d-4ea5-9cb7-c32418c4a1a8")
+		)
+		(pad "" np_thru_hole circle
+			(at 2 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "ed20286f-3030-4ee5-bbd4-b460cc740cee")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "67e974e2-4e97-4f18-8200-ac2937191a64")
+		)
+		(pad "" np_thru_hole circle
+			(at 4 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "5cec0358-0356-402c-826c-88e18da56c23")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0 90)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "aab2ffe2-ba2b-414f-a609-4cc1c1f9f8c2")
+		)
+	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
 		(layer "F.Cu")
 		(uuid "7223f7a8-de53-43b0-8f55-da62b3277f28")
@@ -27313,7 +28172,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/30dd7e3b-51c6-430e-977a-616b19b6e652")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -34049,6 +34908,121 @@
 			)
 		)
 	)
+	(footprint "asynthosc:MouseBytes_JLC"
+		(layer "F.Cu")
+		(uuid "9a76656d-8772-43ce-a814-6726853e2a4e")
+		(at 86 109.5 -90)
+		(property "Reference" "MB6"
+			(at 0.6 -1.6 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "60ba9bf2-a911-4c9b-b6e4-4864ae082999")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MouseBytes"
+			(at -0.3 1.1 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "167302c6-5128-41ff-8b20-8735908f7b01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MouseBytes_JLC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "775dcbec-2c2b-433f-a5fe-198a64d62f47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b9a401e-c113-4d28-b40b-5127de0a4e1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mouse Bytes"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "677079cc-a013-4868-9a19-1288420f55bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MouseBytes*")
+		(path "/55148c02-b927-4650-b59c-2df712c4ac42")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(pad "" np_thru_hole circle
+			(at 0 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "ae8e8c5a-5b7a-48f7-b48e-23f7541d6786")
+		)
+		(pad "" np_thru_hole circle
+			(at 1 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "a4d08e1d-ab23-4d09-b6de-7602dd6550e8")
+		)
+		(pad "" np_thru_hole circle
+			(at 2 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "4be1267a-f623-4bfe-9a8d-18357ffe7534")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "a955ed71-ef3d-44f3-9ba4-a44578b3000d")
+		)
+		(pad "" np_thru_hole circle
+			(at 4 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "734298f6-14a9-4440-8faf-7e503963ba10")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "67c982a5-e959-4100-9112-3947fae5406c")
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9b8d1f1c-b838-411a-837f-7458069c30dc")
@@ -36406,7 +37380,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/e26b13cc-1e40-440f-892e-0bfc95d261e2")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd allow_soldermask_bridges)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_line
 			(start -0.24 0)
@@ -37174,7 +38148,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/d0fb00cb-d954-4a94-83cf-df27df6024f8")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -38190,6 +39164,120 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "a9fd8164-ea71-47dc-b3b3-9b2fe62b4ff0")
+		(at 81.5 138)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "FID4"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "deb36820-2dd9-409e-b5e2-324b98bbdbe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "8b38cbd9-1217-447a-90c8-257128ec649f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be6f38a3-76a0-479e-b27a-b25da6c5f560")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d087c1a9-ca3e-478d-8c45-0e0798c269a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d853c856-2b53-46bc-8184-488bad08bf26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/78ba5db6-a0e6-4356-adaf-3fa68f29ce3a")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "31911632-72fd-443f-8eb8-954624f89d92")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "0502cc6b-3bcb-42c7-9041-1b5356321332")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "040196cd-0b20-44a3-80e0-943c970973cd")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "18fbefd4-aa3a-4efc-8800-10e3865b2e1d")
 		)
 	)
 	(footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
@@ -39862,6 +40950,235 @@
 			)
 		)
 	)
+	(footprint "asynthosc:MouseBytes_JLC"
+		(layer "F.Cu")
+		(uuid "b0492e28-f796-4d57-b929-9daa66b26e7a")
+		(at 86 45.5 -90)
+		(property "Reference" "MB4"
+			(at 0.6 -1.6 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "62fd1bfa-664a-4457-a348-5d06b2cccb6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MouseBytes"
+			(at -0.3 1.1 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1b66e201-f375-417c-aeb2-bce302780d21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MouseBytes_JLC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fd78123-c974-4b30-ba41-277bb9839bf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce6ecc61-e05b-484d-bc93-d0f15c49612e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mouse Bytes"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64ac2d59-360b-43d9-aa63-02b78aa8168f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MouseBytes*")
+		(path "/10967f4b-2f39-44cb-8b6a-003037198c20")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(pad "" np_thru_hole circle
+			(at 0 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c7013302-3773-450a-827d-ba5810b35d79")
+		)
+		(pad "" np_thru_hole circle
+			(at 1 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "5242267c-d4a9-4520-8c87-2e4eafb947ca")
+		)
+		(pad "" np_thru_hole circle
+			(at 2 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "8ff5c998-d904-43e2-b631-36ddee6dc6dd")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "35bff126-5e77-40a7-b933-ed0ac8fd3938")
+		)
+		(pad "" np_thru_hole circle
+			(at 4 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "9a4d1447-7785-4b17-b79c-2ed341a1705d")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "eec008f4-d845-4712-9de4-b17b99c06507")
+		)
+	)
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "b0aa5a6e-1064-413a-9074-205acf2ff369")
+		(at 159.5 50.9)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "FID1"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "4256d4f6-bd94-427b-9aaa-f98378b3df9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "bca497df-a7c6-446c-9444-726aa8926715")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a57adadf-ecb9-4240-9617-db26878b710f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4021f08b-3162-4897-96ac-7aac614b2f83")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60b36724-d15d-4c82-a785-5ffa16edbee3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/1a989437-8138-4b0f-ae14-389579b976da")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4ca6175d-be26-4904-a305-ac2f7cd4e94b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "d8d792db-d8c1-41df-8770-43d591bd2ae9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1ce83616-a96b-49f5-ab3b-f0543bc4f11b")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "d7f29904-94b6-4c6e-9238-ab6a46fb067b")
+		)
+	)
 	(footprint "Capacitor_SMD:C_01005_0402Metric"
 		(layer "F.Cu")
 		(uuid "b11b72cb-7947-489f-8970-20bcfc05df46")
@@ -40722,7 +42039,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/b428a8d9-c0f1-4f40-b5d7-c0868858cb9f")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd allow_soldermask_bridges)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_line
 			(start -0.24 0)
@@ -42364,7 +43681,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/7407f5b9-2979-490c-867e-134ff120c872")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 11.49)
 			(end 3.87 11.49)
@@ -43534,7 +44851,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/f398a501-2625-4fc1-980f-f7e76d635417")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd allow_soldermask_bridges)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_line
 			(start -0.24 0)
@@ -43798,7 +45115,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/10c09a46-cc71-45b3-a628-258263bd0014")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd allow_soldermask_bridges)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_line
 			(start -0.24 0)
@@ -47259,7 +48576,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/22163f10-6d51-4eeb-bd03-54b4d73a4170")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd allow_soldermask_bridges)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_line
 			(start -0.24 0)
@@ -48772,6 +50089,120 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "d3b40f10-7c9c-4c8f-a4b3-3a4835c45854")
+		(at 159.5 140)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "FID2"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "4b18a864-dba4-4c09-8814-71e5df45e9dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "925eb7f4-8828-4832-9743-ad6d2001758d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cae9f74b-263c-4fd8-a320-1c7da49f37cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11c5116f-468f-4824-b703-4785a8511732")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3470e23-b739-4cab-bdcb-2f9138562d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/6c8da215-98fc-4c0a-a097-32299d011921")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0a77d107-71d0-465a-9a37-99a4354fa3ee")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "6e9fe354-25d7-4d9c-bf59-05c655aec170")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "30b00739-0f77-4327-b50d-a614d041c073")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "ac20d612-cea4-452c-9436-ba363cbbdb45")
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d4b044c4-d2af-4270-ada2-d0c3b1e6d436")
@@ -49525,6 +50956,148 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "asynthosc:MountingHole_JLC_3.5mm"
+		(layer "F.Cu")
+		(uuid "d9f980e7-f9e3-4b79-acfb-9596f3e47309")
+		(at 159.5 47)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H4"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c24381d1-6160-4f9e-8e23-437033cee3b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "ffcad8e4-3942-458d-b0d9-47ac77a9fc2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MountingHole_JLC_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be7a66fd-a3eb-40c7-ae52-7407b257950c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4aa3fb9-ff3d-48f9-b8c7-8ec7c2114c9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfc95212-c457-48f3-8593-f206c35374d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/2a5c6a92-de69-42ce-b91f-ebc08a2a0b13")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "fb48be23-ee1e-4c4f-a674-c40afcc569f8")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "84c99876-2476-4b54-aed5-29ad7d62a534")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "98edffe7-5343-46e6-b156-e098090474c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.3 1.3)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "8eb0d0d4-2ff3-4c93-9a4b-764041adb52a")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layer "F.SilkS")
+			(uuid "e869bcae-6c15-4742-a052-fdb18759f268")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 160.1 45.6) (xy 160.9 46.4) (xy 160.9 47.6) (xy 160.1 48.4) (xy 158.9 48.4) (xy 158.1 47.6)
+					(xy 158.1 46.4) (xy 158.9 45.6)
+				)
 			)
 		)
 	)
@@ -50546,6 +52119,148 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "asynthosc:MountingHole_JLC_3.5mm"
+		(layer "F.Cu")
+		(uuid "e1b01a4d-2f10-48b3-a350-3e2debce0c89")
+		(at 159.5 147)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H6"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "77e9c41a-c072-4cfc-97e1-04c17fed2380")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "d6834cf3-e56d-4c7e-a575-7b982f704e32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MountingHole_JLC_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6412e0ea-6d37-4040-905d-803d5d14c25d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1dc5dbc-a26a-4dca-8aca-85107655cb1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b3e4c5c-5848-4201-ada6-05a5504b721c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/c0c42d61-40ca-4682-8727-0f6446fb5d87")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "f54e4ce9-1f73-40d9-87a3-b3b9bc6d38bb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ff083d41-98ef-4e5b-a1ce-590980a64fdb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c04e0d46-0858-49d0-80f2-99b46663e85d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.3 1.3)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "45b871b7-2ae2-41ce-aeff-589264bc23f7")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layer "F.SilkS")
+			(uuid "a0b9c067-7e38-411d-8975-44ca2907e7ab")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 160.1 145.6) (xy 160.9 146.4) (xy 160.9 147.6) (xy 160.1 148.4) (xy 158.9 148.4) (xy 158.1 147.6)
+					(xy 158.1 146.4) (xy 158.9 145.6)
+				)
 			)
 		)
 	)
@@ -53207,6 +54922,121 @@
 			)
 		)
 	)
+	(footprint "asynthosc:MouseBytes_JLC"
+		(layer "F.Cu")
+		(uuid "ebaaa770-7ca1-4229-b1ee-0b23beac05e2")
+		(at 86 80 -90)
+		(property "Reference" "MB5"
+			(at 0.6 -1.6 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "52bdb1b0-cee8-44ef-a2ab-5b57e1c95c8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MouseBytes"
+			(at -0.3 1.1 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2bb5d04f-4dc9-4ad1-9782-7e1a6d290081")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MouseBytes_JLC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc81944c-f50c-4a8e-ae2b-a7f2ca858385")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c15b8dd9-07b9-4cbe-b674-0c08f6e9c7d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mouse Bytes"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "804e0ab9-8349-4637-bcfb-8c884c47a8dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MouseBytes*")
+		(path "/e2b17d97-b10e-47a7-b5fd-c7b474e1f8b5")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(pad "" np_thru_hole circle
+			(at 0 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "80119cc5-37c9-4abf-8318-b55776f75159")
+		)
+		(pad "" np_thru_hole circle
+			(at 1 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "fdab3715-9cc7-406b-81e3-0c113f12ec76")
+		)
+		(pad "" np_thru_hole circle
+			(at 2 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "225508b4-bc11-4632-81b6-668a75e758bd")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "05c10aed-dffb-4c2d-a26f-21c2a2356870")
+		)
+		(pad "" np_thru_hole circle
+			(at 4 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "1a1013d9-3a99-4481-9144-3d87b9fbee14")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "9daf9415-e540-4356-a13f-f4a54df848db")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ecf3aa50-379e-4121-8a09-2d283835cc54")
@@ -55533,6 +57363,121 @@
 			)
 		)
 	)
+	(footprint "asynthosc:MouseBytes_JLC"
+		(layer "F.Cu")
+		(uuid "f71505f6-e0e0-4ff1-b94e-acbb5e8f7d8e")
+		(at 86 144 -90)
+		(property "Reference" "MB7"
+			(at 0.6 -1.6 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b59b141c-efd4-4c20-9b57-f25e67bcee68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MouseBytes"
+			(at -0.3 1.1 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0949c099-246f-47c6-9476-773a8977abec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "asynthosc:MouseBytes_JLC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1337377-bd29-4367-9295-ff6a0d838dbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf5cee91-04c1-459e-807f-5d3ebcafbc51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mouse Bytes"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19393351-9170-4e84-b8c3-c94fa0e581fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MouseBytes*")
+		(path "/e1d5eeee-97a1-4587-85ac-0f356551a7d8")
+		(sheetname "Root")
+		(sheetfile "asynthosc.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(pad "" np_thru_hole circle
+			(at 0 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "f31b399a-f87c-48a9-93ce-1590a50c1a0a")
+		)
+		(pad "" np_thru_hole circle
+			(at 1 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "fddbaa5d-835a-4667-a0ab-2d6fefc4f254")
+		)
+		(pad "" np_thru_hole circle
+			(at 2 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "b02408ac-3d85-40c4-9076-bf955c5f4d1a")
+		)
+		(pad "" np_thru_hole circle
+			(at 3 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "96a52406-1765-4aa1-9805-03ba9b3df7d5")
+		)
+		(pad "" np_thru_hole circle
+			(at 4 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "547a6a25-a871-46d2-9c1c-8f26c63226a2")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0 270)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "06ff74c0-ebb5-4305-8f6a-69c1bd7c5f19")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f8afed65-5e70-44f4-9ab0-bcfb76bcbc1e")
@@ -55856,7 +57801,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/750981fb-ab88-428b-b4d5-76ed34fff796")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -56325,7 +58270,7 @@
 		(descr "Single pole normally-open tactile switch with led")
 		(tags "switch normally-open pushbutton push-button led")
 		(property "Reference" "SW8"
-			(at -2.065 4.6 360)
+			(at -2.065 4.6 0)
 			(layer "User.2")
 			(uuid "efc3dc70-f5fc-40d8-980d-d39738868c63")
 			(effects
@@ -56337,7 +58282,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G_LED"
-			(at 0.6 -7 360)
+			(at 0.6 -7 0)
 			(layer "B.Fab")
 			(uuid "3211f926-b382-4cb4-89e9-d088d6eb457b")
 			(effects
@@ -56569,7 +58514,7 @@
 			(uuid "d22cf8e2-451c-40da-b06f-2be849836760")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.2 -5.4 360)
+			(at -0.2 -5.4 0)
 			(layer "B.Fab")
 			(uuid "40e0827c-8639-4dab-8309-7f3442ea800d")
 			(effects
@@ -56774,9 +58719,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c092a2e6-e069-4b72-9763-8f8eae41f8f5")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -57321,7 +59266,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/62850b0b-ef2c-4ba3-bf4b-88957bf184b6")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -57485,7 +59430,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/2e61b003-ed6b-4031-8dec-5b2215b1c865")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 2.6 8.95)
 			(end -2.6 8.95)
@@ -58452,9 +60397,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f05c47d5-2d4f-4c8c-a452-532ca8bbf107")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -58615,9 +60560,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/087482e9-fcdd-45e2-92ab-2b4509c2cbc1")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -58780,7 +60725,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/ce351c03-e0d2-40a4-b80a-d90b9aeabf24")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -58943,7 +60888,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/4b0e3c8e-3270-449e-8d6a-d135eee441bf")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -59104,9 +61049,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/77365050-604b-47e2-a9a9-42e3bb67c028")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -59267,9 +61212,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4244e7e1-2911-4504-9ca9-6e7e1972cbf8")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -59432,7 +61377,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/da67646a-c955-4b77-b457-cd24095bbae4")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -59595,7 +61540,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/65d9b737-67f8-4367-9f18-3c235dc2d38f")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -59758,7 +61703,7 @@
 		(path "/5f8430bb-1923-4d76-b418-f207310879ec/907a7d8d-f476-43ed-aa7a-670f4c504e04")
 		(sheetname "Analog_in")
 		(sheetfile "analog_in.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -60685,7 +62630,7 @@
 		(path "/b863f609-74bc-4dca-9f89-b76b25b90e2d/ec2fe521-a1e6-4272-8617-104deb7a2189")
 		(sheetname "Interface")
 		(sheetfile "interface.kicad_sch")
-		(attr smd allow_soldermask_bridges)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_line
 			(start 0.24 0)
@@ -60956,9 +62901,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c75b8c40-eafd-4b8e-9f58-5b43e0dae6a4")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -61503,7 +63448,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/9ab6ef0d-bb7d-49e4-aa66-bd99ed88cd1a")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -61666,7 +63611,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/d397c5d5-7ca0-48e4-9a52-490e3c223a32")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -61828,7 +63773,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/f09710b7-264e-43e7-b931-d2cc1477e94b")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -3.15 3.45)
 			(end -3.15 3.2)
@@ -62068,7 +64013,7 @@
 		(descr "Single pole normally-open tactile switch with led")
 		(tags "switch normally-open pushbutton push-button led")
 		(property "Reference" "SW5"
-			(at -2.065 4.6 360)
+			(at -2.065 4.6 0)
 			(layer "User.2")
 			(uuid "7dca40e9-196d-46c6-9321-142a7744b716")
 			(effects
@@ -62080,7 +64025,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G_LED"
-			(at 0.6 -7 360)
+			(at 0.6 -7 0)
 			(layer "B.Fab")
 			(uuid "30a919cb-bcbe-4703-b34c-f917fabfbb69")
 			(effects
@@ -62312,7 +64257,7 @@
 			(uuid "0bf857c1-f63b-452f-baa4-d6c849916dbd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.2 -5.4 360)
+			(at -0.2 -5.4 0)
 			(layer "B.Fab")
 			(uuid "a22b440d-d206-48b5-aaf0-c30c4d8cff2a")
 			(effects
@@ -63025,9 +64970,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/43d651fd-bf16-4b4d-8439-d0a16cac2048")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -63190,7 +65135,7 @@
 		(path "/e5b5a411-a62d-4190-89e5-07a84042033c/7bb05c60-b222-47af-9c1b-f63c78dcd3ca")
 		(sheetname "Midi_in")
 		(sheetfile "untitled.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -63351,9 +65296,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0871d452-5dd4-455f-a727-6074ed81382a")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -63514,9 +65459,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9bc9e9dd-8a1e-4ad6-a0b7-7b7d51918fd3")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -63677,9 +65622,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c776f939-5b9f-43b2-a40e-10d81dc85154")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -63843,7 +65788,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/08fc1db6-71f6-47e8-9b46-a4a32c4601bf")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 2.6 5.14)
 			(end -2.6 5.14)
@@ -64408,7 +66353,7 @@
 		(descr "Single pole normally-open tactile switch with led")
 		(tags "switch normally-open pushbutton push-button led")
 		(property "Reference" "SW2"
-			(at -2.065 4.6 360)
+			(at -2.065 4.6 0)
 			(layer "User.2")
 			(uuid "8e828dc3-6dff-4428-8edd-b77ec1b79090")
 			(effects
@@ -64420,7 +66365,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G_LED"
-			(at 0.6 -7 360)
+			(at 0.6 -7 0)
 			(layer "B.Fab")
 			(uuid "b0be67b8-01df-40fb-bba7-cb19685527ca")
 			(effects
@@ -64652,7 +66597,7 @@
 			(uuid "0a070157-756b-4532-8cf3-defb907afc0a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.2 -5.4 360)
+			(at -0.2 -5.4 0)
 			(layer "B.Fab")
 			(uuid "0d3850e2-32a1-4cda-8f14-8859148e154f")
 			(effects
@@ -65319,9 +67264,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ba8baed4-f3b6-49a1-845e-37c4619b0775")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -65866,7 +67811,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/96885f00-37b8-4963-bc02-e7f53a6a8034")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -65919,7 +67864,7 @@
 		(descr "Single pole normally-open tactile switch with led")
 		(tags "switch normally-open pushbutton push-button led")
 		(property "Reference" "SW7"
-			(at -2.065 4.6 360)
+			(at -2.065 4.6 0)
 			(layer "User.2")
 			(uuid "0708433d-14c3-4272-a0c7-529a3261e1ec")
 			(effects
@@ -65931,7 +67876,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G_LED"
-			(at 0.6 -7 360)
+			(at 0.6 -7 0)
 			(layer "B.Fab")
 			(uuid "89d92c9c-0c8b-4b8b-8e3f-82c990ac9147")
 			(effects
@@ -66163,7 +68108,7 @@
 			(uuid "e2d57959-114e-4a3e-867b-5a0c1dcb1796")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.2 -5.4 360)
+			(at -0.2 -5.4 0)
 			(layer "B.Fab")
 			(uuid "f3ba630f-d470-41af-9084-ef9f89aee9a3")
 			(effects
@@ -66368,9 +68313,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/632ac231-3d6f-4bab-8c2e-38d04a15f68a")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -66531,9 +68476,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/252c1f57-33f5-4e43-8083-b3a0c6c7f3a9")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -67076,9 +69021,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3be25b2c-2b9b-4119-bbfd-741d16215679")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -67242,7 +69187,7 @@
 		(path "/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/51a414d1-dc8e-4b0e-bdf1-abeb2c41334a")
 		(sheetname "Soc")
 		(sheetfile "soc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 2.6 -5.14)
 			(end -2.6 -5.14)
@@ -67917,7 +69862,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/15a117a3-989b-4ee8-917d-0a85d8600b78")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -68842,9 +70787,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e2487177-9586-4f23-b1a9-38ce2926fd0f")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -69005,9 +70950,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ec10b2a9-d2af-4ff6-8eeb-24431075d83b")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -69170,7 +71115,7 @@
 		(path "/b863f609-74bc-4dca-9f89-b76b25b90e2d/e4154a78-f8e5-4603-8897-56b054c349e4")
 		(sheetname "Interface")
 		(sheetfile "interface.kicad_sch")
-		(attr smd allow_soldermask_bridges)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_line
 			(start 0.24 0)
@@ -69441,9 +71386,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9a1e130d-02bf-495d-8039-cc9b4712ae25")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -69604,9 +71549,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ddfb0731-fec5-4a29-9295-8373f7d7e9fb")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "asynthosc.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -69769,7 +71714,7 @@
 		(path "/5f8430bb-1923-4d76-b418-f207310879ec/104f861c-8182-48c8-8d3e-97cfc755a4bd")
 		(sheetname "Analog_in")
 		(sheetfile "analog_in.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -69932,7 +71877,7 @@
 		(path "/5f8430bb-1923-4d76-b418-f207310879ec/eea8855f-6213-4cdc-a162-a525e1f61120")
 		(sheetname "Analog_in")
 		(sheetfile "analog_in.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -70291,7 +72236,7 @@
 		)
 		(fp_arc
 			(start 3.318642 -0.745392)
-			(mid 3.575005 -1.001752)
+			(mid 3.575006 -1.001752)
 			(end 3.831369 -0.745392)
 			(stroke
 				(width 0.2)
@@ -70302,7 +72247,7 @@
 		)
 		(fp_arc
 			(start 3.318642 -0.745392)
-			(mid 3.575005 -1.001752)
+			(mid 3.575006 -1.001752)
 			(end 3.831369 -0.745392)
 			(stroke
 				(width 0.2)
@@ -71028,7 +72973,7 @@
 		(path "/22ca5166-338c-4a24-8f8a-545e4a0286bf/35edf3a4-fdb1-4edc-b5d4-3c700ff9e40f")
 		(sheetname "Supply")
 		(sheetfile "supply.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -74391,6 +76336,126 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d11ecada-e24b-4e93-96d4-989a4137333c")
+	)
+	(gr_line
+		(start 79 150)
+		(end 86 150)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2107d1af-00e2-41ba-8c01-c5518409a8f7")
+	)
+	(gr_line
+		(start 155 150)
+		(end 162 150)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "50c5ca1d-1115-452c-967e-b23708220d32")
+	)
+	(gr_line
+		(start 162 44)
+		(end 155 44)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5d4bc6b4-a59d-4aae-a115-ba5224216785")
+	)
+	(gr_line
+		(start 79 44)
+		(end 79 150)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5f720a2d-9b26-49c1-bdd0-4a808f25ab33")
+	)
+	(gr_line
+		(start 86 44)
+		(end 79 44)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "72445930-b496-4eb3-8833-54c538d38f7c")
+	)
+	(gr_line
+		(start 162 150)
+		(end 162 44)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8f6d422d-ab36-4de7-bc66-c692f05e9624")
+	)
+	(gr_line
+		(start 156 79)
+		(end 156 54)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "37d88fda-5bf5-4431-99a3-13be3c953258")
+	)
+	(gr_line
+		(start 85 108.5)
+		(end 85 86)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "4746536b-c0d5-48bb-b15d-37babc42d6ff")
+	)
+	(gr_line
+		(start 156 108.5)
+		(end 156 86.5)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "83be8d7c-19f8-4ade-bb38-3151459ca07b")
+	)
+	(gr_line
+		(start 85 143)
+		(end 85 115.5)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "b3d46958-b09d-469e-ba5e-c10a8cae0a8c")
+	)
+	(gr_line
+		(start 156 142.5)
+		(end 156 115.5)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "c99a2d6c-8663-4d15-8ef0-8ad840f10f3a")
+	)
+	(gr_line
+		(start 85 79)
+		(end 85 52)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "ce77cf41-f3dd-4c63-8e80-74cf26699ee8")
 	)
 	(gr_text "CV3"
 		(at 152 118 0)
@@ -78228,7 +80293,7 @@
 			(xy 86.0825 150) (xy 86 44)
 		)
 		(height -42.084344)
-		(gr_text "106,0000 mm"
+		(gr_text "106.0000 mm"
 			(at 45.106919 97.031859 -89.9554066)
 			(layer "Dwgs.User")
 			(uuid "ba1c8903-94a2-4501-93f8-efa24889da29")
@@ -78261,7 +80326,7 @@
 			(xy 155 150) (xy 86 150)
 		)
 		(height -6.3)
-		(gr_text "69,0000 mm"
+		(gr_text "69.0000 mm"
 			(at 120.5 155.15 0)
 			(layer "Dwgs.User")
 			(uuid "f51fdb3f-530e-406c-94de-8d625c1d51dc")
@@ -78294,7 +80359,7 @@
 			(xy 92.5 36.2) (xy 85 36.2)
 		)
 		(height 6.199999)
-		(gr_text "7,5000 mm"
+		(gr_text "7.5000 mm"
 			(at 88.75 28.850001 0)
 			(layer "Eco1.User")
 			(uuid "23929c4f-1e62-49ef-9bea-ab3dbedfba60")
@@ -78327,7 +80392,7 @@
 			(xy 85 33.2) (xy 156.12 33.2)
 		)
 		(height -9)
-		(gr_text "71,1200 mm"
+		(gr_text "71.1200 mm"
 			(at 120.56 23.05 0)
 			(layer "Eco1.User")
 			(uuid "60f1b179-9fb1-4d41-a4f6-0ba8676e66bb")
@@ -78360,7 +80425,7 @@
 			(xy 92.47 36.2) (xy 92.47 33.2)
 		)
 		(height 4.93)
-		(gr_text "3,0000 mm"
+		(gr_text "3.0000 mm"
 			(at 99.4 34.705 90)
 			(layer "Eco1.User")
 			(uuid "9655c551-284f-448e-bc05-242b2b22c113")
@@ -78393,7 +80458,7 @@
 			(xy 85 33.2) (xy 85 161.6)
 		)
 		(height 30.2)
-		(gr_text "128,4000 mm"
+		(gr_text "128.4000 mm"
 			(at 53.65 97.4 90)
 			(layer "Eco1.User")
 			(uuid "aef4c058-fa6a-44a5-bf8d-54d8226874d6")
