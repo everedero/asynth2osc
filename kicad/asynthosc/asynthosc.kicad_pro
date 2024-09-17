@@ -96,7 +96,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -687,7 +687,7 @@
   "sheets": [
     [
       "d73e377a-a016-415f-8824-91cc6e4907b9",
-      "Racine"
+      "Root"
     ],
     [
       "22ca5166-338c-4a24-8f8a-545e4a0286bf",

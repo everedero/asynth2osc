@@ -1,7 +1,56 @@
 (version 1)
 
-
 (rule "InnerEdgeClearance"
   (condition "A.existsOnLayer('In1.Cu') ||  A.existsOnLayer('In2.Cu') || A.existsOnLayer('Front') || A.existsOnLayer('Back')")
   (constraint edge_clearance (min 0.5mm))
+)
+
+# 0402 assembly clearance
+(rule "0402 clearance"
+	(severity error)
+	(layer outer)
+	(condition "(A.memberOfFootprint('Resistor_SMD:R_0402_1005Metric') || A.memberOfFootprint('Capacitor_SMD:C_0402_1005Metric')) && (B.memberOfFootprint('Resistor_SMD:R_0402_1005Metric') || B.memberOfFootprint('Capacitor_SMD:C_0402_1005Metric'))")
+	#Does not work
+	#(condition "A.memberOfFootprint('?0402_1005Metric')")
+    (constraint physical_clearance (min 0.15mm))
+)
+
+# 0805 assembly clearance
+(rule "0805 clearance"
+	(severity error)
+	(layer outer)
+	(condition "(A.memberOfFootprint('Resistor_SMD:R_0805_2012Metric') || A.memberOfFootprint('Capacitor_SMD:C_0805_2012Metric')) && (B.memberOfFootprint('Resistor_SMD:R_0805_2012Metric') || B.memberOfFootprint('Capacitor_SMD:C_0805_2012Metric'))")
+    (constraint physical_clearance (min 0.18mm))
+)
+
+# 0603 assembly clearance
+(rule "0603 clearance"
+	(severity error)
+	(layer outer)
+	(condition "(A.memberOfFootprint('Resistor_SMD:R_0603_1608Metric') || A.memberOfFootprint('Capacitor_SMD:C_0603_1608Metric')) && (B.memberOfFootprint('Resistor_SMD:R_0603_1608Metric') || B.memberOfFootprint('Capacitor_SMD:C_0603_1608Metric'))")
+    (constraint physical_clearance (min 0.18mm))
+)
+
+# 0805 to 0402 assembly clearance
+(rule "0805 to 0402 clearance"
+	(severity error)
+	(layer outer)
+	(condition "(A.memberOfFootprint('Resistor_SMD:R_0805_2012Metric') || A.memberOfFootprint('Capacitor_SMD:C_0805_2012Metric')) && (B.memberOfFootprint('Resistor_SMD:R_0402_1005Metric') || B.memberOfFootprint('Capacitor_SMD:C_0402_1005Metric'))")
+    (constraint physical_clearance (min 0.20mm))
+)
+
+# QFP to small
+(rule "QFP clearance to small components"
+	(severity error)
+	(layer outer)
+	(condition "A.memberOfFootprint('Package_QFP:LQFP-100_14x14mm_P0.5mm') && B.memberOfFootprint('?')")
+    (constraint physical_clearance (min 0.50mm))
+)
+
+# SOP/SOIC to small
+(rule "SOP/SOIC clearance to small components"
+	(severity error)
+	(layer outer)
+	(condition "A.memberOfFootprint('Package_SO:TSSOP-14_4.4x5mm_P0.65mm') && B.memberOfFootprint('?')")
+    (constraint physical_clearance (min 0.40mm))
 )
