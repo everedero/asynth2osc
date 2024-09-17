@@ -1106,6 +1106,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -1190,6 +1199,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 124.46 101.6 0)
 			(effects
 				(font
@@ -1293,6 +1311,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 187.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75438c83-f52c-434b-801e-57e7480da269")
 		)
@@ -1361,6 +1388,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 31.75 33.02 0)
 			(effects
 				(font
@@ -1440,6 +1476,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 76.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -1505,6 +1550,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 31.75 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 31.75 20.32 0)
 			(effects
 				(font
@@ -1605,6 +1659,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fe6bd5e-84bc-48da-aaf9-08e7defcfff8")
 		)
@@ -1673,6 +1736,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 50.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 50.8 20.32 0)
 			(effects
 				(font
@@ -1765,6 +1837,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 118.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 118.11 133.35 0)
 			(effects
 				(font
@@ -1868,6 +1949,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 115.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60b938fd-5f20-408f-ad56-834d5fa8a717")
 		)
@@ -1963,6 +2053,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "425efed9-9b75-48d9-b1be-37e79cc955f9")
 		)
@@ -2029,6 +2128,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 76.2 34.29 0)
 			(effects
 				(font
@@ -2129,6 +2237,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24e8ff7b-0a60-4c30-8eee-cba2e10dc25c")
 		)
@@ -2197,6 +2314,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 31.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 31.75 26.67 0)
 			(effects
 				(font
@@ -2297,6 +2423,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "388287a0-1efe-4284-9daa-7a69948de129")
 		)
@@ -2365,6 +2500,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 31.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -2444,6 +2588,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 76.2 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -2507,6 +2660,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 76.2 39.37 0)
 			(effects
 				(font
@@ -2599,6 +2761,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 114.3 90.17 0)
 			(effects
 				(font
@@ -2702,6 +2873,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d196e46-4146-4d92-b2b1-d76109853ede")
 		)
@@ -2789,6 +2969,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 180.34 92.71 0)
 			(effects
 				(font
@@ -2892,6 +3081,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd4e413e-ce71-4634-9822-932afac1abde")
 		)
@@ -2960,6 +3158,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 50.8 33.02 0)
 			(effects
 				(font
@@ -3052,6 +3259,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 118.11 106.68 0)
 			(effects
 				(font
@@ -3155,6 +3371,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02054d2b-2ceb-4e6a-bf11-34608c71d78a")
 		)
@@ -3250,6 +3475,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a7baed9-6c3f-42ed-9e03-e75c7fe9d23a")
 		)
@@ -3316,6 +3550,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -3416,6 +3659,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 190.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2a25463-39c4-430b-a020-15f72ef93b32")
 		)
@@ -3482,6 +3734,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -3563,6 +3824,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 50.8 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -3626,6 +3896,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 76.2 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 76.2 26.67 0)
 			(effects
 				(font
@@ -3718,6 +3997,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 182.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 182.88 95.25 0)
 			(effects
 				(font
@@ -3821,6 +4109,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 177.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e190f3e-ff40-4eef-ae00-3bcf04eec12c")
 		)
@@ -3887,6 +4184,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 76.2 24.13 0)
 			(effects
 				(font

@@ -1460,6 +1460,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "SMDIP-6"
+			(at 240.03 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "292c4155-c180-4370-be8a-8d1407ef126a")
 		)
@@ -1579,6 +1588,15 @@
 			)
 		)
 		(property "RefNum" "1N4148WT"
+			(at 219.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SOD-523"
 			(at 219.71 52.07 0)
 			(effects
 				(font
@@ -1718,6 +1736,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "741545a7-c7f6-48bc-982e-4cb69641e2e2")
 		)
@@ -1816,6 +1843,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 212.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22631e45-e9b0-48cb-bcdb-4ed4bbf9d951")
 		)
@@ -1906,6 +1942,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 201.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 201.93 48.26 0)
 			(effects
 				(font
@@ -2066,6 +2111,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 255.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 255.27 44.45 0)
 			(effects
 				(font

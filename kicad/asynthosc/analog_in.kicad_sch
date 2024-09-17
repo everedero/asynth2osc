@@ -1703,6 +1703,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0805"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c86cf4a-1653-4e9e-9f5e-de397d317a29")
 		)
@@ -1793,6 +1802,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 81.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 81.28 106.68 0)
 			(effects
 				(font
@@ -2224,6 +2242,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "899f330b-51f7-48f4-94b2-c70f668c36e5")
 		)
@@ -2349,6 +2376,15 @@
 			)
 		)
 		(property "RefNum" " MCP6004T-E/ST"
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "TSSOP-14"
 			(at 31.75 149.86 0)
 			(effects
 				(font
@@ -2524,6 +2560,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "TSSOP-14"
+			(at 67.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a83cabb-2e62-4ed0-ba37-339ba2125e7d")
 		)
@@ -2654,6 +2699,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a605ecb7-d30d-436b-b368-47e0ded9de95")
 		)
@@ -2740,6 +2794,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 190.5 49.53 0)
 			(effects
 				(font
@@ -2881,6 +2944,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 228.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "2aa0dbc2-5b41-403c-a6d6-cd96ea8e3f48")
 		)
@@ -3007,6 +3079,15 @@
 			)
 		)
 		(property "RefNum" " MCP6004T-E/ST"
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "TSSOP-14"
 			(at 41.91 104.14 0)
 			(effects
 				(font
@@ -3215,6 +3296,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8209b5f-1f19-48e8-88a9-32820bd12edb")
 		)
@@ -3298,6 +3388,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 210.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 210.82 64.77 0)
 			(effects
 				(font
@@ -3439,6 +3538,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "TSSOP-14"
+			(at 54.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a83cabb-2e62-4ed0-ba37-339ba2125e80")
 		)
@@ -3571,6 +3679,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0603"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc534ace-4a90-4e94-8250-8023a03fcecc")
 		)
@@ -3694,6 +3811,15 @@
 			)
 		)
 		(property "RefNum" " MCP6004T-E/ST"
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "TSSOP-14"
 			(at 91.44 104.14 0)
 			(effects
 				(font
@@ -3935,6 +4061,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "TSSOP-14"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a83cabb-2e62-4ed0-ba37-339ba2125e82")
 		)
@@ -4061,6 +4196,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 102.87 104.14 0)
 			(effects
 				(font

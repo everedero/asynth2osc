@@ -9033,6 +9033,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 328.93 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "7edc36e1-c366-4d13-a479-4229b8b6f4dd")
 		)
@@ -9272,6 +9281,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 52.07 55.88 0)
 			(effects
 				(font
@@ -9574,6 +9592,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e763e49f-5d60-4fc9-9497-119faeab9889")
 		)
@@ -9737,6 +9764,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38115df0-8ec2-4288-874f-b4e884bd4cf2")
 		)
@@ -9825,6 +9861,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 91.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 91.44 64.77 0)
 			(effects
 				(font
@@ -9986,6 +10031,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 77.47 72.39 0)
 			(effects
 				(font
@@ -10221,6 +10275,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 326.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "caef0aef-68e9-4055-8f14-b9588160ac79")
 		)
@@ -10354,6 +10417,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0805"
+			(at 237.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1cf5751-0dbf-4114-850a-cd743ccb9b4f")
 		)
@@ -10440,6 +10512,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 349.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 349.25 86.36 0)
 			(effects
 				(font
@@ -10536,6 +10617,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 293.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 293.37 87.63 0)
 			(effects
 				(font
@@ -10719,6 +10809,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c02aa8ae-b9f8-4644-abf5-0f889dcb250f")
 		)
@@ -10808,6 +10907,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 87.63 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 87.63 24.13 0)
 			(effects
 				(font
@@ -10913,6 +11021,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0805"
+			(at 110.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "412ec134-1f0d-439c-a0c9-a2638475b788")
 		)
@@ -10999,6 +11116,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 342.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 342.9 132.08 0)
 			(effects
 				(font
@@ -11168,6 +11294,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 328.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "522b45f6-f19f-4158-9228-a291cfe4b4db")
 		)
@@ -11283,6 +11418,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 55.88 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f2dc385-896f-43ef-9f00-f0588107caf3")
 		)
@@ -11377,6 +11521,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 317.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e64bc71-60ed-4c75-b7c3-ea23528e37b5")
 		)
@@ -11463,6 +11616,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 349.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 349.25 93.98 0)
 			(effects
 				(font
@@ -11697,6 +11859,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 349.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95db89e3-57c8-4538-809d-c59fc66b1dfa")
 		)
@@ -11922,6 +12093,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 317.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21a2f36c-81c5-4740-923b-f754a491d8d3")
 		)
@@ -12019,6 +12199,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0805"
+			(at 96.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d4e248ed-0140-484e-989a-9bff855b75d7")
 		)
@@ -12108,6 +12297,15 @@
 			)
 		)
 		(property "RefNum" "W25Q32JVSS"
+			(at 278.13 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SOIC-8"
 			(at 278.13 218.44 0)
 			(effects
 				(font
@@ -12220,6 +12418,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -12458,6 +12665,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0805"
+			(at 251.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69276614-f492-45f8-bcd4-9e796eda029b")
 		)
@@ -12544,6 +12760,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 349.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 349.25 81.28 0)
 			(effects
 				(font
@@ -12649,6 +12874,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 62.23 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ef3fc3f-80eb-49f4-882d-169fa7158f7a")
 		)
@@ -12746,6 +12980,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 68.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11029318-9f14-4228-bfe1-5b2ac416092c")
 		)
@@ -12834,6 +13077,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 88.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
 			(at 88.9 167.64 0)
 			(effects
 				(font
@@ -13268,6 +13520,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9d700c8-bd13-4db4-9976-69db266faf55")
 		)
@@ -13356,6 +13617,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 153.67 105.41 0)
 			(effects
 				(font
@@ -13590,6 +13860,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a548479-df8a-47c0-9bb5-af556787576e")
 		)
@@ -13753,6 +14032,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 43.18 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9aa1271a-4dad-47e9-9128-049ec9f5512a")
 		)
@@ -13843,6 +14131,15 @@
 			)
 		)
 		(property "RefNum" "STM32H743VITx"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "LQFP-100"
 			(at 124.46 115.57 0)
 			(effects
 				(font
@@ -14305,6 +14602,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 349.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "780cb995-7e65-4be1-b973-c814cbd4959d")
 		)
@@ -14468,6 +14774,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 237.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a386b06-5a21-425f-a90d-8ff51459538a")
 		)
@@ -14557,6 +14872,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 303.53 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 303.53 215.9 0)
 			(effects
 				(font
@@ -14662,6 +14986,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 49.53 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6845a1aa-81bc-43d3-af1b-bd746c928926")
 		)
@@ -14748,6 +15081,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 342.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 342.9 139.7 0)
 			(effects
 				(font
@@ -14853,6 +15195,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 237.49 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25fe84b5-1cbd-4fd0-94e9-4320b6ee1fbd")
 		)
@@ -14942,6 +15293,15 @@
 			)
 		)
 		(property "Manufacturer" "NDK"
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD3225"
 			(at 82.55 68.58 0)
 			(effects
 				(font
@@ -15113,6 +15473,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 36.83 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5572fca7-f6e4-4f2a-abc5-f3aed41421a7")
 		)
@@ -15203,6 +15572,15 @@
 			)
 		)
 		(property "RefNum" "_na_"
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 119.38 25.4 0)
 			(effects
 				(font
@@ -15308,6 +15686,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0402"
+			(at 24.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b4c5668d-8fca-4ce7-88fe-1236670ff544")
 		)
@@ -15397,6 +15784,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 30.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 30.48 24.13 0)
 			(effects
 				(font
@@ -15538,6 +15934,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 134.62 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c802588e-c6d6-4eb0-a0c8-4e0ea3e18bdd")
 		)
@@ -15625,6 +16030,15 @@
 			)
 		)
 		(property "Manufacturer" "Boomele"
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 44.45 52.07 0)
 			(effects
 				(font
@@ -15854,6 +16268,15 @@
 			)
 		)
 		(property "RefNum" "_generic_"
+			(at 74.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
 			(at 74.93 24.13 0)
 			(effects
 				(font
