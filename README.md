@@ -250,3 +250,29 @@ graph TD
   A <==> | USB | G> Debug USB ]
 -->
 ![Kroki generated Mermaid](https://kroki.io/mermaid/svg/eNplkNtugkAYhO_7FPMA1aRS7-omi6u4VJRw0DQbL2hLwNaAEUzTxIfvvwsipjd7-mZmJ392So45IvEAcIUw8qwRdphM2AWBJyUusBVmdZ6eirSGv3jDTkvxQhKCoa8lU4XVOsD8kFT5PXd8uaZNMCxnojJsxmCf67osquajm4oTXSjwIjmUGfZFx7mYtlgyWMMxvpKP76t9Qc-2ObkMgfs8bhs0VsG1dd6llufa8Lnhq1vcncvferSumTlQcwNf6Vr-pKdWjsFwQKKn0YbWpYKYUkutW7bE2lht624cMQ-iR7gRd_QnDOFWIE-TTwrtO8c60un1acYcMoh9dTwkv0Yd9csbYazgSSEhCyOI_4_31iS0NaHE9P2cmevuD96Pg7I=)
+
+# Notes about JLCPCB files
+## Generate files
+
+Some modification are required from Kicad output files (BOM csv and placement files) to be imported to JLCPCB for assembly.
+
+* Change field names in BOM and placement CSV headers
+* Fix component rotation
+
+There is a way to automate both with a Python script called [jlc-kicad-tools](https://github.com/matthewlai/JLCKicadTools/tree/master).
+You will need 2 files in the project folder:
+
+* Netlist file: project.xml
+* Placement file: project-all-pos.csv
+
+In order to get the project.xml file, in Eeschema, go to "Legacy BOM", create a custom XML exporter with the following command:
+```
+/bin/echo "%I"
+```
+
+Don’t forget to create a "JLCPCB" column with the JLCPCB references, for advanced components. For standard ones, keep their value and package and use the "--include-all-component-groups", otherwise the script will erase them.
+
+Exemple use:
+```
+jlc-kicad-tools myproject -o ./assembly --include-all-component-groups
+```
