@@ -832,151 +832,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1848,12 +1703,6 @@
 		(uuid "395c1213-20fd-4b30-b73b-6ca1493c5b33")
 	)
 	(junction
-		(at 144.78 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5158183d-c39a-467b-9789-3c5be3ddbde7")
-	)
-	(junction
 		(at 101.6 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1925,16 +1774,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 54.61) (xy 144.78 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c71d326-25e0-4a14-909d-ce4f717865b0")
-	)
-	(wire
-		(pts
 			(xy 109.22 33.02) (xy 99.06 33.02)
 		)
 		(stroke
@@ -1985,7 +1824,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 54.61) (xy 144.78 54.61)
+			(xy 143.51 54.61) (xy 153.67 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2005,16 +1844,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 54.61) (xy 144.78 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "508e706e-58f5-493d-9ff9-0f099b0d0707")
-	)
-	(wire
-		(pts
 			(xy 91.44 52.07) (xy 99.06 52.07)
 		)
 		(stroke
@@ -2022,16 +1851,6 @@
 			(type default)
 		)
 		(uuid "62b6776e-f3ea-44a0-b901-164316bf015a")
-	)
-	(wire
-		(pts
-			(xy 144.78 38.1) (xy 144.78 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f440b4-5b0e-4088-b354-5287e495367a")
 	)
 	(wire
 		(pts
@@ -2182,16 +2001,6 @@
 			(type default)
 		)
 		(uuid "daa61074-18b9-4b8b-8ee6-4726478d3d9a")
-	)
-	(wire
-		(pts
-			(xy 144.78 54.61) (xy 153.67 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc3e417-308b-413a-b420-b313c7fef1c5")
 	)
 	(wire
 		(pts
@@ -2694,84 +2503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 144.78 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dcececd-c293-4524-be90-a186bd2ed4e8")
-		(property "Reference" "#PWR0125"
-			(at 144.78 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 144.78 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb754861-d141-4588-bb22-d206ff904f37")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/473ac791-b1b9-4029-b3bf-dcdd7bb809f7"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/8df50db7-f715-4935-a0f9-d053a12e8abe"
-					(reference "#PWR086")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/9e63d1d7-077c-492b-8ed4-0ad38037f05a"
-					(reference "#PWR080")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/cf6627bb-bd84-4d9e-b011-633f72ceae80"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 62.23 0)
 		(unit 1)
@@ -2781,7 +2512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3424893d-8547-403e-9666-702b8aca5504")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0155"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -2850,239 +2581,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 144.78 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "396c1086-d854-44e6-b5dc-1442e5ae7aef")
-		(property "Reference" "D17"
-			(at 147.32 59.3724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Schottky_1N5817"
-			(at 147.32 61.9124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/home/eve/Documents/asynth2osc/kicad/asynthosc/spice_mods/1N5817.txt"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "DI_1N5817"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RefNum" "1N5817"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a68b8ffd-ce49-4aa1-a11e-ba2259c8dada")
-		)
-		(pin "1"
-			(uuid "f2b05892-d76f-48ef-94ad-7b29baddab60")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/473ac791-b1b9-4029-b3bf-dcdd7bb809f7"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/8df50db7-f715-4935-a0f9-d053a12e8abe"
-					(reference "D14")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/9e63d1d7-077c-492b-8ed4-0ad38037f05a"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/cf6627bb-bd84-4d9e-b011-633f72ceae80"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a8f5ebb-2811-47b7-986c-dd06915f5811")
-		(property "Reference" "#PWR0126"
-			(at 144.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57ae3e9f-d023-424e-9618-0c684b3bfeb0")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/473ac791-b1b9-4029-b3bf-dcdd7bb809f7"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/8df50db7-f715-4935-a0f9-d053a12e8abe"
-					(reference "#PWR087")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/9e63d1d7-077c-492b-8ed4-0ad38037f05a"
-					(reference "#PWR081")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/cf6627bb-bd84-4d9e-b011-633f72ceae80"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "asynthosc_lib:D_Schottky_Dual_SD103ASDM")
 		(at 138.43 54.61 90)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dbd7d58-bb60-4232-bbf8-b5dd69589387")
-		(property "Reference" "D22"
+		(property "Reference" "D24"
 			(at 135.89 51.4984 90)
 			(effects
 				(font
@@ -3169,14 +2677,14 @@
 	(symbol
 		(lib_id "asynthosc_lib:SW_DIP_x02_SEP")
 		(at 62.23 38.1 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e18b60a-f123-4e00-9239-8d9a7d6968dd")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 62.23 30.48 0)
 			(effects
 				(font
@@ -3792,151 +3300,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 144.78 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80c4c341-c382-46ea-9b9b-e81689ae7dc1")
-		(property "Reference" "D16"
-			(at 147.32 46.6724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Schottky_1N5817"
-			(at 147.32 49.2124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/home/eve/Documents/asynth2osc/kicad/asynthosc/spice_mods/1N5817.txt"
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "DI_1N5817"
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RefNum" "1N5817"
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2f9043d5-f939-4058-951f-39596a2fc221")
-		)
-		(pin "1"
-			(uuid "b0ee92cb-d8e1-4311-abe6-14f581516b49")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/473ac791-b1b9-4029-b3bf-dcdd7bb809f7"
-					(reference "D16")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/8df50db7-f715-4935-a0f9-d053a12e8abe"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/9e63d1d7-077c-492b-8ed4-0ad38037f05a"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/cf6627bb-bd84-4d9e-b011-633f72ceae80"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 68.58 59.69 0)
 		(unit 1)
@@ -4236,7 +3599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ead8a302-2fba-4e59-9edf-a51c8408709d")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0151"
 			(at 138.43 50.8 0)
 			(effects
 				(font
