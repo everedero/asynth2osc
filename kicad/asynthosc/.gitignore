@@ -8,3 +8,5 @@ default.kicad_wks
 autosave*
 _autosave*
 asynthosc.kicad_prl
+*.csv
+*.xml
