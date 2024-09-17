@@ -11588,7 +11588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "asynthosc:RJ45_HCTL_HC-RJ45-053-2"
+		(property "Footprint" "asynthosc:RJ45_CKMTW_R-RJ45S08P-C000_Vertical"
 			(at 226.06 70.485 90)
 			(effects
 				(font
@@ -11624,7 +11624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "HCTL"
+		(property "Manufacturer" "Ckmtw"
 			(at 226.06 69.85 0)
 			(effects
 				(font
@@ -11633,7 +11633,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "HC-RJ45-053-2 "
+		(property "RefNum" "R-RJ45S08P-C000"
 			(at 226.06 69.85 0)
 			(effects
 				(font
