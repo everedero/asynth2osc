@@ -2290,16 +2290,6 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_VBUS" input
-			(at 111.76 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ef8d18b4-5d4a-40ef-b5a2-8d5df2c92856")
-		)
 		(pin "USB_ID" input
 			(at 111.76 86.36 0)
 			(effects
@@ -2349,6 +2339,16 @@
 				(justify right)
 			)
 			(uuid "3f80a1ee-7ee7-4618-b9e6-09be7fa913c8")
+		)
+		(pin "VBUS" output
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6dce2ef9-dfae-4299-ad91-e3bb6cea0ade")
 		)
 		(instances
 			(project "asynthosc"
@@ -2468,7 +2468,7 @@
 	)
 	(sheet
 		(at 196.85 87.63)
-		(size 25.4 41.91)
+		(size 25.4 55.88)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2488,7 +2488,7 @@
 			)
 		)
 		(property "Sheetfile" "interface.kicad_sch"
-			(at 196.85 130.1246 0)
+			(at 196.85 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

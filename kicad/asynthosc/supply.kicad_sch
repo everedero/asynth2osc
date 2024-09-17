@@ -4428,6 +4428,12 @@
 		(uuid "16fd2c9c-84b2-411c-8c3f-8588e2483922")
 	)
 	(junction
+		(at 77.47 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cbcb819-f07d-410e-a896-1ef30bb06a1b")
+	)
+	(junction
 		(at 120.65 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5781,7 +5787,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 248.92) (xy 80.01 248.92)
+			(xy 71.12 248.92) (xy 77.47 248.92)
 		)
 		(stroke
 			(width 0)
@@ -5878,6 +5884,16 @@
 			(type default)
 		)
 		(uuid "f82c2d00-94d3-4adc-b9bd-af09a4e4d952")
+	)
+	(wire
+		(pts
+			(xy 77.47 248.92) (xy 80.01 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce4ba47-cc7e-4655-bbbb-4cfabfb8e4b1")
 	)
 	(wire
 		(pts
@@ -6182,7 +6198,7 @@
 		)
 		(uuid "d8b360ec-1b21-4529-a097-87bb9595eb52")
 	)
-	(hierarchical_label "USB_VBUS"
+	(hierarchical_label "VBUS"
 		(shape output)
 		(at 97.79 38.1 0)
 		(fields_autoplaced yes)
@@ -7956,6 +7972,101 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 248.92 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b0e3c8e-3270-449e-8d6a-d135eee441bf")
+		(property "Reference" "TP30"
+			(at 80.01 245.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 246.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 82.55 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 77.47 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 77.47 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
+			(at 77.47 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3406fdcf-ef48-49e0-9d1c-62859b9be049")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -11445,6 +11556,101 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
 					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 88.9 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d397c5d5-7ca0-48e4-9a52-490e3c223a32")
+		(property "Reference" "TP29"
+			(at 73.66 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 70.6121 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8f5b058-dd1e-44cb-a9f4-63c716af13c0")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
+					(reference "TP29")
 					(unit 1)
 				)
 			)
