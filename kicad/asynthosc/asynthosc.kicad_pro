@@ -513,16 +513,16 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "../asynthosc.csv",
+    "bom_export_filename": "./asynthosc.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "Semicolons",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
-      "string_delimiter": "\""
+      "string_delimiter": "'"
     },
     "bom_presets": [],
     "bom_settings": {
@@ -640,8 +640,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "RefNum"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -670,7 +670,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {
@@ -693,7 +693,7 @@
   "sheets": [
     [
       "d73e377a-a016-415f-8824-91cc6e4907b9",
-      "Racine"
+      "Root"
     ],
     [
       "22ca5166-338c-4a24-8f8a-545e4a0286bf",

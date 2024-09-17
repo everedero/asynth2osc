@@ -1627,7 +1627,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6bcecf80-b22a-4f1f-a603-3e7c8be5630f")
 		(property "Reference" "J13"

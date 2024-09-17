@@ -2833,7 +2833,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6dca0f7d-2d38-4639-83d8-26aff4900bba")
 		(property "Reference" "J6"

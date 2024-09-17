@@ -7937,7 +7937,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "38fdd06f-2d0f-448a-b73f-4af2d39e6a13")
 		(property "Reference" "C45"
 			(at 142.748 140.208 0)
@@ -11936,7 +11936,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dee92dbe-11b9-4541-b641-fd857e6b208e")
 		(property "Reference" "J12"
 			(at 225.552 84.328 0)
