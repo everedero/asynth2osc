@@ -14430,7 +14430,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D22"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "b8ad6b25-9dc7-4010-ac4d-34cf557da780")
 			(effects
@@ -14441,7 +14441,7 @@
 			)
 		)
 		(property "Value" "D_Schottky_Dual_SD103ASDM"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "7363c2ef-f87c-4438-acb0-9b23f61a1fb3")
 			(effects
@@ -14637,7 +14637,7 @@
 			(uuid "92178b6a-49bf-460b-b882-d75a60bd052a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "acaf547c-9908-487d-97d4-291e92742ebf")
 			(effects
@@ -27505,7 +27505,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Panasonic A5 / Nichicon, 4.0x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C3"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "6d5defd7-db03-4cd4-95ec-b49406374cdc")
 			(effects
@@ -27516,7 +27516,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "4128acda-1819-448b-9ea5-d3bbe9b7e13b")
 			(effects
@@ -27941,7 +27941,7 @@
 			(uuid "a56b8abe-bb43-45b8-abc6-6b00d660c84e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d438feb0-8c10-4a55-b5ae-5305a0119306")
 			(effects
@@ -35903,7 +35903,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D24"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "dae79330-1836-4f19-b1e5-84d71c67945d")
 			(effects
@@ -35914,7 +35914,7 @@
 			)
 		)
 		(property "Value" "D_Schottky_Dual_SD103ASDM"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "fa45843c-d212-45d9-bf2c-e7716167ade7")
 			(effects
@@ -36110,7 +36110,7 @@
 			(uuid "1fef0fc4-99b7-47a8-a6e4-6470de422fab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f29e060f-c16a-44fd-a8a1-064ee79f4b69")
 			(effects
@@ -39141,7 +39141,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
 		(layer "F.Cu")
 		(uuid "b5bb3444-618e-409b-a256-291f7064a451")
-		(at 79 34.5)
+		(at 90.5 53.5)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H2"
@@ -66161,6 +66161,17 @@
 		(uuid "ac319365-4037-4e2f-bb78-14e66b7815c7")
 	)
 	(gr_circle
+		(center 90 146)
+		(end 91.75 146)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "01bd79f0-20a5-470b-8fef-3286d36126f0")
+	)
+	(gr_circle
 		(center 148.62 158.6)
 		(end 150.37 158.6)
 		(stroke
@@ -66172,8 +66183,8 @@
 		(uuid "091c8ae9-4380-41a6-a466-920a2bd125d8")
 	)
 	(gr_rect
-		(start 133 116)
-		(end 144 126)
+		(start 131.5 115.5)
+		(end 142.5 125.5)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -66183,8 +66194,8 @@
 		(uuid "1ba2495f-dd66-4d69-a84d-80fdb1d987c1")
 	)
 	(gr_rect
-		(start 98.5 67)
-		(end 109.5 77)
+		(start 98.5 68)
+		(end 109.5 78)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -66205,8 +66216,8 @@
 		(uuid "280789c1-d31d-4b8f-8e28-549de6f25608")
 	)
 	(gr_circle
-		(center 127 143.4)
-		(end 131.9 143.4)
+		(center 126 142)
+		(end 130.9 142)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66227,8 +66238,8 @@
 		(uuid "68432287-f55a-4832-91f3-7c2ce552318c")
 	)
 	(gr_rect
-		(start 99.04 115.64)
-		(end 110.04 125.64)
+		(start 98.5 115.64)
+		(end 109.5 125.64)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -66238,8 +66249,8 @@
 		(uuid "68d1f2d8-1ada-472c-9def-380d21a6d95f")
 	)
 	(gr_circle
-		(center 116.2 131.3)
-		(end 121.1 131.3)
+		(center 115 130)
+		(end 119.9 130)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66249,8 +66260,8 @@
 		(uuid "6c3b2849-100a-46aa-9eac-ac54f1365713")
 	)
 	(gr_circle
-		(center 104.5 142.8)
-		(end 109.4 142.8)
+		(center 104 142)
+		(end 108.9 142)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66282,8 +66293,8 @@
 		(uuid "872c45d7-a3b1-4989-8ffa-28e7cf9178f6")
 	)
 	(gr_circle
-		(center 127 131.2)
-		(end 131.9 131.2)
+		(center 126 130)
+		(end 130.9 130)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66293,8 +66304,8 @@
 		(uuid "8be67a40-3601-471c-bc92-717a2279d460")
 	)
 	(gr_circle
-		(center 138 143.1)
-		(end 142.9 143.1)
+		(center 137 142)
+		(end 141.9 142)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66304,8 +66315,8 @@
 		(uuid "8d1d383f-2f53-4f00-b2e0-38f0122a9e04")
 	)
 	(gr_circle
-		(center 115.9 143.4)
-		(end 120.8 143.4)
+		(center 115 142)
+		(end 119.9 142)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66314,9 +66325,20 @@
 		(layer "Eco1.User")
 		(uuid "a0c15ffa-8a94-4348-86af-dd2e9f6621e9")
 	)
+	(gr_circle
+		(center 90.5 53.5)
+		(end 92.25 53.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "a54a5931-fc70-4de1-8ced-7ad5558b6d3b")
+	)
 	(gr_rect
-		(start 131.5 67)
-		(end 142.5 77)
+		(start 131.5 68)
+		(end 142.5 78)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -66326,8 +66348,8 @@
 		(uuid "b05fb764-2749-4fc2-92c5-3dd37965849c")
 	)
 	(gr_circle
-		(center 104.8 130.9)
-		(end 109.7 130.9)
+		(center 104 130)
+		(end 108.9 130)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66337,8 +66359,8 @@
 		(uuid "b19e611d-db10-4e8d-938e-08a23257f2d8")
 	)
 	(gr_circle
-		(center 138.2 131.3)
-		(end 143.1 131.3)
+		(center 137 130)
+		(end 141.9 130)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66348,8 +66370,19 @@
 		(uuid "bd09b127-9072-4fa9-be96-821aabd7de4c")
 	)
 	(gr_circle
-		(center 120.4 72.8)
-		(end 126.45 72.8)
+		(center 151 146)
+		(end 152.75 146)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "dea9032a-5ed1-497c-894e-5fa0581c1d7d")
+	)
+	(gr_circle
+		(center 120.5 73)
+		(end 126.55 73)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -66458,20 +66491,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "JACK"
-		(at 102.5 140.7 0)
-		(layer "Eco1.User")
-		(uuid "17afcd3e-fda9-4ee1-abc9-e63c097b014a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "AUDIO OUT\n"
-		(at 121.9 131.2 0)
+		(at 111.5 131 0)
 		(layer "Eco1.User")
 		(uuid "1e43bdaa-3659-4d24-b48c-ef9a7682d927")
 		(effects
@@ -66480,6 +66501,30 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "RJ45\n"
+		(at 103.5 43.5 0)
+		(layer "Eco1.User" knockout)
+		(uuid "22c65eab-5234-46f7-82fe-9372e52470d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Jacks"
+		(at 147.5 130.5 0)
+		(layer "Eco1.User" knockout)
+		(uuid "25c5ac91-a508-4063-9d55-765b51e07bc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "CV"
@@ -66530,8 +66575,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "(opt) Eurorack PWR"
+		(at 147.5 43.5 0)
+		(layer "Eco1.User" knockout)
+		(uuid "68e9c121-c12e-4e4d-b12e-aadd0f49f33b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "DISPLAY\n"
-		(at 117.5 53.5 0)
+		(at 117.5 53.5 -0)
 		(layer "Eco1.User")
 		(uuid "6bba87de-9a79-46e6-a5d6-c83e3bcf9c5f")
 		(effects
@@ -66555,7 +66612,7 @@
 		)
 	)
 	(gr_text "BTN"
-		(at 138.5 72 -0)
+		(at 135.5 72 -0)
 		(layer "Eco1.User")
 		(uuid "7794e46c-cf17-4cf5-af4c-f57ab07e70b4")
 		(effects
@@ -66591,7 +66648,7 @@
 		)
 	)
 	(gr_text "(cancel)"
-		(at 135.4 73.4 0)
+		(at 134 74 0)
 		(layer "Eco1.User")
 		(uuid "7ef2291b-4d91-46c5-9edb-57e56e8f6b33")
 		(effects
@@ -66603,7 +66660,7 @@
 		)
 	)
 	(gr_text "MIDI IN"
-		(at 112.5 131.8 0)
+		(at 123.5 131 -0)
 		(layer "Eco1.User")
 		(uuid "915450f5-e737-47db-9fd4-596704e87daa")
 		(effects
@@ -66626,6 +66683,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "USB Micro-B"
+		(at 121.5 43.5 0)
+		(layer "Eco1.User" knockout)
+		(uuid "a28f9130-6d82-44c5-b3fa-cac806693106")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Between boards: 13mm interval"
 		(at 107.5 20 0)
 		(layer "Eco1.User")
@@ -66639,7 +66708,7 @@
 		)
 	)
 	(gr_text "(OK)"
-		(at 102.6 71.8 0)
+		(at 102 73.5 0)
 		(layer "Eco1.User")
 		(uuid "c2861f55-1038-4ce2-b7e3-3d820d8a6e20")
 		(effects
@@ -66651,7 +66720,7 @@
 		)
 	)
 	(gr_text "RJ45 height: 11.7mm"
-		(at 89.6 43 0)
+		(at 93 41.5 0)
 		(layer "Eco1.User")
 		(uuid "e0d3a84b-4b16-4a17-b1af-fffd69014a4e")
 		(effects
@@ -66730,7 +66799,7 @@
 			(xy 86.0825 150) (xy 86 44)
 		)
 		(height -42.084344)
-		(gr_text "106,0000 mm"
+		(gr_text "106.0000 mm"
 			(at 45.106919 97.031859 -89.9554066)
 			(layer "Dwgs.User")
 			(uuid "ba1c8903-94a2-4501-93f8-efa24889da29")
@@ -66763,7 +66832,7 @@
 			(xy 155 150) (xy 86 150)
 		)
 		(height -6.3)
-		(gr_text "69,0000 mm"
+		(gr_text "69.0000 mm"
 			(at 120.5 155.15 0)
 			(layer "Dwgs.User")
 			(uuid "f51fdb3f-530e-406c-94de-8d625c1d51dc")
@@ -66796,7 +66865,7 @@
 			(xy 92.5 36.2) (xy 85 36.2)
 		)
 		(height 6.199999)
-		(gr_text "7,5000 mm"
+		(gr_text "7.5000 mm"
 			(at 88.75 28.850001 0)
 			(layer "Eco1.User")
 			(uuid "23929c4f-1e62-49ef-9bea-ab3dbedfba60")
@@ -66829,7 +66898,7 @@
 			(xy 85 33.2) (xy 156.12 33.2)
 		)
 		(height -9)
-		(gr_text "71,1200 mm"
+		(gr_text "71.1200 mm"
 			(at 120.56 23.05 0)
 			(layer "Eco1.User")
 			(uuid "60f1b179-9fb1-4d41-a4f6-0ba8676e66bb")
@@ -66862,7 +66931,7 @@
 			(xy 92.47 36.2) (xy 92.47 33.2)
 		)
 		(height 4.93)
-		(gr_text "3,0000 mm"
+		(gr_text "3.0000 mm"
 			(at 99.4 34.705 90)
 			(layer "Eco1.User")
 			(uuid "9655c551-284f-448e-bc05-242b2b22c113")
@@ -66895,7 +66964,7 @@
 			(xy 85 33.2) (xy 85 161.6)
 		)
 		(height 30.2)
-		(gr_text "128,4000 mm"
+		(gr_text "128.4000 mm"
 			(at 53.65 97.4 90)
 			(layer "Eco1.User")
 			(uuid "aef4c058-fa6a-44a5-bf8d-54d8226874d6")
