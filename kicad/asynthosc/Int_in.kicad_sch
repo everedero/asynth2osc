@@ -2289,6 +2289,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de829525-a427-4b69-8f25-e8a2af272d6f")
+		(property "Reference" "#PWR028"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f290cb9a-a4cb-44ab-bb4e-a4568cab6d33")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/00719137-6b38-42a6-b28f-e4711c0869df"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/5f8430bb-1923-4d76-b418-f207310879ec/1b493739-e50b-4e48-bad0-48b50a96f04e"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NPN_BEC")
 		(at 82.55 66.04 0)
 		(unit 1)
