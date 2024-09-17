@@ -4228,7 +4228,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "EC11E18244AU"
+		(property "RefNum" "EC11E18"
 			(at 59.69 125.73 0)
 			(effects
 				(font
@@ -4246,7 +4246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C202365"
+		(property "LCSC" "C370986"
 			(at 59.69 125.73 0)
 			(effects
 				(font
