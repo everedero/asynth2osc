@@ -3773,7 +3773,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22360346"
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -4211,6 +4211,15 @@
 			)
 		)
 		(property "Manufacturer" "Alps"
+			(at 59.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C202365"
 			(at 59.69 125.73 0)
 			(effects
 				(font
@@ -4948,7 +4957,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5123567"
 			(at 200.66 101.6 0)
 			(effects
 				(font
@@ -5529,7 +5538,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2762115"
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -7020,7 +7029,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2762115"
 			(at 62.23 176.53 0)
 			(effects
 				(font

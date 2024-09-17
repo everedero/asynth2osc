@@ -8974,7 +8974,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C192300 "
 			(at 328.93 166.37 0)
 			(effects
 				(font
@@ -8983,7 +8983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Boomele "
 			(at 328.93 166.37 0)
 			(effects
 				(font
@@ -8992,7 +8992,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "_na_"
+		(property "RefNum" "2.54-2*4P"
 			(at 328.93 166.37 0)
 			(effects
 				(font
@@ -10162,7 +10162,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C84004 "
 			(at 326.39 86.36 0)
 			(effects
 				(font
@@ -10171,7 +10171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Boomele "
 			(at 326.39 86.36 0)
 			(effects
 				(font
@@ -10180,7 +10180,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "_na_"
+		(property "RefNum" "2.54-2*7P"
 			(at 326.39 86.36 0)
 			(effects
 				(font
@@ -11109,7 +11109,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C192300 "
 			(at 328.93 134.62 0)
 			(effects
 				(font
@@ -11118,7 +11118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Boomele "
 			(at 328.93 134.62 0)
 			(effects
 				(font
@@ -11127,7 +11127,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "_na_"
+		(property "RefNum" "2.54-2*4P"
 			(at 328.93 134.62 0)
 			(effects
 				(font
@@ -12057,7 +12057,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C179173"
 			(at 278.13 218.44 0)
 			(effects
 				(font
@@ -13792,6 +13792,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C114409"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "STM32H743VITx"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "86"
 			(uuid "136014bf-d3a5-4e19-8ca9-f8ec725f543f")
 		)
@@ -14873,7 +14900,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C889706"
 			(at 82.55 68.58 0)
 			(effects
 				(font
@@ -15452,7 +15479,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C160974"
 			(at 134.62 34.29 0)
 			(effects
 				(font
@@ -15556,7 +15583,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5127964"
 			(at 44.45 52.07 0)
 			(effects
 				(font
@@ -15565,7 +15592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " Boomele"
+		(property "Manufacturer" "Boomele"
 			(at 44.45 52.07 0)
 			(effects
 				(font

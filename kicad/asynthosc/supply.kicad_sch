@@ -6728,7 +6728,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2070685 "
 			(at 59.69 190.5 0)
 			(effects
 				(font
@@ -7351,7 +7351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C72485"
 			(at 41.91 180.34 0)
 			(effects
 				(font
@@ -7962,7 +7962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C72485"
 			(at 80.01 259.08 0)
 			(effects
 				(font
@@ -8220,7 +8220,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C126028"
 			(at 105.41 255.27 0)
 			(effects
 				(font
@@ -8556,7 +8556,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3014007"
 			(at 198.12 43.18 0)
 			(effects
 				(font
@@ -8879,7 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C126027"
 			(at 53.34 88.9 0)
 			(effects
 				(font
@@ -9234,7 +9234,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C128638"
 			(at 200.66 257.81 0)
 			(effects
 				(font
@@ -9243,7 +9243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay"
 			(at 200.66 257.81 0)
 			(effects
 				(font
@@ -9635,7 +9635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3294463"
 			(at 44.45 257.81 0)
 			(effects
 				(font
@@ -9644,7 +9644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "HCTL"
 			(at 44.45 257.81 0)
 			(effects
 				(font
@@ -9653,7 +9653,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "_na_"
+		(property "RefNum" "PZ254-2-05-S"
 			(at 44.45 257.81 0)
 			(effects
 				(font
@@ -10155,7 +10155,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C111566"
 			(at 67.31 57.15 0)
 			(effects
 				(font
@@ -10413,7 +10413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C111566"
 			(at 77.47 57.15 0)
 			(effects
 				(font
@@ -11165,7 +11165,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3014007"
 			(at 81.28 172.72 0)
 			(effects
 				(font
@@ -11422,7 +11422,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C72485"
 			(at 189.23 46.99 0)
 			(effects
 				(font
@@ -11612,7 +11612,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "_generic_"
+		(property "RefNum" "NTC16D-9"
 			(at 144.78 43.18 0)
 			(effects
 				(font
@@ -11621,7 +11621,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2935581"
 			(at 144.78 43.18 0)
 			(effects
 				(font
@@ -11630,7 +11630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Ruilon"
 			(at 144.78 43.18 0)
 			(effects
 				(font
@@ -11782,7 +11782,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7462918"
 			(at 58.42 172.72 0)
 			(effects
 				(font
@@ -11939,7 +11939,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7519"
 			(at 62.23 143.51 0)
 			(effects
 				(font
@@ -12112,7 +12112,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3014007"
 			(at 133.35 248.92 0)
 			(effects
 				(font
@@ -12397,7 +12397,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2921026"
 			(at 67.31 248.92 0)
 			(effects
 				(font
@@ -12406,7 +12406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong"
+		(property "Manufacturer" "Agertech"
 			(at 67.31 248.92 0)
 			(effects
 				(font
@@ -12755,7 +12755,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C160974"
 			(at 165.1 43.18 0)
 			(effects
 				(font
@@ -13638,7 +13638,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5160321"
 			(at 40.64 43.18 0)
 			(effects
 				(font
