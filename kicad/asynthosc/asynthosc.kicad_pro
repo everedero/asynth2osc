@@ -503,7 +503,7 @@
       "idf": "",
       "netlist": "",
       "plot": "../gerbers/",
-      "pos_files": "",
+      "pos_files": "../assembly/",
       "specctra_dsn": "",
       "step": "",
       "svg": "/home/eve/Documents/asynth2osc/kicad/",
