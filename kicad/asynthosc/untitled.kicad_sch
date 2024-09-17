@@ -1841,7 +1841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bb05c60-b222-47af-9c1b-f63c78dcd3ca")
-		(property "Reference" "TP1"
+		(property "Reference" "TP23"
 			(at 204.47 43.6879 0)
 			(effects
 				(font
@@ -1920,7 +1920,7 @@
 		(instances
 			(project ""
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
-					(reference "TP1")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -1936,7 +1936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a7840b0-6ab8-4f33-bb08-322131cb7ce8")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0119"
 			(at 240.03 39.37 0)
 			(effects
 				(font
@@ -1986,7 +1986,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
-					(reference "#PWR0116")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -2099,7 +2099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff628fba-ac10-4f33-af74-f29fcaf9385f")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0120"
 			(at 240.03 64.77 0)
 			(effects
 				(font
@@ -2150,7 +2150,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/e5b5a411-a62d-4190-89e5-07a84042033c"
-					(reference "#PWR0117")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)

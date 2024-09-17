@@ -694,7 +694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0871d452-5dd4-455f-a727-6074ed81382a")
-		(property "Reference" "TP10"
+		(property "Reference" "TP8"
 			(at 127 97.0279 0)
 			(effects
 				(font
@@ -773,7 +773,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP10")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -789,7 +789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "087482e9-fcdd-45e2-92ab-2b4509c2cbc1")
-		(property "Reference" "TP8"
+		(property "Reference" "TP12"
 			(at 190.5 95.7579 0)
 			(effects
 				(font
@@ -868,7 +868,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP8")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -884,7 +884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "252c1f57-33f5-4e43-8083-b3a0c6c7f3a9")
-		(property "Reference" "TP7"
+		(property "Reference" "TP11"
 			(at 187.96 93.2179 0)
 			(effects
 				(font
@@ -963,7 +963,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP7")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -979,7 +979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be25b2c-2b9b-4119-bbfd-741d16215679")
-		(property "Reference" "TP15"
+		(property "Reference" "TP3"
 			(at 120.65 126.2379 0)
 			(effects
 				(font
@@ -1058,7 +1058,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP15")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -1074,7 +1074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4244e7e1-2911-4504-9ca9-6e7e1972cbf8")
-		(property "Reference" "TP14"
+		(property "Reference" "TP1"
 			(at 118.11 123.6979 0)
 			(effects
 				(font
@@ -1153,7 +1153,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP14")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -1169,7 +1169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d651fd-bf16-4b4d-8439-d0a16cac2048")
-		(property "Reference" "TP17"
+		(property "Reference" "TP5"
 			(at 121.92 146.5579 0)
 			(effects
 				(font
@@ -1248,7 +1248,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP17")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -1264,7 +1264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "632ac231-3d6f-4bab-8c2e-38d04a15f68a")
-		(property "Reference" "TP13"
+		(property "Reference" "TP7"
 			(at 123.19 112.5219 0)
 			(effects
 				(font
@@ -1343,7 +1343,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP13")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -1359,7 +1359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a1e130d-02bf-495d-8039-cc9b4712ae25")
-		(property "Reference" "TP16"
+		(property "Reference" "TP4"
 			(at 121.92 93.4719 0)
 			(effects
 				(font
@@ -1438,7 +1438,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP16")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1454,7 +1454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba8baed4-f3b6-49a1-845e-37c4619b0775")
-		(property "Reference" "TP5"
+		(property "Reference" "TP9"
 			(at 182.88 88.1379 0)
 			(effects
 				(font
@@ -1533,7 +1533,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP5")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -1549,7 +1549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c75b8c40-eafd-4b8e-9f58-5b43e0dae6a4")
-		(property "Reference" "TP12"
+		(property "Reference" "TP2"
 			(at 120.65 102.1079 0)
 			(effects
 				(font
@@ -1628,7 +1628,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP12")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -1644,7 +1644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c776f939-5b9f-43b2-a40e-10d81dc85154")
-		(property "Reference" "TP11"
+		(property "Reference" "TP6"
 			(at 123.19 99.5679 0)
 			(effects
 				(font
@@ -1723,7 +1723,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP11")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -1739,7 +1739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddfb0731-fec5-4a29-9295-8373f7d7e9fb")
-		(property "Reference" "TP18"
+		(property "Reference" "TP13"
 			(at 191.77 71.6279 0)
 			(effects
 				(font
@@ -1818,7 +1818,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP18")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -1834,7 +1834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2487177-9586-4f23-b1a9-38ce2926fd0f")
-		(property "Reference" "TP9"
+		(property "Reference" "TP14"
 			(at 193.04 98.2979 0)
 			(effects
 				(font
@@ -1913,7 +1913,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP9")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -1929,7 +1929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec10b2a9-d2af-4ff6-8eeb-24431075d83b")
-		(property "Reference" "TP6"
+		(property "Reference" "TP10"
 			(at 185.42 90.6779 0)
 			(effects
 				(font
@@ -2008,7 +2008,7 @@
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
-					(reference "TP6")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
