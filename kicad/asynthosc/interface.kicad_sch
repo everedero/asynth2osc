@@ -3412,7 +3412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF/25V/X7R"
+		(property "Value" "4.7uF 25V X7R"
 			(at 187.706 38.862 90)
 			(effects
 				(font
@@ -4336,7 +4336,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/25V/X7R"
+		(property "Value" "100nF 25V X7R"
 			(at 200.66 39.37 90)
 			(effects
 				(font
@@ -4433,7 +4433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF / 16V"
+		(property "Value" "1uF"
 			(at 171.45 35.5599 0)
 			(effects
 				(font
@@ -4626,7 +4626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/25V"
+		(property "Value" "2.2uF X7R"
 			(at 154.94 129.5399 0)
 			(effects
 				(font
@@ -6348,7 +6348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF / 16V"
+		(property "Value" "1uF"
 			(at 144.272 35.56 0)
 			(effects
 				(font

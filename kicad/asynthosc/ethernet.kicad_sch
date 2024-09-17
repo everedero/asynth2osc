@@ -8124,7 +8124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000pF X7R"
+		(property "Value" "1nF X7R"
 			(at 200.914 111.252 0)
 			(effects
 				(font

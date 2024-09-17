@@ -1097,6 +1097,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -1351,6 +1360,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -1405,6 +1423,15 @@
 			)
 		)
 		(property "Description" "Mouse Bytes"
+			(at 76.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 76.2 29.21 0)
 			(effects
 				(font
@@ -1469,6 +1496,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 31.75 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 31.75 20.32 0)
 			(effects
 				(font
@@ -1628,6 +1664,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 50.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 50.8 20.32 0)
 			(effects
 				(font
@@ -1983,6 +2028,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -2134,6 +2188,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 31.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 31.75 26.67 0)
 			(effects
 				(font
@@ -2301,6 +2364,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 31.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -2363,6 +2435,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 76.2 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -2417,6 +2498,15 @@
 			)
 		)
 		(property "Description" "Mouse Bytes"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 76.2 39.37 0)
 			(effects
 				(font
@@ -2869,6 +2959,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -3216,6 +3315,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -3373,6 +3481,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -3437,6 +3554,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 50.8 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9"
@@ -3491,6 +3617,15 @@
 			)
 		)
 		(property "Description" "Mouse Bytes"
+			(at 76.2 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 76.2 26.67 0)
 			(effects
 				(font
@@ -3743,6 +3878,15 @@
 			)
 		)
 		(property "Description" "Mouse Bytes"
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 76.2 24.13 0)
 			(effects
 				(font

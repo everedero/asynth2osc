@@ -7411,7 +7411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF / 3.037mOhms"
+		(property "Value" "47uF 3.037mOhms"
 			(at 88.392 219.456 0)
 			(effects
 				(font
@@ -9504,6 +9504,15 @@
 				(hide yes)
 			)
 		)
+		(property "RefNum" "_na_"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07fcc025-a282-4a8b-9b64-474ff8c39246")
 		)
@@ -9746,6 +9755,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 106.68 73.66 0)
 			(effects
 				(font
@@ -11025,6 +11043,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 133.35 101.6 0)
 			(effects
 				(font
@@ -13272,7 +13299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "69.8k"
+		(property "Value" "68.1k"
 			(at 80.264 198.882 90)
 			(effects
 				(font
@@ -13397,6 +13424,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_na_"
 			(at 143.51 101.6 0)
 			(effects
 				(font

@@ -635,7 +635,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "RefNum"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -687,7 +687,7 @@
   "sheets": [
     [
       "d73e377a-a016-415f-8824-91cc6e4907b9",
-      "Root"
+      "Racine"
     ],
     [
       "22ca5166-338c-4a24-8f8a-545e4a0286bf",

@@ -10268,7 +10268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 237.49 53.34 0)
 			(effects
 				(font
@@ -11924,7 +11924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u X7R"
+		(property "Value" "2.2uF X7R"
 			(at 100.33 168.9099 0)
 			(effects
 				(font
@@ -12372,7 +12372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 251.46 53.34 0)
 			(effects
 				(font
@@ -12747,7 +12747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u X7R"
+		(property "Value" "2.2uF X7R"
 			(at 75.438 168.91 0)
 			(effects
 				(font
