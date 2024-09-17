@@ -5223,6 +5223,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 153.67) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0518b11e-ccd4-4191-b09a-0beeb02ced84")
+	)
+	(wire
+		(pts
 			(xy 353.06 86.36) (xy 361.95 86.36)
 		)
 		(stroke
@@ -5533,6 +5543,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 148.59) (xy 101.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aec096d-65f7-4648-9ee4-83f704f26df8")
+	)
+	(wire
+		(pts
 			(xy 49.53 27.94) (xy 55.88 27.94)
 		)
 		(stroke
@@ -5550,6 +5570,16 @@
 			(type default)
 		)
 		(uuid "3ee32b1c-416f-43f7-8738-7ebdb1610bdd")
+	)
+	(wire
+		(pts
+			(xy 92.71 118.11) (xy 101.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43272bbd-c578-4fbc-a0f2-9c0c0d98d880")
 	)
 	(wire
 		(pts
@@ -5700,6 +5730,26 @@
 			(type default)
 		)
 		(uuid "58b543a5-d708-4b82-af21-5e3de59d3e1d")
+	)
+	(wire
+		(pts
+			(xy 152.4 156.21) (xy 158.75 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59124c5b-0a9b-4c2a-8f07-96a2048202b2")
+	)
+	(wire
+		(pts
+			(xy 152.4 158.75) (xy 158.75 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8e07cb-955a-4e6b-a46a-083da22dd5a1")
 	)
 	(wire
 		(pts
@@ -5993,6 +6043,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 146.05) (xy 101.6 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fbb53a-156f-4368-9a10-7a568bd72105")
+	)
+	(wire
+		(pts
 			(xy 101.6 161.29) (xy 88.9 161.29)
 		)
 		(stroke
@@ -6203,6 +6263,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 156.21) (xy 101.6 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0145eb-9ae1-4300-a89f-9a95f0c8a285")
+	)
+	(wire
+		(pts
+			(xy 152.4 130.81) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffd4a66-8ed0-4553-a024-149201527d56")
+	)
+	(wire
+		(pts
 			(xy 49.53 52.07) (xy 52.07 52.07)
 		)
 		(stroke
@@ -6230,6 +6310,16 @@
 			(type default)
 		)
 		(uuid "a0dabeb3-ecb2-4e91-9e00-56bbd54ec11c")
+	)
+	(wire
+		(pts
+			(xy 152.4 161.29) (xy 158.75 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15e7dfd-7370-43d7-b85b-4758521d2c9a")
 	)
 	(wire
 		(pts
@@ -6353,6 +6443,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 130.81) (xy 101.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11ab829-8d18-4419-8355-4ec588143366")
+	)
+	(wire
+		(pts
 			(xy 300.99 90.17) (xy 303.53 90.17)
 		)
 		(stroke
@@ -6390,6 +6490,16 @@
 			(type default)
 		)
 		(uuid "b5063845-130a-4f21-813d-d93f4d8df5d3")
+	)
+	(wire
+		(pts
+			(xy 83.82 133.35) (xy 101.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1bdfe2-3e9c-42b0-89f8-c8bc6871572e")
 	)
 	(wire
 		(pts
@@ -6680,6 +6790,16 @@
 			(type default)
 		)
 		(uuid "f0263890-18df-488d-8a9c-824649a85511")
+	)
+	(wire
+		(pts
+			(xy 152.4 133.35) (xy 158.75 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bd0103-4e98-47f9-ad5c-0dd06224bbdd")
 	)
 	(wire
 		(pts
@@ -7701,6 +7821,18 @@
 		)
 		(uuid "390836ad-2fc3-43bd-99cb-ab9d4b451700")
 	)
+	(hierarchical_label "LED_BTN_1"
+		(shape output)
+		(at 83.82 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44aa8e6f-f2cf-4218-bd74-9e8723be9150")
+	)
 	(hierarchical_label "ADC1_IN0"
 		(shape input)
 		(at 170.18 52.07 0)
@@ -7749,6 +7881,18 @@
 		)
 		(uuid "614f5f0b-bb4f-45d6-9b53-9ec1c8a33efe")
 	)
+	(hierarchical_label "BTN_1"
+		(shape input)
+		(at 83.82 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ce1fa4b-2990-4cb3-bb26-594705a9c191")
+	)
 	(hierarchical_label "ADC1_IN3"
 		(shape input)
 		(at 170.18 59.69 0)
@@ -7763,7 +7907,7 @@
 	)
 	(hierarchical_label "DISP_10V_EN"
 		(shape output)
-		(at 39.37 119.38 180)
+		(at 54.61 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7773,15 +7917,27 @@
 		)
 		(uuid "87a5b7fd-93ed-44aa-83dd-44f3e9cdefd8")
 	)
-	(hierarchical_label "DISP_nCS"
-		(shape output)
-		(at 39.37 128.27 180)
+	(hierarchical_label "ROT_A"
+		(shape input)
+		(at 158.75 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "91f61477-f036-442e-8742-d94c5b8a8b04")
+	)
+	(hierarchical_label "DISP_nCS"
+		(shape output)
+		(at 158.75 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "948b8301-d371-437b-b7d2-c957209a3ea1")
 	)
@@ -7797,6 +7953,18 @@
 		)
 		(uuid "97bb3260-f59b-4518-a5b0-b0ff1ce1293f")
 	)
+	(hierarchical_label "BTN_2"
+		(shape input)
+		(at 83.82 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cf2472d-c37b-4420-8abb-95b9df0a1c23")
+	)
 	(hierarchical_label "UART4_TX"
 		(shape output)
 		(at 83.82 128.27 180)
@@ -7811,7 +7979,7 @@
 	)
 	(hierarchical_label "DISP_DC"
 		(shape output)
-		(at 39.37 125.73 180)
+		(at 83.82 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7820,6 +7988,18 @@
 			(justify right)
 		)
 		(uuid "a6e2c304-ff0e-4aa6-95ed-243b39bb4150")
+	)
+	(hierarchical_label "TIM1_CH4"
+		(shape input)
+		(at 92.71 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a930b9d3-aa47-4e8c-b6ed-b351b3d7731a")
 	)
 	(hierarchical_label "ADC1_IN9"
 		(shape input)
@@ -7857,6 +8037,30 @@
 		)
 		(uuid "b0eb7767-5883-4043-ae48-b92eb88257a7")
 	)
+	(hierarchical_label "LED_BTN_2"
+		(shape output)
+		(at 83.82 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0feacab-dbc5-426e-8ebe-2eb9e50ff578")
+	)
+	(hierarchical_label "ROT_B"
+		(shape input)
+		(at 158.75 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c10f7e70-fe87-4ba8-8d76-7a1eefa44f00")
+	)
 	(hierarchical_label "ADC1_IN5"
 		(shape input)
 		(at 170.18 64.77 0)
@@ -7871,15 +8075,27 @@
 	)
 	(hierarchical_label "DISP_nRST"
 		(shape output)
-		(at 39.37 123.19 180)
+		(at 158.75 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "da40dd01-fd4c-4748-ac0c-ecff19c63119")
+	)
+	(hierarchical_label "DISP_10V_EN"
+		(shape output)
+		(at 158.75 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc23f66a-6dff-4171-b158-6745ccd3ba8f")
 	)
 	(hierarchical_label "UART4_RX"
 		(shape input)
@@ -7892,6 +8108,18 @@
 			(justify right)
 		)
 		(uuid "e1a5f7eb-0ffe-401a-b8fd-ca9a8a093f46")
+	)
+	(hierarchical_label "DISP_12V_EN"
+		(shape output)
+		(at 158.75 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f88c5b25-c312-4cf5-80af-618d34b8824a")
 	)
 	(hierarchical_label "TIM15_CH1"
 		(shape input)
