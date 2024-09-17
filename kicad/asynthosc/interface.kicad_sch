@@ -3746,7 +3746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "asynthosc:HRO_FPC0.5B-WTG-24P_1x24-1MP_P0.5mm_Horizontal"
+		(property "Footprint" "asynthosc:Hirose_FH52-24S-0.5SH_1x24-1MP_P0.5mm_Horizontal"
 			(at 183.642 96.774 0)
 			(effects
 				(font
@@ -3773,7 +3773,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22360346"
+		(property "LCSC" "C5378714"
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -3782,7 +3782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "HRO Parts"
+		(property "Manufacturer" "Hirose"
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -3791,7 +3791,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "FPC0.5B-WTG-24P "
+		(property "RefNum" "FH52-24S-0.5SH"
 			(at 182.88 93.98 0)
 			(effects
 				(font

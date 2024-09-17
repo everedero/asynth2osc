@@ -1433,7 +1433,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "H11L1SM"
+		(property "RefNum" "H11L1S-JSM"
 			(at 240.03 50.8 0)
 			(effects
 				(font
@@ -1442,7 +1442,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C899473"
+		(property "LCSC" "C22376095"
 			(at 240.03 50.8 0)
 			(effects
 				(font
@@ -1451,7 +1451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "OnSemi"
+		(property "Manufacturer" "JSMSEMI"
 			(at 240.03 50.8 0)
 			(effects
 				(font

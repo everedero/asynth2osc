@@ -1,4 +1,4 @@
-(footprint "HRO_FPC0.5B-WTG-24P_1x24-1MP_P0.5mm_Horizontal"
+(footprint "Hirose_FH52-24S-0.5SH_1x24-1MP_P0.5mm_Horizontal"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -41,8 +41,8 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403141630_Korean-Hroparts-Elec-FPC0-5B-WTG-24P_C22360346.pdf"
-		(at 0 0.8 0)
+	(property "Datasheet" ""
+		(at 1.4 -3.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -354,16 +354,16 @@
 		(uuid "3bf8de59-35e0-4b97-bc11-f1259bb7ff1f")
 	)
 	(pad "MP" smd rect
-		(at -7.45 1.85)
-		(size 2 1.7)
+		(at -7.459 2.753)
+		(size 0.8 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0c965a21-1025-467f-b194-831e7dac3fc0")
 	)
 	(pad "MP" smd rect
-		(at 7.45 1.85 180)
-		(size 2 1.7)
+		(at 7.447 2.753)
+		(size 0.8 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "bfdc3146-6c51-445a-b5fb-7e8c5ed1c311")
+		(uuid "28d3d8da-24ea-4d63-a98b-7fe80c1d3001")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/TE_2-1734839-4_1x24-1MP_P0.5mm_Horizontal.wrl"
 		(offset

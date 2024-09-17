@@ -9234,7 +9234,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C128638"
+		(property "LCSC" "C5246384"
 			(at 200.66 257.81 0)
 			(effects
 				(font
@@ -9243,7 +9243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "Tech Public"
 			(at 200.66 257.81 0)
 			(effects
 				(font
@@ -9252,7 +9252,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "Si1869DH"
+		(property "RefNum" "TPSI1869DH-T1-E3"
 			(at 200.66 257.81 0)
 			(effects
 				(font

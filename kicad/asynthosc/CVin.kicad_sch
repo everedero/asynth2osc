@@ -2754,7 +2754,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6709488"
+		(property "LCSC" "C18198124"
 			(at 62.23 38.1 0)
 			(effects
 				(font
@@ -2763,7 +2763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN"
+		(property "Manufacturer" "Hanbo"
 			(at 62.23 38.1 0)
 			(effects
 				(font
@@ -2772,7 +2772,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" "2.54-2P TPPT"
+		(property "RefNum" "DO-02PD"
 			(at 62.23 38.1 0)
 			(effects
 				(font
