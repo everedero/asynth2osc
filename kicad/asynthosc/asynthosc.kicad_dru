@@ -5,11 +5,11 @@
   (constraint edge_clearance (min 0.5mm))
 )
 
-# THT to SMD: TH pads too close to pads (2.1mm)
-(rule "THT to SMD"
-  (condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Type == 'Pad' && B.Type != 'Via' && B.Fabrication_Property != 'Heatsink pad'")
-  (constraint hole_clearance (min 2.1mm))
-)
+# THT to SMD: TH pads too close to soldermask for auto soldering (2.1mm)
+#(rule "THT to SMD"
+#  (condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Type == 'Pad' && B.Type != 'Via' && B.Fabrication_Property != 'Heatsink pad'")
+#  (constraint hole_clearance (min 2.1mm))
+#)
 
 # Via to pads: via too close to pads (0.1mm)
 (rule "Via to pads"
