@@ -4984,6 +4984,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a066af2-ec9c-4d65-a3c0-2318c3963b67")
+	)
+	(wire
+		(pts
 			(xy 91.44 203.2) (xy 91.44 209.55)
 		)
 		(stroke
@@ -6296,6 +6306,17 @@
 		(uuid "19369866-5881-4223-ae10-a6e59156ba50")
 	)
 	(label "VBUS"
+		(at 125.73 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3858eec5-83ec-4b61-9a6f-4785ebff372a")
+	)
+	(label "VBUS"
 		(at 29.21 177.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6404,17 +6425,6 @@
 			(justify left bottom)
 		)
 		(uuid "d269f334-a4fc-406b-b5cc-40c684d972a8")
-	)
-	(label "VBUS"
-		(at 114.3 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f04300dd-7c94-402c-9be4-16b3a822fa8c")
 	)
 	(label "VBUS"
 		(at 80.01 38.1 0)
@@ -10223,6 +10233,110 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS24")
+		(at 118.11 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85828447-921c-4442-8487-1f824fe3931f")
+		(property "Reference" "D9"
+			(at 117.7925 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS24"
+			(at 117.7925 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 118.11 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 2A Schottky Diode, SMA"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3014007"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Fosan"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "SS24"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMA"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78b7dec8-9527-45f0-a7f3-002acd00ee77")
+		)
+		(pin "2"
+			(uuid "7e35e7aa-2c4d-4ee9-b3a5-a14e8469f9ce")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
+					(reference "D9")
 					(unit 1)
 				)
 			)
