@@ -5663,6 +5663,12 @@
 		(uuid "c523e61c-5f9e-4c4b-b0cf-59c05f57b46f")
 	)
 	(junction
+		(at 186.69 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8b6eca9-60b9-43e1-8a18-604381653432")
+	)
+	(junction
 		(at 321.31 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6628,6 +6634,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76210ef3-15ea-4530-a5e7-64d84c30d348")
+	)
+	(wire
+		(pts
 			(xy 336.55 139.7) (xy 339.09 139.7)
 		)
 		(stroke
@@ -6808,7 +6824,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 151.13 74.93)
+			(xy 147.32 74.93) (xy 170.18 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7298,6 +7314,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 82.55) (xy 186.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda2d767-0cd7-41ce-a0a9-8154447926f8")
+	)
+	(wire
+		(pts
 			(xy 147.32 90.17) (xy 149.86 90.17)
 		)
 		(stroke
@@ -7578,7 +7604,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 74.93) (xy 165.1 74.93)
+			(xy 177.8 74.93) (xy 186.69 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7706,6 +7732,16 @@
 		)
 		(uuid "5bde5cbc-17ea-4208-876f-b0580d7a0169")
 	)
+	(text "detect in case we are powered by +12V"
+		(exclude_from_sim no)
+		(at 209.296 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6dbcfe7f-7620-49b7-b0c8-a2ea58ecff24")
+	)
 	(text "External LED GPIO"
 		(exclude_from_sim no)
 		(at 329.946 154.686 0)
@@ -7725,17 +7761,6 @@
 			)
 		)
 		(uuid "7d54e87d-fa26-4a2d-8d29-90b52963c722")
-	)
-	(text "ISSUE"
-		(exclude_from_sim no)
-		(at 179.324 74.676 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 46 1)
-			)
-		)
-		(uuid "9cfba9ee-587e-4ed9-8915-9a6f3734d720")
 	)
 	(text "144P: STM32H723ZGTx\n100P: STM32H723VGT6"
 		(exclude_from_sim no)
@@ -8764,18 +8789,6 @@
 		)
 		(uuid "5d1feb20-bcdd-4c55-a4d7-e700fae9660a")
 	)
-	(hierarchical_label "USB_VBUS"
-		(shape input)
-		(at 165.1 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "614f5f0b-bb4f-45d6-9b53-9ec1c8a33efe")
-	)
 	(hierarchical_label "BTN_1"
 		(shape input)
 		(at 86.36 123.19 180)
@@ -8991,6 +9004,18 @@
 			(justify right)
 		)
 		(uuid "e1a5f7eb-0ffe-401a-b8fd-ca9a8a093f46")
+	)
+	(hierarchical_label "USB_VBUS"
+		(shape input)
+		(at 196.85 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4eae5a3-8c59-4a57-8565-6ef016754ddd")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
@@ -10578,6 +10603,72 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c98d2db-8c0d-479f-b77e-3c1b6e13a864")
+		(property "Reference" "#PWR0125"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edcae3b0-18c1-41df-a84a-f062ce9ce90c")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -12832,6 +12923,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 186.69 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "875de0ce-b536-4b77-a1ae-e5f5047a41da")
+		(property "Reference" "R83"
+			(at 185.674 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 185.42 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 184.912 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_generic_"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0402"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86655ed9-c5d0-4c49-b301-1f9fe38eca07")
+		)
+		(pin "1"
+			(uuid "ed0ada93-f85b-44cc-89eb-cf2332be4ebe")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 62.23 24.13 0)
 		(unit 1)
@@ -13822,7 +14016,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 74.93 270)
+		(at 173.99 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13830,15 +14024,15 @@
 		(dnp no)
 		(uuid "c1c5ae65-663e-4783-9df4-3d8d6da683c9")
 		(property "Reference" "R8"
-			(at 150.114 73.914 90)
+			(at 169.164 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 160.274 73.66 90)
+		(property "Value" "4.7k"
+			(at 179.324 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13846,7 +14040,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 73.152 90)
+			(at 173.99 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13855,7 +14049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 74.93 0)
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13864,7 +14058,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 154.94 74.93 0)
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13873,7 +14067,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 154.94 74.93 0)
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13882,7 +14076,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 154.94 74.93 0)
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13891,7 +14085,7 @@
 			)
 		)
 		(property "RefNum" "_generic_"
-			(at 154.94 74.93 0)
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13900,7 +14094,7 @@
 			)
 		)
 		(property "JLC" "0402"
-			(at 154.94 74.93 0)
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6484,6 +6484,18 @@
 		)
 		(uuid "b824a0ae-0375-4838-a3c3-62319d06f7a0")
 	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 97.79 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8c3d70f-d8e7-4800-9f4b-9452b5780316")
+	)
 	(hierarchical_label "DISP_12V_EN"
 		(shape input)
 		(at 170.18 260.35 180)
@@ -6495,18 +6507,6 @@
 			(justify right)
 		)
 		(uuid "d8b360ec-1b21-4529-a097-87bb9595eb52")
-	)
-	(hierarchical_label "VBUS"
-		(shape output)
-		(at 97.79 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e78d8d15-6636-48d6-8e62-16a2065f4ff2")
 	)
 	(hierarchical_label "DISP_10V_EN"
 		(shape input)

@@ -744,6 +744,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67365f63-f420-4ff8-a03b-2c9775bfc962")
+	)
+	(wire
+		(pts
 			(xy 120.65 114.3) (xy 127 114.3)
 		)
 		(stroke
@@ -931,16 +941,6 @@
 			(type default)
 		)
 		(uuid "c5a80061-adfe-4f8e-b16c-fb7b6ce56fc7")
-	)
-	(wire
-		(pts
-			(xy 111.76 78.74) (xy 127 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c78bab26-8319-4d55-b511-c03ff8801e6f")
 	)
 	(wire
 		(pts
@@ -4298,7 +4298,7 @@
 				)
 				(justify right)
 			)
-			(uuid "6dce2ef9-dfae-4299-ad91-e3bb6cea0ade")
+			(uuid "9d5ce006-0647-4fd7-b3b1-468b95197f15")
 		)
 		(instances
 			(project "asynthosc"
