@@ -4744,7 +4744,7 @@
 			)
 			(uuid "95e3ac59-c8a0-464f-9fb6-17e25565275b")
 		)
-		(pin "SPI4_MOSI" output
+		(pin "SPI2_MOSI" output
 			(at 176.53 100.33 0)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 			)
 			(uuid "35b7bdd3-ead1-400a-a61d-ac53f80dd5e9")
 		)
-		(pin "SPI4_SCK" output
+		(pin "SPI2_SCK" output
 			(at 176.53 97.79 0)
 			(effects
 				(font
@@ -4764,7 +4764,7 @@
 			)
 			(uuid "9095903b-b319-4612-b953-7731b0df4e75")
 		)
-		(pin "SPI4_MISO" input
+		(pin "SPI2_MISO" input
 			(at 176.53 90.17 0)
 			(effects
 				(font

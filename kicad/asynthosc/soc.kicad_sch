@@ -5731,10 +5731,6 @@
 		(uuid "3c9d3322-827f-4206-819f-59a8ca7e7f43")
 	)
 	(no_connect
-		(at 147.32 110.49)
-		(uuid "429a2ab9-da2d-4f72-85a2-73ff1914cb6a")
-	)
-	(no_connect
 		(at 336.55 137.16)
 		(uuid "50def802-ee70-46fb-9f94-f480ba62325b")
 	)
@@ -5793,6 +5789,10 @@
 	(no_connect
 		(at 104.14 102.87)
 		(uuid "e3f0baef-358f-4bd5-aaa8-49ea9675170b")
+	)
+	(no_connect
+		(at 147.32 166.37)
+		(uuid "e854372a-0009-413f-a59e-67622ae94866")
 	)
 	(no_connect
 		(at 147.32 107.95)
@@ -6708,16 +6708,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 166.37) (xy 153.67 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "804b75d9-348b-4604-8444-29a90d504172")
-	)
-	(wire
-		(pts
 			(xy 129.54 44.45) (xy 132.08 44.45)
 		)
 		(stroke
@@ -6955,6 +6945,16 @@
 			(type default)
 		)
 		(uuid "9b59a5d8-64a4-40ad-b378-1b0058bfb50b")
+	)
+	(wire
+		(pts
+			(xy 147.32 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf7b8df-a58a-4035-a93e-d57f4f90db26")
 	)
 	(wire
 		(pts
@@ -7636,6 +7636,16 @@
 		)
 		(uuid "ff1e4839-61e1-423f-968b-e7869653c5b8")
 	)
+	(text "in10"
+		(exclude_from_sim no)
+		(at 150.622 137.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1be75c08-f624-4731-8ede-bdfe1e3bc71f")
+	)
 	(text "Debug connector"
 		(exclude_from_sim no)
 		(at 337.82 67.056 0)
@@ -7716,6 +7726,17 @@
 		)
 		(uuid "7d54e87d-fa26-4a2d-8d29-90b52963c722")
 	)
+	(text "ISSUE"
+		(exclude_from_sim no)
+		(at 179.324 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 46 1)
+			)
+		)
+		(uuid "9cfba9ee-587e-4ed9-8915-9a6f3734d720")
+	)
 	(text "144P: STM32H723ZGTx\n100P: STM32H723VGT6"
 		(exclude_from_sim no)
 		(at 89.916 246.888 0)
@@ -7725,6 +7746,26 @@
 			)
 		)
 		(uuid "a25d7567-0295-4a30-91d9-fca08b5f1ea0")
+	)
+	(text "in16"
+		(exclude_from_sim no)
+		(at 154.178 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b67c1188-464d-4a36-acce-25d300c834bb")
+	)
+	(text "in15"
+		(exclude_from_sim no)
+		(at 153.924 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7a88c0e-4e78-41f2-a6f9-b966358f1220")
 	)
 	(text "Debug UART (default pinout)"
 		(exclude_from_sim no)
@@ -7822,7 +7863,7 @@
 		)
 		(uuid "170746fa-5c2b-45d1-ae0a-2a9c99ca03e9")
 	)
-	(label "QSPI_BK2_IO1"
+	(label "QSPI_BK1_IO1"
 		(at 264.16 218.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7844,7 +7885,7 @@
 		)
 		(uuid "1815ae95-2f69-4946-80d8-72dd28a7cbc3")
 	)
-	(label "SPI4_SCK"
+	(label "SPI2_SCK"
 		(at 355.6 132.08 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7921,7 +7962,7 @@
 		)
 		(uuid "3cee26aa-8cd7-4235-958c-c29a9a9645d7")
 	)
-	(label "QSPI_BK2_IO0"
+	(label "QSPI_BK1_IO0"
 		(at 264.16 215.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7976,7 +8017,7 @@
 		)
 		(uuid "4c7f1e0a-3706-4e76-ba86-f76a94907091")
 	)
-	(label "QSPI_BK2_IO1"
+	(label "QSPI_BK1_IO1"
 		(at 153.67 163.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7998,17 +8039,6 @@
 		)
 		(uuid "4e36fe9a-2470-4a83-90da-14f44b2b41d2")
 	)
-	(label "QSPI_BK2_NCS"
-		(at 153.67 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56e035fa-2833-4b52-a3c2-712b7d31755b")
-	)
 	(label "RMII_CRS_DV"
 		(at 151.13 69.85 0)
 		(fields_autoplaced yes)
@@ -8019,6 +8049,17 @@
 			(justify left bottom)
 		)
 		(uuid "61037d21-57b3-4937-a506-7f698b4890fd")
+	)
+	(label "QSPI_BK1_NCS"
+		(at 153.67 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6af92b49-af52-4268-92d3-d6d264763578")
 	)
 	(label "JTDO_CONN"
 		(at 335.28 91.44 0)
@@ -8152,7 +8193,7 @@
 		)
 		(uuid "8b029427-1e44-4d15-9681-1b48366d5d47")
 	)
-	(label "QSPI_BK2_IO3"
+	(label "QSPI_BK1_IO3"
 		(at 264.16 223.52 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8240,7 +8281,7 @@
 		)
 		(uuid "a3993699-c193-4424-b94b-db41922216a0")
 	)
-	(label "QSPI_BK2_IO3"
+	(label "QSPI_BK1_IO3"
 		(at 100.33 151.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8350,7 +8391,7 @@
 		)
 		(uuid "c56e63b1-32de-4b3a-bf24-39356b2a828d")
 	)
-	(label "QSPI_BK2_NCS"
+	(label "QSPI_BK1_NCS"
 		(at 264.16 210.82 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8361,7 +8402,7 @@
 		)
 		(uuid "c686fc8e-85a1-4491-9e21-e59dc49527ee")
 	)
-	(label "QSPI_BK2_IO0"
+	(label "QSPI_BK1_IO0"
 		(at 153.67 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8504,7 +8545,7 @@
 		)
 		(uuid "e30b2630-be1e-43ee-b09f-06608a9a6af5")
 	)
-	(label "QSPI_BK2_IO2"
+	(label "QSPI_BK1_IO2"
 		(at 264.16 220.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8570,7 +8611,7 @@
 		)
 		(uuid "f6b27c37-d3d5-4b56-911b-6e0bf5bc36fa")
 	)
-	(label "QSPI_BK2_IO2"
+	(label "QSPI_BK1_IO2"
 		(at 100.33 80.01 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8615,7 +8656,7 @@
 		)
 		(uuid "014ba5ed-f6b6-47ef-9357-72637bda6d37")
 	)
-	(hierarchical_label "SPI4_SCK"
+	(hierarchical_label "SPI2_SCK"
 		(shape output)
 		(at 173.99 120.65 0)
 		(fields_autoplaced yes)
@@ -8867,7 +8908,7 @@
 		)
 		(uuid "b0eb7767-5883-4043-ae48-b92eb88257a7")
 	)
-	(hierarchical_label "SPI4_MOSI"
+	(hierarchical_label "SPI2_MOSI"
 		(shape output)
 		(at 153.67 133.35 0)
 		(fields_autoplaced yes)
@@ -8879,7 +8920,7 @@
 		)
 		(uuid "b36db1b0-67cc-4138-ac17-8d833af7d525")
 	)
-	(hierarchical_label "SPI4_MISO"
+	(hierarchical_label "SPI2_MISO"
 		(shape input)
 		(at 153.67 130.81 0)
 		(fields_autoplaced yes)
