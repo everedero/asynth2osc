@@ -1,4 +1,4 @@
-* Check STM32 GPIO mux against datasheet (done with STM32Cube)
+* [DONE] Check STM32 GPIO mux against datasheet (done with STM32Cube)
 * Check all STM32 power supplies (datasheet)
 * Review power stages and current capability for critical components
 * Verify all nets go somewhere
