@@ -251,6 +251,36 @@ graph TD
 -->
 ![Kroki generated Mermaid](https://kroki.io/mermaid/svg/eNplkNtugkAYhO_7FPMA1aRS7-omi6u4VJRw0DQbL2hLwNaAEUzTxIfvvwsipjd7-mZmJ392So45IvEAcIUw8qwRdphM2AWBJyUusBVmdZ6eirSGv3jDTkvxQhKCoa8lU4XVOsD8kFT5PXd8uaZNMCxnojJsxmCf67osquajm4oTXSjwIjmUGfZFx7mYtlgyWMMxvpKP76t9Qc-2ObkMgfs8bhs0VsG1dd6llufa8Lnhq1vcncvferSumTlQcwNf6Vr-pKdWjsFwQKKn0YbWpYKYUkutW7bE2lht624cMQ-iR7gRd_QnDOFWIE-TTwrtO8c60un1acYcMoh9dTwkv0Yd9csbYazgSSEhCyOI_4_31iS0NaHE9P2cmevuD96Pg7I=)
 
+# Power consumptions estimates
+## 3V3 bus
+* STM32H7 absolute maximum current through VDD/VSS: 620mA
+* STM32H7 running at 100deg, VOS1, all peripheral enabled: around 500mA
+* ETH PHY, 10BASE-T traffic: 130mA
+* OLED display logic: 300uA
+
+* 3V3 LDO: 800 mA
+* Fuse: 1.25A, trip 2.5A
+* Filter ferrite rating: 3A
+* Schottky rating (SS24): 2A
+
+## 10V
+* OLED display lighting: 25mA
+* Step-up rating: 2.1A
+* Step-up inductor: 2.4A
+* Schottky rating (SS24): 2A
+
+## 12V
+* Schottky rating (1N5819W): 1A
+* LDO efficiency (vout/vin): 12-5V -> 42%, 5-3V -> 66%
+* 800mA @ 3V3 => 800mA @ 12V (not crazy, but linear)
+
+## 5V
+* USB spec: 500 mA in USB 2.0
+* USB spec: 900 mA in USB 3.0
+* USB 2.0: 500mA on 3V3 after LDO
+* USB 3.0: 900mA on 3V3 after LDO
+Might be useful to have USB 3.0 supply.
+
 # Notes about JLCPCB files
 ## Generate files
 
