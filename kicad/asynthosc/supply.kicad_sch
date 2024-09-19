@@ -4801,6 +4801,12 @@
 		(uuid "af608295-1da2-4416-9512-e41bc383d20d")
 	)
 	(junction
+		(at 111.76 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7ae7324-4c78-4eb0-893a-310a76c25507")
+	)
+	(junction
 		(at 91.44 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4924,7 +4930,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 71.12) (xy 114.3 71.12)
+			(xy 109.22 71.12) (xy 111.76 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4981,16 +4987,6 @@
 			(type default)
 		)
 		(uuid "15db0a19-b0a4-4388-b974-59b3f1f41df9")
-	)
-	(wire
-		(pts
-			(xy 125.73 71.12) (xy 121.92 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a066af2-ec9c-4d65-a3c0-2318c3963b67")
 	)
 	(wire
 		(pts
@@ -5461,6 +5457,16 @@
 			(type default)
 		)
 		(uuid "7d301379-6993-4850-a857-9335d18812e1")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805b83bb-c7b8-4b49-87d3-79d11d389db7")
 	)
 	(wire
 		(pts
@@ -6222,6 +6228,16 @@
 		)
 		(uuid "4445a3b7-f448-4bf4-8f8d-869a473da953")
 	)
+	(text "Absolutely no protection against reverse-supplying USB VBUS.\nNever plug both!"
+		(exclude_from_sim no)
+		(at 120.396 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f28a86f-5e0f-4098-9d75-566bff8f3756")
+	)
 	(text "Display supply for standalone Eurorack"
 		(exclude_from_sim no)
 		(at 168.402 241.046 0)
@@ -6339,7 +6355,7 @@
 		(uuid "5e021338-3cc1-4e73-b7b8-caf088c780dc")
 	)
 	(label "VBUS_CONNECT"
-		(at 121.92 71.12 0)
+		(at 114.3 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10244,110 +10260,6 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS24")
-		(at 118.11 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85828447-921c-4442-8487-1f824fe3931f")
-		(property "Reference" "D9"
-			(at 117.7925 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS24"
-			(at 117.7925 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 118.11 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 2A Schottky Diode, SMA"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3014007"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Fosan"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RefNum" "SS24"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "SMA"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78b7dec8-9527-45f0-a7f3-002acd00ee77")
-		)
-		(pin "2"
-			(uuid "7e35e7aa-2c4d-4ee9-b3a5-a14e8469f9ce")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
-					(reference "D9")
 					(unit 1)
 				)
 			)

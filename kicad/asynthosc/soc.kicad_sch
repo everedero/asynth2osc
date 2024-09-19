@@ -5513,6 +5513,12 @@
 		(uuid "1be0fdf3-de02-4cb9-9386-ea2c693498cf")
 	)
 	(junction
+		(at 182.88 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eed66d2-5eb7-4871-a61a-11aee17a3fd0")
+	)
+	(junction
 		(at 321.31 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5661,12 +5667,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c523e61c-5f9e-4c4b-b0cf-59c05f57b46f")
-	)
-	(junction
-		(at 186.69 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8b6eca9-60b9-43e1-8a18-604381653432")
 	)
 	(junction
 		(at 321.31 91.44)
@@ -5881,6 +5881,16 @@
 			(type default)
 		)
 		(uuid "07b3d9ae-7a9b-4bb0-a9f5-fd47fb2011e4")
+	)
+	(wire
+		(pts
+			(xy 195.58 74.93) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acb4478-1333-4a5d-9226-20cc8c1433ce")
 	)
 	(wire
 		(pts
@@ -6814,7 +6824,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 170.18 74.93)
+			(xy 147.32 74.93) (xy 182.88 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7284,6 +7294,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 74.93) (xy 187.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b218a8-c28b-4d68-86f4-c585f3d3eab4")
+	)
+	(wire
+		(pts
 			(xy 314.96 168.91) (xy 323.85 168.91)
 		)
 		(stroke
@@ -7304,7 +7324,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 82.55) (xy 186.69 86.36)
+			(xy 182.88 82.55) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7594,16 +7614,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 74.93) (xy 186.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7cdbf79-60c2-459c-a1be-7013e90685ee")
-	)
-	(wire
-		(pts
 			(xy 36.83 20.32) (xy 43.18 20.32)
 		)
 		(stroke
@@ -7611,16 +7621,6 @@
 			(type default)
 		)
 		(uuid "f7f6c3fa-329a-4849-a2b7-0b88266a3c30")
-	)
-	(wire
-		(pts
-			(xy 186.69 74.93) (xy 196.85 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa3bda8e-607e-44de-8074-dc08b1ed30d8")
 	)
 	(wire
 		(pts
@@ -9007,7 +9007,7 @@
 	)
 	(hierarchical_label "USB_VBUS"
 		(shape input)
-		(at 196.85 74.93 0)
+		(at 201.93 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10610,7 +10610,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 86.36 0)
+		(at 182.88 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10619,7 +10619,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c98d2db-8c0d-479f-b77e-3c1b6e13a864")
 		(property "Reference" "#PWR0125"
-			(at 186.69 92.71 0)
+			(at 182.88 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10628,7 +10628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 91.44 0)
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10636,7 +10636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 86.36 0)
+			(at 182.88 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,7 +10645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 86.36 0)
+			(at 182.88 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10654,7 +10654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 86.36 0)
+			(at 182.88 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12924,7 +12924,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 78.74 0)
+		(at 182.88 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12932,7 +12932,7 @@
 		(dnp no)
 		(uuid "875de0ce-b536-4b77-a1ae-e5f5047a41da")
 		(property "Reference" "R83"
-			(at 185.674 83.566 90)
+			(at 181.864 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,7 +12940,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 185.42 73.406 0)
+			(at 181.61 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +12948,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 184.912 78.74 90)
+			(at 181.102 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12957,7 +12957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 78.74 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12966,7 +12966,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 186.69 78.74 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12975,7 +12975,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 186.69 78.74 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12984,7 +12984,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 186.69 78.74 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12993,7 +12993,7 @@
 			)
 		)
 		(property "RefNum" "_generic_"
-			(at 186.69 78.74 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13002,7 +13002,7 @@
 			)
 		)
 		(property "JLC" "0402"
-			(at 186.69 78.74 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14016,7 +14016,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 74.93 270)
+		(at 191.77 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14024,7 +14024,7 @@
 		(dnp no)
 		(uuid "c1c5ae65-663e-4783-9df4-3d8d6da683c9")
 		(property "Reference" "R8"
-			(at 169.164 73.914 90)
+			(at 186.944 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14032,7 +14032,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 179.324 73.66 90)
+			(at 197.104 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14040,7 +14040,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.99 73.152 90)
+			(at 191.77 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14049,7 +14049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14058,7 +14058,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14067,7 +14067,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 173.99 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14076,7 +14076,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 173.99 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14085,7 +14085,7 @@
 			)
 		)
 		(property "RefNum" "_generic_"
-			(at 173.99 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14094,7 +14094,7 @@
 			)
 		)
 		(property "JLC" "0402"
-			(at 173.99 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
