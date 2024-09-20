@@ -1,7 +1,9 @@
 * [DONE] Check STM32 GPIO mux against datasheet (done with STM32Cube)
-* Check all STM32 power supplies (datasheet)
-* Review power stages and current capability for critical components
-* Verify all nets go somewhere
+* [DONE] Check all STM32 power supplies (datasheet)
+* [DONE] Review power stages and current capability for critical components
+* [DONE] Verify all nets go somewhere (no 3V3 and 3v3 net)
+- Export Kicad netlist
+- grep -i "net" asynthosc.net
 * Check Ethernet against ref design
 
 * Verify custom components and footprints (especially pinout)
