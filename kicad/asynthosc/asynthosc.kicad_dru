@@ -1,5 +1,18 @@
 (version 1)
 
+#  No via close enough to GND pad: first, excluding OK pads, and then, matching the others.
+(rule "GND via close to pads, exclusion"
+  (severity ignore)
+  (condition "A.Type == 'Pad' && A.NetName == 'GND' && B.Type == 'Via' && B.NetName == 'GND'")
+  (constraint physical_clearance (min 0.8mm))
+)
+(rule "No GND via close enough to pad"
+  (severity warning)
+  (condition "A.Type == 'Pad' && A.NetName == 'GND' && B.Type == 'Via' && B.NetName == 'GND'")
+  (constraint assertion "A.Type == 'Pad'")
+)
+
+# Inner edge clearance
 (rule "InnerEdgeClearance"
   (condition "A.existsOnLayer('In1.Cu') ||  A.existsOnLayer('In2.Cu') || A.existsOnLayer('Front') || A.existsOnLayer('Back')")
   (constraint edge_clearance (min 0.5mm))
