@@ -5834,6 +5834,16 @@
 		)
 		(uuid "fcecdb81-ff72-46c3-9b84-ea1b48c8f1c4")
 	)
+	(text "	\nCAP CER 1000PF 2KV X7R 1206"
+		(exclude_from_sim no)
+		(at 199.644 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16ed9b86-d9cc-4a95-ab08-e822ad33630c")
+	)
 	(text "bead,600R,350mA,0603,FCM1608KF-601T05"
 		(exclude_from_sim no)
 		(at 90.932 19.304 0)
@@ -8320,7 +8330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF X7R"
+		(property "Value" "1nF X7R 1206"
 			(at 200.914 111.252 0)
 			(effects
 				(font
@@ -8329,7 +8339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 200.3552 111.76 0)
 			(effects
 				(font
