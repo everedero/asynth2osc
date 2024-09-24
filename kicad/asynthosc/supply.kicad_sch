@@ -4729,6 +4729,12 @@
 		(uuid "5f729734-19fa-4a16-8e0f-c3d5cf315c00")
 	)
 	(junction
+		(at 219.71 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6067ca95-c3b7-4236-93f4-775a190b42c6")
+	)
+	(junction
 		(at 154.94 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5337,6 +5343,16 @@
 			(type default)
 		)
 		(uuid "5d8295dd-aa73-44a6-ba3c-a0832a0ddfda")
+	)
+	(wire
+		(pts
+			(xy 219.71 255.27) (xy 218.44 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636c52df-29cc-432c-a05c-43c3fe09d451")
 	)
 	(wire
 		(pts
@@ -8599,6 +8615,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 219.71 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d073ad9-f3cb-44ca-8283-cd4fd1567cba")
+		(property "Reference" "C59"
+			(at 223.52 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 223.52 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 220.6752 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 219.71 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 219.71 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RefNum" "_generic_"
+			(at 219.71 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
+			(at 219.71 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adaee475-4096-43f3-8ab0-fa4a60e071ed")
+		)
+		(pin "1"
+			(uuid "498e7a9c-5d9f-410f-b6d0-3f8c11515466")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 144.78 49.53 0)
 		(unit 1)
@@ -10201,7 +10323,7 @@
 	)
 	(symbol
 		(lib_id "power:+10V")
-		(at 218.44 255.27 0)
+		(at 219.71 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10210,7 +10332,7 @@
 		(fields_autoplaced yes)
 		(uuid "8034140f-644c-44ff-853b-e4918916e3b0")
 		(property "Reference" "#PWR029"
-			(at 218.44 259.08 0)
+			(at 219.71 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10341,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 218.44 250.19 0)
+			(at 219.71 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 255.27 0)
+			(at 219.71 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 255.27 0)
+			(at 219.71 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,7 +10367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 218.44 255.27 0)
+			(at 219.71 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12960,6 +13082,72 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da1285d0-aa52-434d-83fc-7c5e2a8126b2")
+		(property "Reference" "#PWR0161"
+			(at 219.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14e62b2f-5753-48d0-8897-141dfeef5ad5")
+		)
+		(instances
+			(project "asynthosc"
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/22ca5166-338c-4a24-8f8a-545e4a0286bf"
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
