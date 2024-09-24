@@ -7,6 +7,7 @@
 * Check Ethernet against ref design
 
 * Verify custom components and footprints (especially pinout)
+* Verify capacitors are close to pins - and preferably, the right capacitors close to the right pins
 
 * Check BOM availability
 * Attribute _generic_ components to real references
