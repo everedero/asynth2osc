@@ -190,7 +190,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e5e4f8c5-e618-44fc-825d-06f612513e80")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin_3.2x1.5mm.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -209,13 +209,20 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole circle
+		(at 2.54 0 270)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c6ba5766-f009-4650-a425-b2e46d0af995")
+	)
 	(pad "1" thru_hole circle
-		(at -2.54 2.54 270)
+		(at 2.54 -2.54 270)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "915c7561-42bf-4464-a60a-282723c107b6")
+		(uuid "30185592-5003-4783-a490-c39a5e1de731")
 	)
 	(pad "1" thru_hole rect
 		(at 2.54 2.54 270)
@@ -250,12 +257,12 @@
 		(uuid "4059c549-9ea0-44f8-97f3-f84591d11b99")
 	)
 	(pad "4" thru_hole circle
-		(at 2.54 -2.54 270)
+		(at -2.54 2.54 270)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "30185592-5003-4783-a490-c39a5e1de731")
+		(uuid "915c7561-42bf-4464-a60a-282723c107b6")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_MEC_5GTH9.wrl"
 		(offset
