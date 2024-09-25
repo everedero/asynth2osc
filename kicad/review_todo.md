@@ -4,9 +4,9 @@
 * [DONE] Verify all nets go somewhere (no 3V3 and 3v3 net)
 - Export Kicad netlist
 - grep -i "net" asynthosc.net
-* Check Ethernet against ref design
+* [DONE] Check Ethernet against ref design
 
-* Verify custom components and footprints (especially pinout)
+* [DONE] Verify custom components and footprints (especially pinout)
 * Verify capacitors are close to pins - and preferably, the right capacitors close to the right pins
 
 * Check BOM availability
