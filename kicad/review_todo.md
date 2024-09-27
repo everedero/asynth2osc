@@ -9,7 +9,9 @@
 * [DONE] Verify custom components and footprints (especially pinout)
 * Verify capacitors are close to pins - and preferably, the right capacitors close to the right pins
 
-* Check BOM availability
-* Attribute _generic_ components to real references
+* Check ackward, ugly plane zones
+
+* [DONE] Check BOM availability
+* [DONE] Attribute _generic_ components to real references
 * DFM + 3D check on JLC DFM and complete BOM / assembly
 
