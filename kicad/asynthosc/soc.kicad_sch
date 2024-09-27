@@ -8743,7 +8743,7 @@
 	)
 	(hierarchical_label "LED_BTN_1"
 		(shape output)
-		(at 86.36 125.73 180)
+		(at 86.36 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8791,7 +8791,7 @@
 	)
 	(hierarchical_label "BTN_1"
 		(shape input)
-		(at 86.36 123.19 180)
+		(at 86.36 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

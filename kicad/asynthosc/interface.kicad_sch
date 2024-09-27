@@ -3802,7 +3802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display:OLED-128O064D"
+		(property "Footprint" "asynthosc:Hirose_FH52-24S-0.5SH_1x24-1MP_P0.5mm_Horizontal"
 			(at 183.642 96.774 0)
 			(effects
 				(font
