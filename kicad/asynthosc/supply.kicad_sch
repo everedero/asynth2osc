@@ -6244,6 +6244,16 @@
 		)
 		(uuid "0431493c-58cc-4161-b791-de58073e160c")
 	)
+	(text "LM1117M from TI is called LM1117S in Chinese copy, for SOT-223 package"
+		(exclude_from_sim no)
+		(at 56.642 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1518c84b-9785-439f-9922-38855294de59")
+	)
 	(text "Optional Eurorack supply"
 		(exclude_from_sim no)
 		(at 47.752 235.712 0)
@@ -8375,7 +8385,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117S-5.0"
+		(property "Value" "LM1117M-5.0"
 			(at 105.41 251.46 0)
 			(effects
 				(font
@@ -9158,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117S-3.3"
+		(property "Value" "LM1117M-3.3"
 			(at 53.34 85.09 0)
 			(effects
 				(font
@@ -12303,7 +12313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2307121520_XR-XRCD75-8R2M_C7462918.pdf"
+		(property "Datasheet" "~"
 			(at 58.42 172.72 0)
 			(effects
 				(font

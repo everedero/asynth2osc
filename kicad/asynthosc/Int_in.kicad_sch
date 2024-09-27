@@ -1842,7 +1842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 71.12 66.04 0)
 			(effects
 				(font
@@ -2269,7 +2269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -2448,7 +2448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -2587,7 +2587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 85.09 53.34 0)
 			(effects
 				(font

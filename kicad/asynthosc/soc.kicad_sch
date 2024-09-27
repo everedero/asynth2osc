@@ -12293,7 +12293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, low ESR"
+		(property "Description" "Unpolarized capacitor"
 			(at 96.52 167.64 0)
 			(effects
 				(font
@@ -13282,7 +13282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, low ESR"
+		(property "Description" "Unpolarized capacitor"
 			(at 88.9 167.64 0)
 			(effects
 				(font
