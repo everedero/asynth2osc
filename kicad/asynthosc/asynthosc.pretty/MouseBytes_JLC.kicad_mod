@@ -67,6 +67,46 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+	(fp_line
+		(start -0.4 -0.4)
+		(end 5.4 -0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bf5f4d4-9dfa-44a8-8e78-c74c5e34c54e")
+	)
+	(fp_line
+		(start -0.4 0.4)
+		(end -0.4 -0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f5ec44c-0ae1-40fb-8e74-384e2ab5968e")
+	)
+	(fp_line
+		(start 5.4 -0.4)
+		(end 5.4 0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f3c1e5a-0cd1-4d57-82b7-8e7badbd6da7")
+	)
+	(fp_line
+		(start 5.4 0.4)
+		(end -0.4 0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c18fe995-a9c4-4fa8-9ca5-f20072aa6a7d")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
