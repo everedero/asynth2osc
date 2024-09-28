@@ -9,7 +9,8 @@
 * [DONE] Verify custom components and footprints (especially pinout)
 * Verify capacitors are close to pins - and preferably, the right capacitors close to the right pins
 
-* Check ackward, ugly plane zones
+* Make sure power planes are wide enough
+* Check ackward, ugly plane zones and antennae
 
 * [DONE] Check BOM availability
 * [DONE] Attribute _generic_ components to real references
