@@ -7,10 +7,12 @@
 * [DONE] Check Ethernet against ref design
 
 * [DONE] Verify custom components and footprints (especially pinout)
-* Verify capacitors are close to pins - and preferably, the right capacitors close to the right pins
+* [DONE] Verify capacitors are close to pins - and preferably, the right capacitors close to the right pins
 
-* Make sure power planes are wide enough
-* Check ackward, ugly plane zones and antennae
+* [DONE] Make sure power planes are wide enough
+* [DONE] Check ackward, ugly plane zones and antennae
+
+* [DONE] Silkscreen review
 
 * [DONE] Check BOM availability
 * [DONE] Attribute _generic_ components to real references
