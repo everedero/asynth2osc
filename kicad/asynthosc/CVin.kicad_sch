@@ -2623,7 +2623,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e18b60a-f123-4e00-9239-8d9a7d6968dd")
 		(property "Reference" "SW4"
