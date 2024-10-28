@@ -394,15 +394,4 @@
 		(remove_unused_layers no)
 		(uuid "552d06d5-8661-41df-a55c-7b8f1102c983")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.wrl"
-		(offset
-			(xyz -3.75 -1 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
