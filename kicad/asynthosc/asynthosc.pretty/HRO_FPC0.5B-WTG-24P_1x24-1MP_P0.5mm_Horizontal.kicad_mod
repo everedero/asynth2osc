@@ -365,9 +365,9 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bfdc3146-6c51-445a-b5fb-7e8c5ed1c311")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/TE_2-1734839-4_1x24-1MP_P0.5mm_Horizontal.wrl"
+	(model "${KICAD_PRJ}/models/HRO_FPC0_5B-WTG-24P.wrl"
 		(offset
-			(xyz 0 -0.8 0)
+			(xyz 0 0 -1)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -375,7 +375,7 @@
 		(remove_unused_layers no)
 		(uuid "e7821aa8-7614-4228-a6bb-e0568e7d7497")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_OST_PJ012-8P8CX_Vertical.wrl"
+	(model "${KICAD_PRJ}/models/RJ45_CKMTW_R-RJ45S08P.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

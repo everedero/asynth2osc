@@ -191,7 +191,7 @@
 		(remove_unused_layers no)
 		(uuid "c21a7872-19ba-4e8d-a92c-61b62ee80432")
 	)
-	(model "/home/eve/Documents/asynth2osc/kicad/models/jack_XKB_PJ-3411.wrl"
+	(model "${KICAD_PRJ}/models/jack_XKB_PJ-3411.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

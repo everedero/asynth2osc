@@ -791,9 +791,9 @@
 			"ee4ede1b-83cc-4428-8a74-e8bf6fa74a9e"
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex-105133-0001.wrl"
+	(model "${KICAD_PRJ}/models/USB_Micro-B_Hanxia_HX_MICRO_180D_ZB.wrl"
 		(offset
-			(xyz 0 -0.875 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

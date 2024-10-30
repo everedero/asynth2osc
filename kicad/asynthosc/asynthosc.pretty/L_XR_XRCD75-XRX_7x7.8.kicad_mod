@@ -190,7 +190,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8bb7aaa6-0be8-4acf-8fc5-8d448b4700d7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRN8040_8x8.15mm.wrl"
+	(model "${KICAD_PRJ}/models/L_XR_XRCD75-XRX_7x7.8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

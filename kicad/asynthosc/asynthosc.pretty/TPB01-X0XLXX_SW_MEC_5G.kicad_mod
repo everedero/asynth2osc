@@ -264,7 +264,7 @@
 		(remove_unused_layers no)
 		(uuid "4059c549-9ea0-44f8-97f3-f84591d11b99")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_MEC_5GTH9.wrl"
+	(model "${KICAD_PRJ}/models/SW_SPST_TPB01-X0XLXX.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
