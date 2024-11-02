@@ -12506,7 +12506,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7519"
+		(property "LCSC" " C5250994"
 			(at 62.23 143.51 0)
 			(effects
 				(font
@@ -12515,7 +12515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
+		(property "Manufacturer" "TWGMC"
 			(at 62.23 143.51 0)
 			(effects
 				(font

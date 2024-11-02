@@ -2913,7 +2913,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LM2902PWR"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C627416"
+		(property "LCSC" "C46864"
 			(at 113.03 54.61 0)
 			(effects
 				(font
@@ -2993,7 +2993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Microchip"
+		(property "Manufacturer" "TI"
 			(at 113.03 54.61 0)
 			(effects
 				(font
@@ -3002,7 +3002,7 @@
 				(hide yes)
 			)
 		)
-		(property "RefNum" " MCP6004T-E/ST"
+		(property "RefNum" " LM2902PWR"
 			(at 113.03 54.61 0)
 			(effects
 				(font
