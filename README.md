@@ -340,3 +340,21 @@ Exemple use:
 ```
 jlc-kicad-tools myproject -o ./assembly --include-all-component-groups
 ```
+
+## Pricing
+
+Here is an approximate price breakdown for manufacturing at JLCPCB.
+Some components, such as though-hole or big components, will be ordered separately on LCSC and soldered by hand.
+The "component" line includes both PCBa and by-hand BOMs.
+Here, we manufacture 5 boards.
+
+| Item              | Price |
+|-------------------|-------|
+| Components        | 151€  |
+| PCB manufacturing | 28€   |
+| PCB assembly      | 105€  |
+| Shipping          | 35€   |
+| Refunds           | 18€   |
+| Total (x5 boards) | 300€  |
+
+This is a total of 60€ / board.
