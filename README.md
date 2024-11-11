@@ -324,6 +324,15 @@ Some modification are required from Kicad output files (BOM csv and placement fi
 * Fix component rotation
 
 There is a way to automate both with a Python script called [jlc-kicad-tools](https://github.com/matthewlai/JLCKicadTools/tree/master).
+
+This script uses a rotation look-up-table called cpl\_rotations\_db.csv. Update this file with the one in this repository.
+
+    cp [PRJ]/kicad/tools/cpl_rotations_db.csv [INSTALLFOLDER]/JLCKicadTools/jlc_kicad_tools
+
+Then install your version from the local folder:
+
+    pip3 install [INSTALLFOLDER]/JLCKicadTools
+
 You will need 2 files in the project folder:
 
 * Netlist file: project.xml
