@@ -367,3 +367,11 @@ Here, we manufacture 5 boards.
 | Total (x5 boards) | 300€  |
 
 This is a total of 60€ / board.
+
+# Bringup V0.1 known issues
+* Missing pin 1 dot on diode D2 for manufacturing
+* Rotary quadrature encoder should use timer inputs on same timer peripheral
+ 90: TIM3 CH1 (remove nRST jumper and solder to ROT B)
+ 91: TIM3 CH2 is FREE, can also be exchanged with 90 to ease routing
+* Put poka-yoke or marking to mount USB connector on right side
+* Reduce jack connectors holes to mount more precisely
