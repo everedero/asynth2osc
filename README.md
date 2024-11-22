@@ -373,5 +373,8 @@ This is a total of 60€ / board.
 * Rotary quadrature encoder should use timer inputs on same timer peripheral
  90: TIM3 CH1 (remove nRST jumper and solder to ROT B)
  91: TIM3 CH2 is FREE, can also be exchanged with 90 to ease routing
+* Dot around ethernet PHY: crystal dot too close
 * Put poka-yoke or marking to mount USB connector on right side
+* Put poka-yoke or marking for buttons
 * Reduce jack connectors holes to mount more precisely
+* Add testpoints for MDIO?
