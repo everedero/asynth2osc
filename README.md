@@ -380,3 +380,4 @@ Add 1 μF and 470 pF decoupling capacitors to ground.
 * Put poka-yoke or marking for buttons
 * Reduce jack connectors holes to mount more precisely
 * Add testpoints for MDIO?
+* Issue with reset, maybe disconnect PHY reset from main reset
