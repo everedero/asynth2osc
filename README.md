@@ -371,11 +371,15 @@ This is a total of 60€ / board.
 # Bringup V0.1 known issues
 * PHY: Error in LDO routing: VDDCR pin 6 is an internally regulated LDO 1.2V output, not to be connected to 3V3 supply.
 Add 1 μF and 470 pF decoupling capacitors to ground.
-* Rotary quadrature encoder should use timer inputs on same timer peripheral
+* Rotary quadrature encoder should use timer inputs on same timer peripheral, only if hardware driver
+is used. Otherwise, use gpio\_driver, because anyway, the hardware driver does not send signal to input subsystem.
     * TIM3 CH3 PC8 = ROT B
     * TIM4 CH3 PD14 = ROT A
     * 90: TIM3 CH1 PB4 (remove nRST jumper and solder to ROT A)
     * 91: TIM3 CH2 is FREE, can also be exchanged with 90 to ease routing
+* Cannot setup different interrupts for GPIO having the same numbers but on different ports.
+Issue with A8 rotative encoder pushbutton.
+See [this issue](https://github.com/zephyrproject-rtos/zephyr/issues/45234).
 * Missing pin 1 dot on diode D2 for manufacturing
 * Dot around ethernet PHY: crystal dot too close
 * Put poka-yoke or marking to mount USB connector on right side
