@@ -371,6 +371,7 @@ This is a total of 60€ / board.
 # Bringup V0.1 known issues
 * PHY: Error in LDO routing: VDDCR pin 6 is an internally regulated LDO 1.2V output, not to be connected to 3V3 supply.
 Add 1 μF and 470 pF decoupling capacitors to ground.
+* PHY: nINTSEL should be 0, change LED2 connection to pull-down.
 * Rotary quadrature encoder should use timer inputs on same timer peripheral, only if hardware driver
 is used. Otherwise, use gpio\_driver, because anyway, the hardware driver does not send signal to input subsystem.
     * TIM3 CH3 PC8 = ROT B
