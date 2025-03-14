@@ -398,6 +398,8 @@ Reset is pulled low by STLink probe, it has 1V2 value when probe is connected ev
 * MDIO bus / RMII / Ethernet: OK after rework, ldo disconnect and led2 pull-down
 * Display: OK, verify grey lines, maybe voltage bias issue
 * DAC: TBD
-* Analog: TBD
+* Analog: OK, CVin ripple at +max value (+5V or +12V)
+* Trigger: OK, 1.95ms rise time (max 500 Hz trig)
+* MIDI optocoupler: OK at 32kHz, bit of an hysteresis at play. Collapses after 150kHz.
 * MIDI: TBD
-* Supply: TBD
+* Supply (12V alternative input, current consumption measurements): TBD
