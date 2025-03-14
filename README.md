@@ -368,7 +368,8 @@ Here, we manufacture 5 boards.
 
 This is a total of 60€ / board.
 
-# Bringup V0.1 known issues
+# Bringup
+## V0.1 known issues
 * PHY: Error in LDO routing: VDDCR pin 6 is an internally regulated LDO 1.2V output, not to be connected to 3V3 supply.
 Add 1 μF and 470 pF decoupling capacitors to ground.
 * PHY: nINTSEL should be 0, change LED2 connection to pull-down.
@@ -385,3 +386,18 @@ Add 1 μF and 470 pF decoupling capacitors to ground.
 * Add testpoints for MDIO?
 * Maybe disconnect PHY reset from main reset
 Reset is pulled low by STLink probe, it has 1V2 value when probe is connected even if not plugged in.
+
+## Bringup todo list
+* Debug LEDs: OK
+* Buttons: OK
+* Buttons LEDs: OK, make markings for equipment
+* UART2: OK
+* Enable 10V: OK
+* USB data: OK, make markings for equipment
+* QSPI flash: OK
+* MDIO bus / RMII / Ethernet: OK after rework, ldo disconnect and led2 pull-down
+* Display: OK, verify grey lines, maybe voltage bias issue
+* DAC: TBD
+* Analog: TBD
+* MIDI: TBD
+* Supply: TBD
