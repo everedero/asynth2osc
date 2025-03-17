@@ -403,3 +403,6 @@ Reset is pulled low by STLink probe, it has 1V2 value when probe is connected ev
 * MIDI optocoupler: OK at 32kHz, bit of an hysteresis at play. Collapses after 150kHz.
 * MIDI: TBD
 * Supply (12V alternative input, current consumption measurements): TBD
+  * 12V input: 5V LDO works, 214mA consumption with ADC app running, no display
+  * 5V input: 208mA consumption with ADC app running, no display
+  * 5V filtered output is around 4.5V
