@@ -406,3 +406,10 @@ Reset is pulled low by STLink probe, it has 1V2 value when probe is connected ev
   * 12V input: 5V LDO works, 214mA consumption with ADC app running, no display
   * 5V input: 208mA consumption with ADC app running, no display
   * 5V filtered output is around 4.5V
+
+## Meca panel known issues
+* First CNC run:
+  * Rotary hole exact diameter, add a small margin
+  * Button hole too small, about 1mm missing, add margin too
+  * Jack holes too wide, wiggling
+  * Display TBD, might be too small
