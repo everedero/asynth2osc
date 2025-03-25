@@ -383,21 +383,21 @@
 	)
 	(gr_circle
 		(center 141 158.8)
-		(end 141 153.9)
+		(end 145.4 158.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "05f692a4-4dd0-4fb6-b040-b2096575a4cd")
 	)
 	(gr_rect
-		(start 114 130.8)
-		(end 125 140.9)
+		(start 113.75 130.1)
+		(end 125.25 141.6)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -405,7 +405,7 @@
 	)
 	(gr_circle
 		(center 107.5 53)
-		(end 109.3 53)
+		(end 109.5 53)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -416,10 +416,10 @@
 	)
 	(gr_circle
 		(center 152 158.8)
-		(end 152 153.9)
+		(end 156.4 158.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -427,21 +427,21 @@
 	)
 	(gr_circle
 		(center 104.5 74.8)
-		(end 104.5 73)
+		(end 106.5 74.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "3c8a8b6f-8edb-46fe-931f-5757ae5c9e22")
 	)
 	(gr_rect
-		(start 113.5 84.8)
-		(end 124.5 94.8)
+		(start 113.25 84.05)
+		(end 124.75 95.55)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -449,10 +449,10 @@
 	)
 	(gr_circle
 		(center 130 158.8)
-		(end 130 153.9)
+		(end 134.4 158.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -460,10 +460,10 @@
 	)
 	(gr_circle
 		(center 130 146.8)
-		(end 130 141.9)
+		(end 134.4 146.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -471,21 +471,21 @@
 	)
 	(gr_circle
 		(center 105 162.8)
-		(end 105 161)
+		(end 107 162.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "5fcf638d-8fb4-43f2-a9d9-bb205e67f9f4")
 	)
 	(gr_rect
-		(start 147 130.8)
-		(end 158 140.86)
+		(start 146.75 130.08)
+		(end 158.25 141.58)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -503,7 +503,7 @@
 	)
 	(gr_circle
 		(center 107.5 175.4)
-		(end 109.3 175.4)
+		(end 109.5 175.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -514,10 +514,10 @@
 	)
 	(gr_circle
 		(center 119 158.8)
-		(end 119 153.9)
+		(end 123.4 158.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -525,10 +525,10 @@
 	)
 	(gr_circle
 		(center 119 146.8)
-		(end 119 141.9)
+		(end 123.4 146.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -536,7 +536,7 @@
 	)
 	(gr_circle
 		(center 163.62 53)
-		(end 165.42 53)
+		(end 165.62 53)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -556,11 +556,11 @@
 		(uuid "a898ced8-ebd2-4990-8470-fd23c3c8c971")
 	)
 	(gr_rect
-		(start 146.5 84.8)
-		(end 157.5 94.8)
+		(start 146.25 84.05)
+		(end 157.75 95.55)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -568,10 +568,10 @@
 	)
 	(gr_circle
 		(center 141 146.8)
-		(end 141 141.9)
+		(end 145.4 146.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -590,10 +590,10 @@
 	)
 	(gr_circle
 		(center 135.5 89.85)
-		(end 138.5 89.85)
+		(end 138.7 89.85)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -611,10 +611,10 @@
 	)
 	(gr_circle
 		(center 166 162.8)
-		(end 166 161)
+		(end 168 162.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -632,7 +632,7 @@
 	)
 	(gr_circle
 		(center 163.62 175.4)
-		(end 165.42 175.4)
+		(end 165.62 175.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -643,10 +643,10 @@
 	)
 	(gr_circle
 		(center 152 146.8)
-		(end 152 141.9)
+		(end 156.4 146.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
