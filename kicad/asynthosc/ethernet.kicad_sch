@@ -4081,6 +4081,16 @@
 		)
 		(uuid "16ed9b86-d9cc-4a95-ab08-e822ad33630d")
 	)
+	(text "No 1V2 power supplied\nUsing internal LDO\nJust adding capacitors"
+		(exclude_from_sim no)
+		(at 105.156 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2fc84157-92aa-446b-8daf-c1c5caee748f")
+	)
 	(text "Reset LOW: REFCLK output enabled"
 		(exclude_from_sim no)
 		(at 138.938 91.948 0)
@@ -4128,6 +4138,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a787e4e-a326-4192-a269-316a7f4a5f9e")
+	)
+	(junction
+		(at 106.68 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e8780c1-1ca7-41e8-a6d7-0fbe123534b2")
 	)
 	(junction
 		(at 38.1 44.45)
@@ -9689,6 +9705,71 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/354f1097-74a0-4bc1-8721-d2c0e4c9dab3"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 106.68 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72bd217d-10db-48e3-8b8f-6564e11ecac8")
+		(property "Reference" "#FLG07"
+			(at 106.68 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 107.188 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "987a6d0a-3fd1-4299-9940-94b50ea77da6")
+		)
+		(instances
+			(project ""
+				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/dee5e89d-6774-4f8d-b6d8-6a859b9e32e8/354f1097-74a0-4bc1-8721-d2c0e4c9dab3"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
