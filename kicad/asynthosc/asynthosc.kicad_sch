@@ -4951,7 +4951,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "midi_in.kicad_sch"
 			(at 196.85 81.8646 0)
 			(effects
 				(font
