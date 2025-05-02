@@ -5004,12 +5004,6 @@
 		(uuid "af608295-1da2-4416-9512-e41bc383d20d")
 	)
 	(junction
-		(at 111.76 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7ae7324-4c78-4eb0-893a-310a76c25507")
-	)
-	(junction
 		(at 91.44 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5130,16 +5124,6 @@
 			(type default)
 		)
 		(uuid "0b8ada68-0cdd-4863-a624-8a7524419b24")
-	)
-	(wire
-		(pts
-			(xy 109.22 71.12) (xy 111.76 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10bb1fe4-ef67-4e5d-8a2b-c37c059cb075")
 	)
 	(wire
 		(pts
@@ -5593,7 +5577,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 54.61) (xy 189.23 50.8)
+			(xy 189.23 54.61) (xy 189.23 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5683,13 +5667,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 71.12) (xy 114.3 71.12)
+			(xy 189.23 43.18) (xy 189.23 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "805b83bb-c7b8-4b49-87d3-79d11d389db7")
+		(uuid "84602ff9-0913-4cc9-9715-7836f2dd3ae7")
 	)
 	(wire
 		(pts
@@ -5913,16 +5897,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 45.72) (xy 80.01 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaafdf1c-b955-4437-895c-821309d39034")
-	)
-	(wire
-		(pts
 			(xy 36.83 267.97) (xy 55.88 267.97)
 		)
 		(stroke
@@ -6023,16 +5997,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 43.18) (xy 80.01 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baf90c90-9de1-4e17-8c81-2b73377726fe")
-	)
-	(wire
-		(pts
 			(xy 91.44 193.04) (xy 86.36 193.04)
 		)
 		(stroke
@@ -6083,16 +6047,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 43.18) (xy 189.23 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7ff6037-f528-491c-bdf0-d0b3cc9cb1f9")
-	)
-	(wire
-		(pts
 			(xy 55.88 267.97) (xy 55.88 262.89)
 		)
 		(stroke
@@ -6133,6 +6087,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd0ce7d-72cd-42b1-93cb-ac7baa5d256d")
+	)
+	(wire
+		(pts
 			(xy 40.64 53.34) (xy 40.64 60.96)
 		)
 		(stroke
@@ -6140,6 +6104,16 @@
 			(type default)
 		)
 		(uuid "cfda35b3-1a48-4074-acb9-9395add9df52")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11fef6a-5e59-48fc-8be9-2872714cb227")
 	)
 	(wire
 		(pts
@@ -6210,6 +6184,16 @@
 			(type default)
 		)
 		(uuid "df7864d9-0002-4453-a96d-53c6b0018150")
+	)
+	(wire
+		(pts
+			(xy 48.26 45.72) (xy 71.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15c0f7f-5981-4d05-a261-fa123ccb52e9")
 	)
 	(wire
 		(pts
@@ -11974,7 +11958,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 189.23 46.99 0)
+		(at 189.23 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11983,15 +11967,6 @@
 		(fields_autoplaced yes)
 		(uuid "b5180127-efbb-4eb3-817c-b824989fafab")
 		(property "Reference" "C12"
-			(at 193.04 44.8309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
 			(at 193.04 47.3709 0)
 			(effects
 				(font
@@ -12000,8 +11975,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10uF"
+			(at 193.04 49.9109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 190.1952 50.8 0)
+			(at 190.1952 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12010,7 +11994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 46.99 0)
+			(at 189.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12019,7 +12003,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 189.23 46.99 0)
+			(at 189.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12028,7 +12012,7 @@
 			)
 		)
 		(property "LCSC" "C72485"
-			(at 189.23 46.99 0)
+			(at 189.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,7 +12021,7 @@
 			)
 		)
 		(property "Manufacturer" "Roqang"
-			(at 189.23 46.99 0)
+			(at 189.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12030,7 @@
 			)
 		)
 		(property "RefNum" "RVT1V100M0405"
-			(at 189.23 46.99 0)
+			(at 189.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,7 +12039,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 189.23 46.99 0)
+			(at 189.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
