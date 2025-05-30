@@ -412,4 +412,5 @@ Reset is pulled low by STLink probe, it has 1V2 value when probe is connected ev
   * Rotary hole exact diameter, add a small margin
   * Button hole too small, about 1mm missing, add margin too
   * Jack holes too wide, wiggling
-  * Display TBD, might be too small
+  * Display TBD, might be too small or not
+
