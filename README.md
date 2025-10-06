@@ -401,7 +401,7 @@ Reset is pulled low by STLink probe, it has 1V2 value when probe is connected ev
 * Analog: OK, CVin ripple at +max value (+5V or +12V)
 * Trigger: OK, 1.95ms rise time (max 500 Hz trig)
 * MIDI optocoupler: OK at 32kHz, bit of an hysteresis at play. Collapses after 150kHz.
-* MIDI: TBD
+* MIDI: OK, tested with Roland HP201 keyboard output
 * Supply (12V alternative input, current consumption measurements): TBD
   * 12V input: 5V LDO works, 214mA consumption with ADC app running, no display
   * 5V input: 208mA consumption with ADC app running, no display
