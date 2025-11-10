@@ -6515,6 +6515,16 @@
 		)
 		(uuid "837f51af-e673-40d8-80e4-d00cf22cf885")
 	)
+	(label "5V_EUR"
+		(at 91.44 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "856257b8-be8f-4e70-8daa-9df1add06a84")
+	)
 	(label "VBUS"
 		(at 41.91 172.72 0)
 		(effects

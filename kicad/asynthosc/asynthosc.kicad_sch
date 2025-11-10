@@ -592,6 +592,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 92.71) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279a4262-a720-46be-b7aa-0207cba1671e")
+	)
+	(wire
+		(pts
 			(xy 182.88 95.25) (xy 196.85 95.25)
 		)
 		(stroke
@@ -809,6 +819,16 @@
 			(type default)
 		)
 		(uuid "8889b39f-d659-4cf9-8cc0-e6a5d32ba6fa")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 127 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf94665-55a2-4d62-9d1a-acf0bf827ff9")
 	)
 	(wire
 		(pts
@@ -4916,6 +4936,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "PD9" output
+			(at 127 95.25 180)
+			(uuid "bea9f326-5c5d-4445-8e69-d01fee47226a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
