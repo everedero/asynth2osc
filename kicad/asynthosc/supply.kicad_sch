@@ -4124,9 +4124,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 10.16 0 180)
+				(pin passive line
+					(at 10.16 2.54 180)
 					(length 2.54)
+					(hide yes)
 					(name "OUT"
 						(effects
 							(font
@@ -4878,12 +4879,6 @@
 		(uuid "2c7e0393-8ec5-44c6-ad8b-10cb2169ad0e")
 	)
 	(junction
-		(at 213.36 257.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f913bf4-117c-42be-9ce4-7beb696d584e")
-	)
-	(junction
 		(at 62.23 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5534,16 +5529,6 @@
 			(type default)
 		)
 		(uuid "636c52df-29cc-432c-a05c-43c3fe09d451")
-	)
-	(wire
-		(pts
-			(xy 213.36 257.81) (xy 210.82 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a50cf5-e75d-45d0-8165-aa6ea066200e")
 	)
 	(wire
 		(pts
