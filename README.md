@@ -196,7 +196,7 @@ OUT- 5  o       o  4 OUT+
 
 UART baud rate is 31250 kbps.
 
-This is typa A MIDI on TRS, as explain in MIDI Standard : [https://midi.org/specification-for-use-of-trs-connectors-with-midi-devices](https://midi.org/specification-for-use-of-trs-connectors-with-midi-devices) 
+This is typa A MIDI on TRS, as explain in MIDI Standard : [https://midi.org/specification-for-use-of-trs-connectors-with-midi-devices](https://midi.org/specification-for-use-of-trs-connectors-with-midi-devices)
 Warning : There is a type B standard also in use, see [https://minimidi.world/](https://minimidi.world/)
 
 #### Power supply
@@ -375,6 +375,10 @@ This is a total of 60€ / board.
 * PHY: Error in LDO routing: VDDCR pin 6 is an internally regulated LDO 1.2V output, not to be connected to 3V3 supply.
 Add 1 μF and 470 pF decoupling capacitors to ground.
 * PHY: nINTSEL should be 0, change LED2 connection to pull-down.
+    * REF_CLK_OUT is used to generate the 50MHz clock for RMII
+    * This special feature allows to use a 25 MHz crystal with the LAN8742
+    * As a consequence, the INT/CLKO pin must be set to clock out, not int
+    * This means nINTSEL/LED2 pulled down
 * Cannot setup different interrupts for GPIO (EXTI register) having the same numbers but on different ports.
     * See [this issue](https://github.com/zephyrproject-rtos/zephyr/issues/45234).
     * Issue with A8 rotative encoder pushbutton VS C8 rotary input B
