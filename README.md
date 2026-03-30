@@ -196,6 +196,8 @@ OUT- 5  o       o  4 OUT+
 
 UART baud rate is 31250 kbps.
 
+This is typa A MIDI on TRS, as explain in MIDI Standard : [https://midi.org/specification-for-use-of-trs-connectors-with-midi-devices](https://midi.org/specification-for-use-of-trs-connectors-with-midi-devices) 
+Warning : There is a type B standard also in use, see [https://minimidi.world/](https://minimidi.world/)
 
 #### Power supply
 Eurorack standard includes a +12/-12V power supply, but the currents are quite low, and sensitive to pollution. So we should rather use a 5V additional external power supply as an option.
