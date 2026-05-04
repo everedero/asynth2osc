@@ -27,7 +27,7 @@ git push origin main
 ```
 
 ### 3. **Enable GitHub Pages**
-1. Go to your GitHub repository: https://github.com/everedero/asynth2osc
+1. Go to your GitHub repository: https://github.com/madees/asynth2osc
 2. Click **Settings** (top right)
 3. Scroll to **Pages** section (left sidebar)
 4. Under "Source", select:
@@ -38,7 +38,7 @@ git push origin main
 ### 4. **Access Your Site**
 After a few moments, your site will be live at:
 ```
-https://everedero.github.io/asynth2osc
+https://madees.github.io/asynth2osc
 ```
 
 ## Notes:
