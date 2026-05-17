@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>aSynth2OSC | Eurorack to OSC Show Bridge</title>
+  <meta name="description" content="aSynth2OSC is a Eurorack Module that converts CV, trigger, and MIDI into OSC for lights, video, and immersive sound control." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0f17;
+      --bg-2: #111a28;
+      --surface: rgba(16, 25, 39, 0.82);
+      --surface-strong: #1b293d;
+      --line: rgba(160, 196, 255, 0.25);
+      --text: #eef4ff;
+      --text-soft: #b6c6de;
+      --accent: #51d0ff;
+      --accent-2: #94f5b4;
+      --ok: #7af2b4;
+      --warning: #ffd56f;
+      --maxw: 1120px;
+      --shadow: 0 18px 44px rgba(1, 8, 18, 0.48);
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at 15% 20%, #132338 0%, transparent 38%),
+                  radial-gradient(circle at 86% 12%, #203547 0%, transparent 34%),
+                  linear-gradient(160deg, var(--bg) 0%, #09121f 56%, #0d1725 100%);
+      color: var(--text);
+      font-family: "Space Grotesk", "Segoe UI", sans-serif;
+      line-height: 1.55;
+      min-height: 100%;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: linear-gradient(rgba(104, 143, 191, 0.07) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(104, 143, 191, 0.07) 1px, transparent 1px);
+      background-size: 42px 42px;
+      opacity: 0.28;
+      z-index: -1;
+    }
+
+    .wrap {
+      width: min(var(--maxw), 92vw);
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 92px 0 64px;
+      position: relative;
+    }
+
+    .hero-top {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .hero-copy {
+      min-width: 0;
+    }
+
+    .hero-logo {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(18, 29, 45, 0.68);
+      box-shadow: var(--shadow);
+      padding: 8px;
+    }
+
+    .hero-logo img {
+      display: block;
+      width: clamp(160px, 18vw, 250px);
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .hero-top .hero-logo {
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+      padding: 0;
+    }
+
+    .pre-footer-figure {
+      margin: 28px auto 0;
+      width: fit-content;
+    }
+
+    .badge {
+      display: inline-block;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 12px;
+      background: rgba(19, 34, 53, 0.7);
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 14px 0 12px;
+      font-size: clamp(2rem, 4vw, 3.6rem);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      max-width: 13ch;
+      text-wrap: balance;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 66ch;
+      color: var(--text-soft);
+      font-size: clamp(1.02rem, 1.55vw, 1.2rem);
+    }
+
+    .hero-grid {
+      margin-top: 32px;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 18px;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(5px);
+    }
+
+    .panel-pad {
+      padding: 20px;
+    }
+
+    .signal-line {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.92rem;
+      margin: 0;
+      color: #d8e6fb;
+      overflow: auto;
+      white-space: nowrap;
+    }
+
+    .signal-line + .signal-line {
+      margin-top: 8px;
+    }
+
+    .kpi {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .kpi-item {
+      border: 1px solid rgba(153, 198, 255, 0.25);
+      border-radius: 12px;
+      padding: 12px;
+      background: rgba(20, 32, 49, 0.75);
+    }
+
+    .kpi-item strong {
+      display: block;
+      font-size: 1.25rem;
+      letter-spacing: 0.02em;
+      color: var(--accent-2);
+    }
+
+    .kpi-item span {
+      color: var(--text-soft);
+      font-size: 0.92rem;
+    }
+
+    section {
+      padding: 22px 0 8px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: clamp(1.3rem, 2.2vw, 2rem);
+      letter-spacing: -0.01em;
+    }
+
+    .lead {
+      color: var(--text-soft);
+      max-width: 70ch;
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(18, 29, 45, 0.8);
+      transition: transform 260ms ease, border-color 260ms ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(122, 210, 255, 0.6);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 1.06rem;
+      color: #dbecff;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--text-soft);
+      font-size: 0.95rem;
+    }
+
+    .use-cases {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .use {
+      padding: 18px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: linear-gradient(154deg, rgba(17, 31, 47, 0.9), rgba(13, 22, 35, 0.88));
+    }
+
+    .use h3 {
+      margin: 0 0 10px;
+      font-size: 1.03rem;
+      color: #def1ff;
+    }
+
+    .use p {
+      margin: 0;
+      color: var(--text-soft);
+      font-size: 0.95rem;
+    }
+
+    .example {
+      margin-top: 12px;
+      background: rgba(9, 17, 29, 0.8);
+      border: 1px solid rgba(133, 166, 211, 0.35);
+      border-left: 3px solid var(--accent);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.86rem;
+      color: #d8e6fb;
+      overflow-x: auto;
+    }
+
+    .stack {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 14px;
+      margin-top: 8px;
+    }
+
+    .manual-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .manual-card {
+      padding: 18px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(18, 29, 45, 0.82);
+    }
+
+    .manual-card h3 {
+      margin: 0 0 10px;
+      font-size: 1.02rem;
+      color: #def1ff;
+    }
+
+    .steps {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--text-soft);
+      font-size: 0.95rem;
+    }
+
+    .steps li + li {
+      margin-top: 8px;
+    }
+
+    .table-wrap {
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow-x: auto;
+      background: rgba(10, 19, 31, 0.8);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 640px;
+      font-size: 0.92rem;
+    }
+
+    th,
+    td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid rgba(151, 181, 226, 0.2);
+      color: #d7e6fb;
+      vertical-align: top;
+    }
+
+    th {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      color: var(--accent-2);
+      background: rgba(18, 31, 49, 0.86);
+      white-space: nowrap;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 8px 0 0;
+      color: var(--text-soft);
+    }
+
+    nav.toc {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(10, 15, 23, 0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line);
+      padding: 0;
+    }
+
+    body {
+      padding-top: 42px;
+    }
+
+    nav.toc ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: min(var(--maxw), 92vw);
+      margin: 0 auto;
+    }
+
+    nav.toc a {
+      display: block;
+      padding: 10px 14px;
+      font-size: 0.82rem;
+      font-family: "IBM Plex Mono", monospace;
+      color: var(--text-soft);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+      border-bottom: 2px solid transparent;
+      transition: color 180ms, border-color 180ms;
+    }
+
+    nav.toc a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    nav.toc .toc-title {
+      margin-left: auto;
+    }
+
+    nav.toc .toc-title span {
+      display: block;
+      padding: 7px 14px;
+      font-size: 1.05rem;
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    nav.toc .toc-title span.toc-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+
+    nav.toc .toc-title span.toc-brand img {
+      width: 18px;
+      height: 18px;
+      display: block;
+    }
+
+    footer {
+      padding: 36px 0 46px;
+      color: #9eb3cf;
+      font-size: 0.9rem;
+    }
+
+    .footer-links {
+      margin-top: 12px;
+    }
+
+    .footer-links p {
+      margin: 6px 0 0;
+    }
+
+    .footer-links a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .features-section {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+      margin-top: 16px;
+    }
+
+    .feature-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 14px;
+    }
+
+    .feature-image {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: rgba(18, 29, 45, 0.8);
+      box-shadow: var(--shadow);
+    }
+
+    .feature-image img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .feature-description {
+      color: var(--text-soft);
+      line-height: 1.6;
+    }
+
+    .feature-description h3 {
+      color: var(--accent);
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    .feature-description ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+      font-size: 0.95rem;
+    }
+
+    .feature-description li {
+      margin-bottom: 6px;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: rise 650ms cubic-bezier(.21,.82,.28,.99) forwards;
+    }
+
+    .reveal.delay-1 { animation-delay: 130ms; }
+    .reveal.delay-2 { animation-delay: 260ms; }
+    .reveal.delay-3 { animation-delay: 390ms; }
+
+    @keyframes rise {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 920px) {
+      .hero {
+        padding-top: 70px;
+      }
+
+      .hero-top {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-logo {
+        justify-self: start;
+      }
+
+      .hero-logo img {
+        width: clamp(150px, 42vw, 220px);
+      }
+
+      .hero-grid,
+      .cards,
+      .use-cases,
+      .stack,
+      .manual-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .kpi {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      .kpi {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="toc" aria-label="Page sections">
+    <ul>
+      <li><a href="#s-what">What It Does</a></li>
+      <li><a href="#s-usecases">Use Cases</a></li>
+      <li><a href="#s-operation">Operation</a></li>
+      <li><a href="#s-manual">User Manual</a></li>
+      <li><a href="#s-hardware">Hardware UI</a></li>
+      <li><a href="#s-osc">OSC Commands</a></li>
+      <li><a href="#s-menu">Settings Menu</a></li>
+      <li><a href="#s-credits">Credits</a></li>
+      <li class="toc-title">
+        <span class="toc-brand">
+          <img src="images/asynth2osc_logo_pack/color/asynth2osc_32_color.png" alt="aSynth2OSC icon" />
+          aSynth2OSC
+        </span>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-top">
+        <div class="hero-copy">
+          <h1 class="reveal delay-1">aSynth2OSC turns your modular gestures and modulations into show control.</h1>
+          <p class="reveal delay-2">
+            Built for artists and technicians who want to get some expression from analog synthetizer rig across sound, lights, and visuals.<br><br>
+            aSynth2OSC Eurorack Module bridges analog CV, triggers, cue remote and MIDI to robust OSC over Ethernet.<br><br>
+            Send those to your favorite show environment like Open Stage Control, Chataigne, Max/MSP, PureData, TouchDesigner, SuperCollider, Jitter, Resolume, Notch, Reaper, QLab etc. and perform with tactile immediacy, without the need for a computer on stage.<br><br>
+          </p>
+        </div>
+        <figure class="hero-logo reveal delay-1" aria-label="aSynth2OSC logo">
+          <img src="images/asynth2osc_logo_pack/color/asynth2osc_color.svg" alt="aSynth2OSC logo" />
+        </figure>
+      </div>
+
+        <aside class="panel panel-pad kpi" aria-label="aSynth2OSC core specifications">
+          <div class="kpi-item"><strong>4x CV inputs</strong><span>16-bit precision, -5/5v or -12/12v range</span></div>
+          <div class="kpi-item"><strong>2x Trigger inputs</strong><span>Instant state or clock</span></div>
+          <div class="kpi-item"><strong>MIDI Input</strong><span>Easy and robust forwarding over network</span></div>
+          <div class="kpi-item"><strong>Musician Interface</strong><span>Recall cues, monitor inputs, receive notifications</span></div>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2 id="s-what">What It Does On Stage</h2>
+      <p class="lead">
+        aSynth2OSC is not just a converter. It is a performance bridge: tactile modular control in front,
+        deterministic OSC workflows in the back. Every modulation can become a color, an intensity curve,
+        a video state, or a spatial path position.
+      </p>
+      <div class="cards">
+        <article class="card">
+          <h3>Cue Recall Manager</h3>
+          <p>Recall cues to change context on remote software or hardaware, with immediate Prev/Next navigation or with rotary encoder to jump to a specific cue.</p>
+        </article>
+        <article class="card">
+          <h3>Modular Dynamics To OSC</h3>
+          <p>Convert 4 CV channels to normalized float values, with adjustable period and hysteresis, ideal for smooth automation lanes in media engines.</p>
+        </article>
+        <article class="card">
+          <h3>Two-Way Feedback</h3>
+          <p>Receive incoming OSC commands to show confirmations directly to the performer OLED screen. You can also set the CV Analog output and flash buttons LEDs if needed.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="s-usecases">Creative Use Cases</h2>
+      <p class="lead">
+        Typical integrations in contemporary live setups where music, visual systems, and stage automation are tightly linked.
+      </p>
+      <div class="use-cases">
+        <article class="use">
+          <h3>1) Control Snapshot Recall Across Systems</h3>
+          <p>Use the encoder to select cue 128, validate, and instantly recall matching states and mappings in your lighting console, video server, and audio engine.</p>
+          <div class="example">Cue 128 -> /cue 128 -> lights preset + media scene + FX routing</div>
+        </article>
+        <article class="use">
+          <h3>2) Animate Sounds, Lights And Video With CV</h3>
+          <p>Patch an LFO or envelope into CV 1 jack input and map normalized OSC floats to beam spread, strobe depth, shader intensity, or playback speed.</p>
+          <div class="example">/cv/1 0.00..1.00 -> DMX intensity curve / video shader gain</div>
+        </article>
+        <article class="use">
+          <h3>3) Move Sound Objects In Spatial Audio</h3>
+          <p>Drive object (X,Y) coordinates from CV joystick pairs and trigger snapshots for trajectory changes, making movement feel physically performed instead of programmed.</p>
+          <div class="example">CV1 -> X axis, CV2 -> Y axis, Trig1 -> start animation</div>
+        </article>
+        <article class="use">
+          <h3>4) Send hardware sequencer's MIDI from stage to FOH</h3>
+          <p>Forward MIDI PC #7 sequencer song pointer into OSC pathways so context stay in sync with external show controllers and render engines by recalling their snapshots.</p>
+          <div class="example">/program 1 7 -> timeline jump / scene alignment to program 7</div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="s-operation">Built For Real-World Operation</h2>
+      <article class="panel panel-pad">
+        <h3 style="margin-top:0">Operational Strengths</h3>
+        <ul>
+          <li>Instant boot and send OSC, persistent settings.</li>
+          <li>RJ45 wired network interface. Static or DHCP addressing with editable subnet bytes.</li>
+          <li>On-device inputs monitoring with activity and levels indicators.</li>
+          <li>Simple ping/pong and messenger commands for remote diagnostics.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2 id="s-manual">User Manual (Quick Reference)</h2>
+      <p class="lead">
+        A practical end-user workflow for powering on, recalling cues in performance mode,
+        entering Settings mode, and safely returning to performance mode.
+      </p>
+      <div class="manual-grid">
+        <article class="manual-card">
+          <h3>1) How To Start</h3>
+          <ol class="steps">
+            <li>Power the module and wait for splash screen completion.</li>
+            <li>Confirm you are in normal mode (center label shows Recl).</li>
+            <li>Check network reachability from your show computer.</li>
+            <li>Send a <code>/ping</code> to verify OSC round-trip with <code>/pong</code>.</li>
+          </ol>
+        </article>
+        <article class="manual-card">
+          <h3>2) Normal Mode: Show Control</h3>
+          <ol class="steps">
+            <li>Press Prev/Next to recall cues immediately (000..999 wrap).</li>
+            <li>Turn encoder to prepare a pending cue (blinking value).</li>
+            <li>Short press encoder to confirm and send the cue.</li>
+            <li>If not confirmed in 5 seconds, pending cue is canceled.</li>
+            <li>Short press with no pending edit resends current cue.</li>
+          </ol>
+        </article>
+        <article class="manual-card">
+          <h3>3) Settings Mode: Menu Navigation</h3>
+          <ol class="steps">
+            <li>Long press encoder 2 seconds to enter menu mode.</li>
+            <li>Use Prev/Next to move through menu items.</li>
+            <li>Turn encoder to change selected value.</li>
+            <li>Short press encoder resets current item to default. (see table below)</li>
+            <li>Long press encoder 2 seconds to exit back to Show Control mode.</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="s-hardware">Hardware, UI & Connections</h2>
+      <p class="lead">
+        14 HP Eurorack standard module. Powered by +12V, -12V from the Eurorack standard bus or 5V USB dedicated power supply (estimated 250mA).
+      </p>
+      <div class="features-section">
+        <div class="feature-item">
+          <figure class="feature-image">
+            <img src="images/oled_ASynthOSC.jpg" alt="OLED Display UI Features" />
+          </figure>
+          <div class="feature-description">
+            <h3>Display and controls</h3>
+            <p>The screen shows live performance data and navigation:</p>
+            <ul>
+              <li><strong>Cue Number (top left):</strong> 3-digit value (000–999) is the current cue number. Blinks when recall is pending a confirmation by pushing the encoder. When in menu mode, edit the setting value</li>
+              <li><strong>Activity Meters (top right):</strong> "1 M A 2" row displays blinking indicators for Trigger 1, Midi in activity, Analog out, Trigger 2 and four live CV level bars</li>
+              <li><strong>Messenger Line (center left):</strong> Shows transient messages received from OSC /msg. When in Menu mode, displays the current setting name and value</li>
+              <li><strong>Button Labels (botom):</strong> "Prev", "Recl" (center mode indicator, rotary encoder push), and "Next" align with the physical buttons below the display</li>
+              <li><strong>Rotary Encoder (center below screen):</strong> Navigate cues (turn), confirm selections (short press), or switch modes (2-second hold)</li>
+              <li><strong>Prev/Next Buttons:</strong> Physical pushbuttons below the display for immediate cue recall (Prev/Next) or navigation in Menu mode</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <figure class="feature-image">
+            <img src="images/jacks_ASynthOSC.png" alt="ASynthOSC Jack Connections" />
+          </figure>
+          <div class="feature-description">
+            <h3>Connections to other modules</h3>
+            <p>Eight 1/8" TRS jacks provide all signal I/O pathways:</p>
+            <ul>
+              <li><strong>Trigger 1 & Trigger 2 (top left/right):</strong> Gate and trigger inputs for clock pulses, envelopes, or digital state changes. And, yes, they have their own dedicated buttons also for manual finger triggering</li>
+              <li><strong>MIDI IN (top center-left):</strong> MIDI jack Type A connector for Note, CC, Program Change, Pitch Bend, transport, Song Position, and MTC conversion to OSC</li>
+              <li><strong>CV OUT (top center-right):</strong> Analog Output jack for sending to external modules or for feedback pathways</li>
+              <li><strong>CV 1, CV 2, CV 3, CV 4 (bottom row):</strong> Four analog control voltage inputs with 16-bit precision, selectable range (±5V or ±12V), polling at configurable intervals (10–200 ms)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="s-osc">Default Settings And OSC Commands</h2>
+      <p class="lead">
+        Factory defaults and key OSC paths most often used during setup, diagnostics, and live operation.
+      </p>
+
+      <div class="table-wrap">
+        <table aria-label="Default network settings">
+          <thead>
+            <tr>
+              <th>Setting</th>
+              <th>Default</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>IP Mode</td><td>Static</td></tr>
+            <tr><td>Device IP</td><td>192.168.1.42</td></tr>
+            <tr><td>Netmask</td><td>/24 (255.255.255.0)</td></tr>
+            <tr><td>Target IP</td><td>192.168.1.142</td></tr>
+            <tr><td>OSC TX Port</td><td>42010</td></tr>
+            <tr><td>OSC RX Port</td><td>42011</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-wrap">
+        <table aria-label="Incoming OSC commands">
+          <thead>
+            <tr>
+              <th>Path</th>
+              <th>Arguments</th>
+              <th>Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>/ping</td><td>none</td><td>Connectivity test, replies with /pong</td></tr>
+            <tr><td>/msg</td><td>string</td><td>Display message on OLED status line</td></tr>
+            <tr><td>/cue</td><td>int</td><td>Remote change the current cue number</td></tr>
+            <tr><td>/aout</td><td>float 0.0..1.0</td><td>Set normalized DAC output value</td></tr>
+            <tr><td>/idle</td><td>none or bool</td><td>Blink Next LED until Next button is pressed</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-wrap">
+        <table aria-label="Outgoing OSC commands">
+          <thead>
+            <tr>
+              <th>Path</th>
+              <th>Arguments</th>
+              <th>Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>/cv/1..4</td><td>float 0.0..1.0</td><td>Normalized CV input values</td></tr>
+            <tr><td>/trig/1..2</td><td>bool F or T</td><td>Trigger state values</td></tr>
+            <tr><td>/cue</td><td>int</td><td>Current recalled cue value</td></tr>
+            <tr><td>/pong</td><td>none</td><td>Reply to incoming /ping</td></tr>
+            <tr><td>/note</td><td>int channel, int pitch, int velocity</td><td>Note On and Note Off (velocity 0)</td></tr>
+            <tr><td>/control</td><td>int channel, int controller, int value</td><td>MIDI Control Change</td></tr>
+            <tr><td>/program</td><td>int channel, int program</td><td>MIDI Program Change</td></tr>
+            <tr><td>/pitch</td><td>int channel, int value</td><td>Pitch Bend value 0..16383 (8192 center)</td></tr>
+            <tr><td>/clock</td><td>none</td><td>MIDI timing clock pulse</td></tr>
+            <tr><td>/start</td><td>none</td><td>MIDI start and MMC play mapping</td></tr>
+            <tr><td>/stop</td><td>none</td><td>MIDI stop and MMC stop/pause mapping</td></tr>
+            <tr><td>/continue</td><td>none</td><td>MIDI continue playback</td></tr>
+            <tr><td>/songpos</td><td>int value</td><td>Song Position Pointer value</td></tr>
+            <tr><td>/mtc</td><td>int hour, int minute, int second, int frame, int fps</td><td>MTC full frame</td></tr>
+            <tr><td>/mtc_qf</td><td>int piece, int value</td><td>MTC quarter frame piece/value</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="lead" style="margin-top:14px">
+        Incoming OSC parser accepts single messages and bundles. For MIDI forwarding, note on/off follows the MIDI Note menu setting,
+        while Control Change, Program Change, Pitch Bend, transport, Song Position, and MTC remain active.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="s-menu">Settings Menu Reference</h2>
+      <p class="lead">
+        Enter menu mode by holding the rotary encoder for 2 seconds (center label switches from <code>Recl</code> to <code>Menu</code>).
+        Use Prev/Next to navigate items, turn the encoder to change a value, short press to reset to default, long press 2 seconds to exit.
+        All changes are saved immediately to persistent storage. Network settings take effect only when exiting the menu.
+      </p>
+
+      <div class="table-wrap">
+        <table aria-label="Settings menu arborescence">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Menu Label</th>
+              <th>Default</th>
+              <th>Range / Values</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>CV period (ms)</td><td>20 ms</td><td>10 – 200 ms, step 5</td><td>CV sampling interval. Lower = more responsive, more OSC traffic.</td></tr>
+            <tr><td>2</td><td>CV Hysteresis (mV)</td><td>~33 mV</td><td>~17 – 165 mV, step ~17</td><td>Minimum CV change required before a new OSC float is sent. Reduces redundant messages on stable signals.</td></tr>
+            <tr><td>3</td><td>IP Mode</td><td>0 (Static)</td><td>0 = Static, 1 = DHCP+LL, 2 = DHCP+FB</td><td>Ethernet address assignment mode.</td></tr>
+            <tr><td>4</td><td>Target IP</td><td>142</td><td>0 – 255</td><td>Last octet of the OSC target (receiver) IP. Shared prefix set by IP bytes 1–3. Effective default: 192.168.1.142.</td></tr>
+            <tr><td>5</td><td>Target Port</td><td>10 → 42010</td><td>0 – 999 (offset from 42000)</td><td>OSC transmit port. Effective port = 42000 + offset.</td></tr>
+            <tr><td>6</td><td>Device IP</td><td>42</td><td>0 – 255</td><td>Last octet of the board IP address. Effective default: 192.168.1.42.</td></tr>
+            <tr><td>7</td><td>Device Port</td><td>11 → 42011</td><td>0 – 999 (offset from 42000)</td><td>OSC receive port. Effective port = 42000 + offset.</td></tr>
+            <tr><td>8</td><td>CIDR Mask</td><td>24 (/24)</td><td>0 – 32</td><td>Subnet mask length. /24 = 255.255.255.0.</td></tr>
+            <tr><td>9</td><td>IP byte 1</td><td>192</td><td>0 – 255</td><td>First byte of the shared subnet prefix (applies to both device and target IPs).</td></tr>
+            <tr><td>10</td><td>IP byte 2</td><td>168</td><td>0 – 255</td><td>Second byte of the shared subnet prefix.</td></tr>
+            <tr><td>11</td><td>IP byte 3</td><td>1</td><td>0 – 255</td><td>Third byte of the shared subnet prefix.</td></tr>
+            <tr><td>12</td><td>MIDI Note (0:ignore 1:thru)</td><td>0 (ignore)</td><td>0 = ignore, 1 = thru</td><td>Whether incoming MIDI Note On/Off messages are forwarded to OSC. Other MIDI types (CC, Program, Pitch Bend, transport, Song Position, MTC) are always forwarded regardless of this setting.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <figure class="hero-logo pre-footer-figure" aria-label="RederoTech logo">
+    <img src="images/RederoTech2024.png" alt="RederoTech 2024" />
+  </figure>
+
+  <footer id="s-credits" class="wrap">
+    <p>aSynth2OSC | A bridge between modular performance and networked show control.</p>
+    <div class="footer-links">
+      <p>This is an open hardware project you can follow on GitHub : <a href="https://github.com/madees/asynth2osc" target="_blank" rel="noreferrer">https://github.com/madees/asynth2osc</a></p>
+      <p>Join the user community on Discord : <a href="https://discord.gg/a4xkwnRe6w" target="_blank" rel="noreferrer">https://discord.gg/a4xkwnRe6w</a></p>
+    </div>
+  </footer>
+</body>
+</html>
