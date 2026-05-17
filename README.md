@@ -138,9 +138,9 @@ This RPI hat is the GPIO interface, with a very good analog front end:
 * Analog input via TI SN74LV4051A 8:1 analog multiplexer
 * Open Collector outputs via TI DS2003CM high-current Darlington driver and NXP 74HC 8-bit parallel-in/serial out shift register.
 
-![proto1 front panel assembled](img/proto1greenut2.jpg)
-![proto1 beta tests](img/proto1greenut.bmp)
-![proto1 beta tests](img/proto1greenut3.bmp)
+![proto1 front panel assembled](doc/images/proto1greenut2.jpg)
+![proto1 beta tests](doc/images/proto1greenut.bmp)
+![proto1 beta tests](doc/images/proto1greenut3.bmp)
 
 ## Second architecture
 This aims to integrate LEDs, buttons, and DACs on the same board to improve manufacturing and ralaibilty.
