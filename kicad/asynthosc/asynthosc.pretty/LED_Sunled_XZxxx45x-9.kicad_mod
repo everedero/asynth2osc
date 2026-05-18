@@ -1,0 +1,180 @@
+(footprint "LED_Sunled_XZxxx45x-9"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Sunled XZxxx45x-9 SMD Reverse-mount LED")
+	(tags "sunled,reverse-mount,led")
+	(property "Reference" "REF**"
+		(at 0.09 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "9982823e-8658-4786-9c44-bd87461a5288")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Sunled_XZxxx45x-9"
+		(at 0.17 5.23 0)
+		(layer "F.Fab")
+		(uuid "1d79c9c3-db32-448b-92bc-089d6c32ae57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7825aee1-9045-4b7f-94a0-41f87a9e5a1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dfd0ae4-347c-40b9-bfe9-b1509f03b529")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -4.5 0)
+		(end -4.3 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ecca8ae0-217c-4f93-9cde-afa99f579520")
+	)
+	(fp_line
+		(start -4 -2)
+		(end -4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c6e6357-9fb4-4a87-ac6e-8f9ba1c265cd")
+	)
+	(fp_line
+		(start -4 -2)
+		(end 4 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7e8ea4b-f6bc-461a-9a7e-eaec799d22cc")
+	)
+	(fp_line
+		(start -4 2)
+		(end 4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08b7bbe8-e28a-4342-b748-f6d18d7c4494")
+	)
+	(fp_line
+		(start 4 -2)
+		(end 4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f64a10bb-f5ca-4d27-9ead-329ac8ae931d")
+	)
+	(fp_line
+		(start -3.5 -2)
+		(end -3.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bdd53a53-313b-413d-b2bc-c63c94de53c0")
+	)
+	(fp_line
+		(start -2 2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1a5611e-f65d-436e-b9e6-3513a19f5c01")
+	)
+	(fp_line
+		(start 2 -2.5)
+		(end -2 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4bfa757-b043-4148-bcf8-cea2fe68257f")
+	)
+	(fp_line
+		(start 3.5 -2)
+		(end 3.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "beffa878-ebdd-4f43-b7e2-84e8098e6acc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.127 0 0)
+		(layer "F.Fab")
+		(uuid "1e54f1e0-7697-4f9a-adc2-8f71316e3aff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "93b50f36-0ad2-46fc-8930-e21027cc5eed")
+	)
+	(pad "1" smd rect
+		(at -2.6 0)
+		(size 1.4 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5030f14-2b70-4040-924e-28a461373bf1")
+	)
+	(pad "2" smd rect
+		(at 2.6 0)
+		(size 1.4 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91af6858-787a-4077-887f-fed5abe07fe0")
+	)
+	(embedded_fonts no)
+)
