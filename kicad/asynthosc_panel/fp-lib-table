@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "asynthosc") (type "KiCad") (uri "/home/eve/Documents/boards/asynth2osc/kicad/asynthosc/asynthosc.pretty") (options "") (descr ""))
+)
