@@ -1,0 +1,231 @@
+(footprint "LED_Sunled_XZxx45x-9_nohole"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Sunled XZxxx45x-9 SMD Reverse-mount LED")
+	(tags "sunled,reverse-mount,led")
+	(property "Reference" "REF**"
+		(at 0.09 -3 0)
+		(layer "F.SilkS")
+		(uuid "16b5d3c9-8677-4abd-bd5a-4fc961be212c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Sunled_XZxx45x-9_nohole"
+		(at 0.17 3 0)
+		(layer "F.Fab")
+		(uuid "9c6e2196-7df8-44f8-a153-2ccf3c72f42d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "387b3975-8fa8-45d9-9fbf-ed12b358177c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "295dff8e-9525-49d8-8156-d359e2be5fbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "a27cf711-a087-478f-8c69-dd8399ef1fa6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "5fadde61-9284-4344-817f-9dcebafa880a")
+	)
+	(fp_circle
+		(center -4.5 0)
+		(end -4.3 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "48660402-d524-40bc-a082-b61a3d250552")
+	)
+	(fp_line
+		(start -4 -2)
+		(end -4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2652a90-1cbc-40f3-acf2-d0e80d9308f6")
+	)
+	(fp_line
+		(start -4 -2)
+		(end 4 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "295f85fc-9259-4986-b5b4-a397373abbf2")
+	)
+	(fp_line
+		(start -4 2)
+		(end 4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d74ddc52-2aff-471a-ace1-7b9d31187a89")
+	)
+	(fp_line
+		(start 4 -2)
+		(end 4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "108744d0-a7e2-4fd2-a1ab-2f60bd5bc6eb")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c3a59a5-b3f3-4181-a0c9-bb103d357dd5")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f78dea5f-a6d1-4c38-bc8b-b49eefd9d3f0")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "820d4e21-4b27-49b5-a77d-ca2eb9ea92c1")
+	)
+	(fp_line
+		(start 1.6 -1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4815513c-5b43-43cc-8876-f62852228631")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.127 0 0)
+		(layer "F.Fab")
+		(uuid "dfb82776-26e7-4700-a980-21c6cb21d078")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.6 0)
+		(size 1.4 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ff0b2c4f-67de-4d3e-ac1c-e342acc26716")
+	)
+	(pad "2" smd rect
+		(at 2.6 0)
+		(size 1.4 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4fba00b5-59c3-491e-9985-49b40148ed39")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "bc4fceda-faa9-4b4b-b6b6-cbd321272233")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0.80682 -1.595009) (xy 1.601979 -0.79615) (xy 1.599868 0.800132) (xy 0.8 1.6) (xy -0.8 1.6)
+				(xy -1.6 0.8) (xy -1.6 -0.8) (xy -0.79967 -1.60033)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
