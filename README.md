@@ -420,3 +420,9 @@ Reset is pulled low by STLink probe, it has 1V2 value when probe is connected ev
   * Jack holes too wide, wiggling
   * Display TBD, might be too small or not
 
+## Firmware
+Firmware seats in its own repository:
+https://github.com/everedero/asynthosc_fw
+
+Features and user manual is there :
+# https://everedero.github.io/asynth2osc/
