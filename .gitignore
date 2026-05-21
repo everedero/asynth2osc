@@ -1,0 +1,4 @@
+*.pdf
+docs/*
+firmware/*
+*-backups
