@@ -2533,7 +2533,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 41.91 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
