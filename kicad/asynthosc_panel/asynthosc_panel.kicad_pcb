@@ -29,7 +29,7 @@
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
 		(39 "User.1" user)
-		(41 "User.2" user)
+		(41 "User.2" user "Milling")
 		(43 "User.3" user)
 		(45 "User.4" user)
 		(47 "User.5" user)
@@ -97,7 +97,7 @@
 		(zone_defaults)
 		(grid_origin 135.56 50)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_555557d5_57555550)
+			(layerselection 0x00000000_00000000_55555755_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
