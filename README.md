@@ -420,3 +420,8 @@ Reset is pulled low by STLink probe, it has 1V2 value when probe is connected ev
   * Jack holes too wide, wiggling
   * Display TBD, might be too small or not
 
+* Reverse-mount LED options:
+  * XZDGK45WT-9 (Green)
+  * XZCWD45S-9 (White)
+  * XZFBB45S-9 (Blue)
+  * XZMDK45WT-9 (Red)
