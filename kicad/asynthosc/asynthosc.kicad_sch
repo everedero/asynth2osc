@@ -464,6 +464,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Button inputs should be interrupts"
+		(exclude_from_sim no)
+		(at 173.228 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1dd27019-8032-4127-ace0-f781c02586cd")
+	)
+	(text "Triggers -> interrupts"
+		(exclude_from_sim no)
+		(at 117.094 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7da3f275-eb71-4769-88f9-704095c241f7")
+	)
 	(junction
 		(at 115.57 130.81)
 		(diameter 0)

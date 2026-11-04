@@ -2352,16 +2352,6 @@
 		)
 		(uuid "77962d3a-ed95-4939-a60b-114f8a1ce7cf")
 	)
-	(text "Min 68 Ohms"
-		(exclude_from_sim no)
-		(at 81.788 179.324 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "86993c84-bf2e-4aed-add7-5d269dbbc6b0")
-	)
 	(text "IREF = 10V / 1 Mohms = 10uA < 12.6uA\nIREF = 12V / 1 Mohms = 12uA < 12.6uA"
 		(exclude_from_sim no)
 		(at 151.892 146.05 0)
@@ -2401,16 +2391,6 @@
 			)
 		)
 		(uuid "f76a8419-9c8b-4bde-a77c-fd8f1b8d109f")
-	)
-	(text "Min 68 Ohms"
-		(exclude_from_sim no)
-		(at 80.518 77.724 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ff24b3c1-33b4-4f93-aaf6-a23e4ea6b309")
 	)
 	(junction
 		(at 198.12 39.37)
@@ -2738,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 176.53) (xy 74.93 176.53)
+			(xy 67.31 176.53) (xy 87.63 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2998,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 74.93) (xy 73.66 74.93)
+			(xy 66.04 74.93) (xy 86.36 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3195,16 +3175,6 @@
 			(type default)
 		)
 		(uuid "c10d537e-6326-4487-a701-879e69f3e0da")
-	)
-	(wire
-		(pts
-			(xy 81.28 74.93) (xy 86.36 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c34f1082-e037-4264-8c96-32cbc293da15")
 	)
 	(wire
 		(pts
@@ -3465,16 +3435,6 @@
 			(type default)
 		)
 		(uuid "fec63979-d610-41a1-bc7b-723865378a9e")
-	)
-	(wire
-		(pts
-			(xy 82.55 176.53) (xy 87.63 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fec9c3f0-e82d-4c3b-a287-2b6e9d4b22b4")
 	)
 	(hierarchical_label "nCS"
 		(shape input)
@@ -6956,130 +6916,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 176.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcdb55b6-3936-46b6-aadb-3e595f6d4493")
-		(property "Reference" "R81"
-			(at 78.74 170.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270R"
-			(at 78.74 172.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 78.74 174.752 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C144055"
-			(at 78.74 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 78.74 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RefNum" "_generic_"
-			(at 78.74 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC" "0402"
-			(at 78.74 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45e5b60d-d7da-4bd1-856e-af638e486adb")
-		)
-		(pin "2"
-			(uuid "30e8836f-e769-443a-901d-78dabd79aa23")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/b863f609-74bc-4dca-9f89-b76b25b90e2d"
-					(reference "R81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 52.07 168.91 0)
 		(unit 1)
 		(body_style 1)
@@ -7226,7 +7062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10k"
 			(at 139.7 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7270,7 +7106,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C26083"
+		(property "LCSC" "C25744"
 			(at 137.16 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8264,130 +8100,6 @@
 			(project "asynthosc"
 				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/b863f609-74bc-4dca-9f89-b76b25b90e2d"
 					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 77.47 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdf85134-e71f-41f5-a3cf-f8880bdfce34")
-		(property "Reference" "R80"
-			(at 77.47 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270R"
-			(at 77.47 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 77.47 73.152 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C144055"
-			(at 77.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 77.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RefNum" "_generic_"
-			(at 77.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC" "0402"
-			(at 77.47 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d2d3298-9d6e-433e-971e-8914a0a64554")
-		)
-		(pin "2"
-			(uuid "ae9e1e4c-4659-455c-a82f-0b4aff4606c7")
-		)
-		(instances
-			(project "asynthosc"
-				(path "/d73e377a-a016-415f-8824-91cc6e4907b9/b863f609-74bc-4dca-9f89-b76b25b90e2d"
-					(reference "R80")
 					(unit 1)
 				)
 			)
